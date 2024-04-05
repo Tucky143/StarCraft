@@ -1,9 +1,102 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Kyber",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/kyber.json",
+          "src/main/java/net/mcreator/starcraft/item/KyberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KyberOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/kyber_ore.json",
+          "src/main/resources/assets/starcraft/models/item/kyber_ore.json",
+          "src/main/resources/assets/starcraft/models/block/kyber_ore.json",
+          "src/main/java/net/mcreator/starcraft/block/KyberOreBlock.java",
+          "src/main/resources/assets/starcraft/blockstates/kyber_ore.json",
+          "src/main/resources/data/starcraft/forge/biome_modifier/kyber_ore_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/kyber_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/kyber_block.json",
+          "src/main/resources/assets/starcraft/models/item/kyber_block.json",
+          "src/main/resources/assets/starcraft/models/block/kyber_block.json",
+          "src/main/java/net/mcreator/starcraft/block/KyberBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "KyberOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/kyber_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/kyber_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/kyber_ore_smelting.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.starcraft.kyber": "Kyber",
+      "block.starcraft.kyber_block": "Block of Kyber",
+      "block.starcraft.kyber_ore": "Kyber Ore"
+    }
   },
   "foldersRoot": {
     "name": "~",
