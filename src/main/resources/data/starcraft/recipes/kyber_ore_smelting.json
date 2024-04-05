@@ -4,7 +4,7 @@
   "experience": 1.96,
   "cookingtime": 200,
   "ingredient": {
-    "item": "starcraft:deleted_mod_element"
+    "item": "starcraft:kyber_ore"
   },
-  "result": "starcraft:deleted_mod_element"
+  "result": "starcraft:kyber"
 }
