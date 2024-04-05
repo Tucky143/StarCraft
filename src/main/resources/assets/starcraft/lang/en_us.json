@@ -1,6 +1,5 @@
 {
-  "item.starcraft.clone_armor_boots": "Clone Boots",
-  "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
-  "item.starcraft.clone_armor_leggings": "Clone Leggings",
-  "item.starcraft.clone_armor_helmet": "Clone Helmet"
+  "item.starcraft.kyber": "Kyber",
+  "block.starcraft.kyber_block": "Block of Kyber",
+  "block.starcraft.kyber_ore": "Kyber Ore"
 }

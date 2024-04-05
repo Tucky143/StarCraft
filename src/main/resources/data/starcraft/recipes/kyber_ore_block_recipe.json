@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "starcraft:kyber"
+    }
+  },
+  "result": {
+    "item": "starcraft:deleted_mod_element",
+    "count": 1
+  }
+}
