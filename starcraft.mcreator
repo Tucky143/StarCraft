@@ -3,7 +3,12 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.starcraft.clone_armor_boots": "Clone Boots",
+      "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
+      "item.starcraft.clone_armor_leggings": "Clone Leggings",
+      "item.starcraft.clone_armor_helmet": "Clone Helmet"
+    }
   },
   "foldersRoot": {
     "name": "~",
