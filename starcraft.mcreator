@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "KyberOreSmelting",
-      "type": "recipe",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kyber_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/starcraft/recipes/kyber_ore_smelting.json"
-        ]
-      }
-    },
-    {
       "name": "Kyber",
       "type": "item",
       "sortid": 6,
