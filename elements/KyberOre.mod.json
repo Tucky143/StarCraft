@@ -122,6 +122,12 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
         "value": "snowy_slopes"
       },
       {
@@ -134,20 +140,20 @@
         "value": "taiga_cold"
       },
       {
-        "value": "cold_ocean"
+        "value": "frozen_peaks"
       },
       {
-        "value": "deep_cold_ocean"
+        "value": "jagged_peaks"
       }
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
+        "value": "Blocks.STONE"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 5,
-    "frequencyOnChunk": 2,
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 6,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 40
   }
