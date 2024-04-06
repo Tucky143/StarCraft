@@ -1,16 +1,8 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "snowy_slopes",
-    "snowy_beach",
-    "snowy_plains",
-    "snowy_taiga",
-    "cold_ocean",
-    "deep_cold_ocean",
-    "deep_frozen_ocean",
-    "frozen_ocean",
-    "ice_spikes"
-  ],
+  "biomes": {
+    "type": "forge:any"
+  },
   "features": "starcraft:kyber_ore",
   "step": "underground_ores"
 }

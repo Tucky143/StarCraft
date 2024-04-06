@@ -120,44 +120,19 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "snowy_slopes"
-      },
-      {
-        "value": "cold_beach"
-      },
-      {
-        "value": "snowy_tundra"
-      },
-      {
-        "value": "taiga_cold"
-      },
-      {
-        "value": "cold_ocean"
-      },
-      {
-        "value": "deep_cold_ocean"
-      },
-      {
-        "value": "deep_frozen_ocean"
-      },
-      {
-        "value": "frozen_ocean"
-      },
-      {
-        "value": "mutated_ice_flats"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE#0"
       }
     ],
     "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 4,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 45
+    "frequencyPerChunks": 12,
+    "frequencyOnChunk": 2,
+    "minGenerateHeight": -10,
+    "maxGenerateHeight": 50
   }
 }
