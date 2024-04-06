@@ -19,10 +19,10 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kyber",
+      "registry_name": "blue_kyber",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/item/kyber.json",
+          "src/main/resources/assets/starcraft/models/item/blue_kyber.json",
           "src/main/java/net/mcreator/starcraft/item/KyberItem.java"
         ]
       }
@@ -47,44 +47,195 @@
       }
     },
     {
-      "name": "KyberOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 4,
+      "name": "CloneArmor",
+      "type": "armor",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kyber_ore_block_recipe",
+      "registry_name": "clone_armor",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/kyber_ore_block_recipe.json"
+          "src/main/java/net/mcreator/starcraft/item/CloneArmorItem.java",
+          "src/main/resources/assets/starcraft/models/item/clone_armor_chestplate.json",
+          "src/main/resources/assets/starcraft/models/item/clone_armor_helmet.json",
+          "src/main/resources/assets/starcraft/models/item/clone_armor_boots.json",
+          "src/main/resources/assets/starcraft/models/item/clone_armor_leggings.json"
         ]
       }
     },
     {
-      "name": "KyberBlock",
-      "type": "block",
-      "sortid": 1,
+      "name": "CloneArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kyber_block",
+      "registry_name": "clone_armor_helmet_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/blockstates/kyber_block.json",
-          "src/main/resources/assets/starcraft/models/item/kyber_block.json",
-          "src/main/resources/assets/starcraft/models/block/kyber_block.json",
-          "src/main/java/net/mcreator/starcraft/block/KyberBlockBlock.java"
+          "src/main/resources/data/starcraft/recipes/clone_armor_helmet_recipe.json"
         ]
       }
     },
     {
-      "name": "KyberBlockOreRecipe",
+      "name": "CloneArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kyber_block_ore_recipe",
+      "registry_name": "clone_armor_chestplate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/kyber_block_ore_recipe.json"
+          "src/main/resources/data/starcraft/recipes/clone_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/clone_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/clone_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedKyber",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_kyber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/red_kyber.json",
+          "src/main/java/net/mcreator/starcraft/item/RedKyberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenKyber",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_kyber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/green_kyber.json",
+          "src/main/java/net/mcreator/starcraft/item/GreenKyberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PurpleKyber",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_kyber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/purple_kyber.json",
+          "src/main/java/net/mcreator/starcraft/item/PurpleKyberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OrangeKyber",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_kyber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/orange_kyber.json",
+          "src/main/java/net/mcreator/starcraft/item/OrangeKyberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowKyber",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_kyber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/YellowKyberItem.java",
+          "src/main/resources/assets/starcraft/models/item/yellow_kyber.json"
+        ]
+      }
+    },
+    {
+      "name": "WhiteKyber",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kyber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/white_kyber.json",
+          "src/main/java/net/mcreator/starcraft/item/WhiteKyberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackKyber",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_kyber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/BlackKyberItem.java",
+          "src/main/resources/assets/starcraft/models/item/black_kyber.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberOreDrops",
+      "type": "loottable",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/kyber_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberItem",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/tags/items/kyber_item.json"
         ]
       }
     }
@@ -93,9 +244,19 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.starcraft.kyber": "Kyber",
-      "block.starcraft.kyber_block": "Block of Kyber",
-      "block.starcraft.kyber_ore": "Kyber Ore"
+      "item.starcraft.clone_armor_leggings": "Clone Leggings",
+      "item.starcraft.white_kyber": "White Kyber Crystal",
+      "item.starcraft.blue_kyber": "Blue Kyber Crystal",
+      "item.starcraft.green_kyber": "Green Kyber Crystal",
+      "item.starcraft.black_kyber": "Black Kyber Crystal",
+      "block.starcraft.kyber_ore": "Kyber Ore",
+      "item.starcraft.orange_kyber": "Orange Kyber Crystal",
+      "item.starcraft.clone_armor_boots": "Clone Boots",
+      "item.starcraft.purple_kyber": "Purple Kyber Crystal",
+      "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
+      "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
+      "item.starcraft.red_kyber": "Red Kyber Crystal",
+      "item.starcraft.clone_armor_helmet": "Clone Helmet"
     }
   },
   "foldersRoot": {

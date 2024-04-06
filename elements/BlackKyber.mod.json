@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "kyber_gem",
+    "texture": "black_kyber_gem",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Blue Kyber Crystal",
+    "name": "Black Kyber Crystal",
     "rarity": "RARE",
     "creativeTab": {
       "value": "MATERIALS"

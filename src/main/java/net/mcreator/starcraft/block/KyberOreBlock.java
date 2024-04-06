@@ -1,7 +1,6 @@
 
 package net.mcreator.starcraft.block;
 
-import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -15,10 +14,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.starcraft.init.StarcraftModItems;
-
 import java.util.List;
-import java.util.Collections;
 
 public class KyberOreBlock extends Block {
 	public KyberOreBlock() {
@@ -40,13 +36,5 @@ public class KyberOreBlock extends Block {
 		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 6;
 		return false;
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(StarcraftModItems.KYBER.get()));
 	}
 }

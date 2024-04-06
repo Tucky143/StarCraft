@@ -23,12 +23,25 @@ public class StarcraftModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(StarcraftModBlocks.KYBER_BLOCK.get().asItem());
 			tabData.accept(StarcraftModBlocks.KYBER_ORE.get().asItem());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(StarcraftModItems.CLONE_ARMOR_HELMET.get());
+			tabData.accept(StarcraftModItems.CLONE_ARMOR_CHESTPLATE.get());
+			tabData.accept(StarcraftModItems.CLONE_ARMOR_LEGGINGS.get());
+			tabData.accept(StarcraftModItems.CLONE_ARMOR_BOOTS.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(StarcraftModItems.KYBER.get());
+			tabData.accept(StarcraftModItems.BLUE_KYBER.get());
+			tabData.accept(StarcraftModItems.RED_KYBER.get());
+			tabData.accept(StarcraftModItems.GREEN_KYBER.get());
+			tabData.accept(StarcraftModItems.PURPLE_KYBER.get());
+			tabData.accept(StarcraftModItems.ORANGE_KYBER.get());
+			tabData.accept(StarcraftModItems.YELLOW_KYBER.get());
+			tabData.accept(StarcraftModItems.WHITE_KYBER.get());
+			tabData.accept(StarcraftModItems.BLACK_KYBER.get());
 		}
 	}
 }

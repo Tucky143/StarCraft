@@ -1,0 +1,40 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Kyber"
+      },
+      {
+        "value": "CUSTOM:RedKyber"
+      },
+      {
+        "value": "CUSTOM:GreenKyber"
+      },
+      {
+        "value": "CUSTOM:PurpleKyber"
+      },
+      {
+        "value": "CUSTOM:OrangeKyber"
+      },
+      {
+        "value": "CUSTOM:YellowKyber"
+      },
+      {
+        "value": "CUSTOM:WhiteKyber"
+      },
+      {
+        "value": "CUSTOM:BlackKyber"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "damageTypes": [],
+    "name": "kyber_item",
+    "namespace": "mod"
+  }
+}

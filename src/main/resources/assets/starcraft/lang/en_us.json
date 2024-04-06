@@ -1,5 +1,15 @@
 {
-  "item.starcraft.kyber": "Kyber",
-  "block.starcraft.kyber_block": "Block of Kyber",
-  "block.starcraft.kyber_ore": "Kyber Ore"
+  "item.starcraft.clone_armor_leggings": "Clone Leggings",
+  "item.starcraft.white_kyber": "White Kyber Crystal",
+  "item.starcraft.blue_kyber": "Blue Kyber Crystal",
+  "item.starcraft.green_kyber": "Green Kyber Crystal",
+  "item.starcraft.black_kyber": "Black Kyber Crystal",
+  "block.starcraft.kyber_ore": "Kyber Ore",
+  "item.starcraft.orange_kyber": "Orange Kyber Crystal",
+  "item.starcraft.clone_armor_boots": "Clone Boots",
+  "item.starcraft.purple_kyber": "Purple Kyber Crystal",
+  "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
+  "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
+  "item.starcraft.red_kyber": "Red Kyber Crystal",
+  "item.starcraft.clone_armor_helmet": "Clone Helmet"
 }

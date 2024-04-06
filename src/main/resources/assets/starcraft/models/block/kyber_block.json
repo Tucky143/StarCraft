@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "starcraft:block/kyber_ore_block",
-    "particle": "starcraft:block/kyber_ore_block"
-  },
-  "render_type": "solid"
-}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "starcraft:blue_kyber",
+    "starcraft:red_kyber",
+    "starcraft:green_kyber",
+    "starcraft:purple_kyber",
+    "starcraft:orange_kyber",
+    "starcraft:yellow_kyber",
+    "starcraft:white_kyber",
+    "starcraft:black_kyber"
+  ]
+}
