@@ -100,7 +100,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 6,
+    "breakHarvestLevel": 3,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -122,12 +122,6 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "cold_ocean"
-      },
-      {
-        "value": "deep_cold_ocean"
-      },
-      {
         "value": "snowy_slopes"
       },
       {
@@ -140,10 +134,19 @@
         "value": "taiga_cold"
       },
       {
-        "value": "frozen_peaks"
+        "value": "cold_ocean"
       },
       {
-        "value": "jagged_peaks"
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_frozen_ocean"
+      },
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "mutated_ice_flats"
       }
     ],
     "blocksToReplace": [
@@ -152,9 +155,9 @@
       }
     ],
     "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 6,
+    "frequencyPerChunks": 10,
     "frequencyOnChunk": 4,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 40
+    "maxGenerateHeight": 45
   }
 }
