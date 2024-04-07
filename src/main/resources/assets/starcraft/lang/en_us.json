@@ -1,6 +1,7 @@
 {
   "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
   "item.starcraft.clone_armor_leggings": "Clone Leggings",
+  "advancements.dark_side_or_light_side.title": "Dark Side Or Light Side",
   "item.starcraft.white_kyber": "White Kyber Crystal",
   "item.starcraft.blue_kyber": "Blue Kyber Crystal",
   "item.starcraft.green_kyber": "Green Kyber Crystal",
@@ -10,6 +11,7 @@
   "item.starcraft.orange_kyber": "Orange Kyber Crystal",
   "item.starcraft.clone_armor_boots": "Clone Boots",
   "item.starcraft.purple_kyber": "Purple Kyber Crystal",
+  "advancements.dark_side_or_light_side.descr": "Have a lightsaber hilt in your inventory.",
   "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
   "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
   "item.starcraft.red_kyber": "Red Kyber Crystal",
