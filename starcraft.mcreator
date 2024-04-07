@@ -225,16 +225,126 @@
           "src/main/resources/data/starcraft/tags/items/kyber_item.json"
         ]
       }
+    },
+    {
+      "name": "LightsaberHiltCore",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/LightsaberHiltCoreItem.java",
+          "src/main/resources/assets/starcraft/models/item/lightsaber_hilt_core.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltCoreRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_core_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltCasing",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_casing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/LightsaberHiltCasingItem.java",
+          "src/main/resources/assets/starcraft/models/item/lightsaber_hilt_casing.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltCasingRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_casing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_casing_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltHandle",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_handle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/LightsaberHiltHandleItem.java",
+          "src/main/resources/assets/starcraft/models/item/lightsaber_hilt_handle.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltHandleRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_handle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_handle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHilt",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/lightsaber_hilt.json",
+          "src/main/java/net/mcreator/starcraft/item/LightsaberHiltItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
       "item.starcraft.clone_armor_leggings": "Clone Leggings",
       "item.starcraft.white_kyber": "White Kyber Crystal",
       "item.starcraft.blue_kyber": "Blue Kyber Crystal",
       "item.starcraft.green_kyber": "Green Kyber Crystal",
+      "item.starcraft.lightsaber_hilt_casing": "Lightsaber Hilt Casing",
       "item.starcraft.black_kyber": "Black Kyber Crystal",
       "block.starcraft.kyber_ore": "Kyber Ore",
       "item.starcraft.orange_kyber": "Orange Kyber Crystal",
@@ -243,7 +353,9 @@
       "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
       "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
       "item.starcraft.red_kyber": "Red Kyber Crystal",
-      "item.starcraft.clone_armor_helmet": "Clone Helmet"
+      "item.starcraft.clone_armor_helmet": "Clone Helmet",
+      "item.starcraft.lightsaber_hilt": "Lightsaber Hilt",
+      "item.starcraft.lightsaber_hilt_core": "Lightsaber Hilt Core"
     }
   },
   "foldersRoot": {

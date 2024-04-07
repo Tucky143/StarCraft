@@ -42,6 +42,10 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.YELLOW_KYBER.get());
 			tabData.accept(StarcraftModItems.WHITE_KYBER.get());
 			tabData.accept(StarcraftModItems.BLACK_KYBER.get());
+			tabData.accept(StarcraftModItems.LIGHTSABER_HILT_CORE.get());
+			tabData.accept(StarcraftModItems.LIGHTSABER_HILT_CASING.get());
+			tabData.accept(StarcraftModItems.LIGHTSABER_HILT_HANDLE.get());
+			tabData.accept(StarcraftModItems.LIGHTSABER_HILT.get());
 		}
 	}
 }

@@ -1,8 +1,10 @@
 {
+  "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
   "item.starcraft.clone_armor_leggings": "Clone Leggings",
   "item.starcraft.white_kyber": "White Kyber Crystal",
   "item.starcraft.blue_kyber": "Blue Kyber Crystal",
   "item.starcraft.green_kyber": "Green Kyber Crystal",
+  "item.starcraft.lightsaber_hilt_casing": "Lightsaber Hilt Casing",
   "item.starcraft.black_kyber": "Black Kyber Crystal",
   "block.starcraft.kyber_ore": "Kyber Ore",
   "item.starcraft.orange_kyber": "Orange Kyber Crystal",
@@ -11,5 +13,7 @@
   "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
   "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
   "item.starcraft.red_kyber": "Red Kyber Crystal",
-  "item.starcraft.clone_armor_helmet": "Clone Helmet"
+  "item.starcraft.clone_armor_helmet": "Clone Helmet",
+  "item.starcraft.lightsaber_hilt": "Lightsaber Hilt",
+  "item.starcraft.lightsaber_hilt_core": "Lightsaber Hilt Core"
 }

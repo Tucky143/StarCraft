@@ -17,6 +17,10 @@ import net.mcreator.starcraft.item.WhiteKyberItem;
 import net.mcreator.starcraft.item.RedKyberItem;
 import net.mcreator.starcraft.item.PurpleKyberItem;
 import net.mcreator.starcraft.item.OrangeKyberItem;
+import net.mcreator.starcraft.item.LightsaberHiltItem;
+import net.mcreator.starcraft.item.LightsaberHiltHandleItem;
+import net.mcreator.starcraft.item.LightsaberHiltCoreItem;
+import net.mcreator.starcraft.item.LightsaberHiltCasingItem;
 import net.mcreator.starcraft.item.KyberItem;
 import net.mcreator.starcraft.item.GreenKyberItem;
 import net.mcreator.starcraft.item.CloneArmorItem;
@@ -38,6 +42,10 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> YELLOW_KYBER = REGISTRY.register("yellow_kyber", () -> new YellowKyberItem());
 	public static final RegistryObject<Item> WHITE_KYBER = REGISTRY.register("white_kyber", () -> new WhiteKyberItem());
 	public static final RegistryObject<Item> BLACK_KYBER = REGISTRY.register("black_kyber", () -> new BlackKyberItem());
+	public static final RegistryObject<Item> LIGHTSABER_HILT_CORE = REGISTRY.register("lightsaber_hilt_core", () -> new LightsaberHiltCoreItem());
+	public static final RegistryObject<Item> LIGHTSABER_HILT_CASING = REGISTRY.register("lightsaber_hilt_casing", () -> new LightsaberHiltCasingItem());
+	public static final RegistryObject<Item> LIGHTSABER_HILT_HANDLE = REGISTRY.register("lightsaber_hilt_handle", () -> new LightsaberHiltHandleItem());
+	public static final RegistryObject<Item> LIGHTSABER_HILT = REGISTRY.register("lightsaber_hilt", () -> new LightsaberHiltItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
