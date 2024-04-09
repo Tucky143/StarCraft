@@ -1,0 +1,150 @@
+{
+  "_fv": 57,
+  "_type": "biome",
+  "definition": {
+    "name": "Muddy Swamp",
+    "groundBlock": {
+      "value": "Blocks.MUD"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:OldMud"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.MUD"
+    },
+    "airColor": {
+      "value": -10535167,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -11576064,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -10456832,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13231360,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -14150656,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "music.overworld.swamp"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "rainingPossibility": 0.7999999999999999,
+    "temperature": 0.5,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "genHumidity": {
+      "min": 0.5,
+      "max": 1.0
+    },
+    "genContinentalness": {
+      "min": -0.15,
+      "max": 0.01
+    },
+    "genErosion": {
+      "min": -0.5,
+      "max": 0.5
+    },
+    "genWeirdness": {
+      "min": -1.0,
+      "max": 1.0
+    },
+    "treesPerChunk": 18,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 5,
+    "treeStem": {
+      "value": "Blocks.MANGROVE_LOG"
+    },
+    "treeBranch": {
+      "value": "Blocks.MANGROVE_LEAVES"
+    },
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "defaultFeatures": [
+      "Ores",
+      "TallSeagrassLush",
+      "SwampVegetation",
+      "ForestFlowers"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": true,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "SWAMP",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityBee"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityFrog"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityAxolotl"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 12,
+        "spawnType": "waterCreature"
+      }
+    ]
+  }
+}

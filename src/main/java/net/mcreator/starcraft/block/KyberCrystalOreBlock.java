@@ -1,6 +1,8 @@
 
 package net.mcreator.starcraft.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -16,9 +18,10 @@ import net.minecraft.core.BlockPos;
 
 import java.util.List;
 
-public class KyberOreBlock extends Block {
-	public KyberOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(8.4f, 11.3945303474f).requiresCorrectToolForDrops());
+public class KyberCrystalOreBlock extends Block {
+	public KyberCrystalOreBlock() {
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GLASS).strength(11f, 16f).lightLevel(s -> 5).requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true)
+				.emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override

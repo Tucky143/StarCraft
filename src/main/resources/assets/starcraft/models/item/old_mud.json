@@ -1,5 +1,5 @@
 {
-  "parent": "starcraft:block/kyber_ore",
+  "parent": "starcraft:block/old_mud",
   "display": {
     "thirdperson": {
       "rotation": [

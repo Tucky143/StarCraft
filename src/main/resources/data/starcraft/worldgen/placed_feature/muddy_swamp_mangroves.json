@@ -1,0 +1,12 @@
+{
+  "feature": "starcraft:muddy_swamp_mangroves",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    }
+  ]
+}

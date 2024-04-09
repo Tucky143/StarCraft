@@ -1,18 +1,9 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 2,
+    "size": 3,
     "discard_chance_on_air_exposure": 0,
     "targets": [
-      {
-        "target": {
-          "predicate_type": "tag_match",
-          "tag": "minecraft:stone"
-        },
-        "state": {
-          "Name": "starcraft:kyber_ore"
-        }
-      },
       {
         "target": {
           "predicate_type": "blockstate_match",
@@ -21,7 +12,7 @@
           }
         },
         "state": {
-          "Name": "starcraft:kyber_ore"
+          "Name": "starcraft:kyber_crystal_ore"
         }
       }
     ]

@@ -22,8 +22,9 @@ public class StarcraftModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
-		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(StarcraftModBlocks.KYBER_ORE.get().asItem());
+		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(StarcraftModItems.DAGOBAH_PLANET_TOKEN.get());
+			tabData.accept(StarcraftModItems.MINECRAFT_PLANET_TOKEN.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -46,6 +47,11 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.LIGHTSABER_HILT_CASING.get());
 			tabData.accept(StarcraftModItems.LIGHTSABER_HILT_HANDLE.get());
 			tabData.accept(StarcraftModItems.LIGHTSABER_HILT.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(StarcraftModBlocks.KYBER_CRYSTAL_ORE.get().asItem());
+			tabData.accept(StarcraftModBlocks.OLD_MUD.get().asItem());
 		}
 	}
 }

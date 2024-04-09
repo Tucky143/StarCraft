@@ -17,19 +17,20 @@ import net.mcreator.starcraft.item.WhiteKyberItem;
 import net.mcreator.starcraft.item.RedKyberItem;
 import net.mcreator.starcraft.item.PurpleKyberItem;
 import net.mcreator.starcraft.item.OrangeKyberItem;
+import net.mcreator.starcraft.item.MinecraftPlanetTokenItem;
 import net.mcreator.starcraft.item.LightsaberHiltItem;
 import net.mcreator.starcraft.item.LightsaberHiltHandleItem;
 import net.mcreator.starcraft.item.LightsaberHiltCoreItem;
 import net.mcreator.starcraft.item.LightsaberHiltCasingItem;
 import net.mcreator.starcraft.item.KyberItem;
 import net.mcreator.starcraft.item.GreenKyberItem;
+import net.mcreator.starcraft.item.DagobahPlanetTokenItem;
 import net.mcreator.starcraft.item.CloneArmorItem;
 import net.mcreator.starcraft.item.BlackKyberItem;
 import net.mcreator.starcraft.StarcraftMod;
 
 public class StarcraftModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, StarcraftMod.MODID);
-	public static final RegistryObject<Item> KYBER_ORE = block(StarcraftModBlocks.KYBER_ORE);
 	public static final RegistryObject<Item> BLUE_KYBER = REGISTRY.register("blue_kyber", () -> new KyberItem());
 	public static final RegistryObject<Item> CLONE_ARMOR_HELMET = REGISTRY.register("clone_armor_helmet", () -> new CloneArmorItem.Helmet());
 	public static final RegistryObject<Item> CLONE_ARMOR_CHESTPLATE = REGISTRY.register("clone_armor_chestplate", () -> new CloneArmorItem.Chestplate());
@@ -46,6 +47,10 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> LIGHTSABER_HILT_CASING = REGISTRY.register("lightsaber_hilt_casing", () -> new LightsaberHiltCasingItem());
 	public static final RegistryObject<Item> LIGHTSABER_HILT_HANDLE = REGISTRY.register("lightsaber_hilt_handle", () -> new LightsaberHiltHandleItem());
 	public static final RegistryObject<Item> LIGHTSABER_HILT = REGISTRY.register("lightsaber_hilt", () -> new LightsaberHiltItem());
+	public static final RegistryObject<Item> KYBER_CRYSTAL_ORE = block(StarcraftModBlocks.KYBER_CRYSTAL_ORE);
+	public static final RegistryObject<Item> OLD_MUD = block(StarcraftModBlocks.OLD_MUD);
+	public static final RegistryObject<Item> DAGOBAH_PLANET_TOKEN = REGISTRY.register("dagobah_planet_token", () -> new DagobahPlanetTokenItem());
+	public static final RegistryObject<Item> MINECRAFT_PLANET_TOKEN = REGISTRY.register("minecraft_planet_token", () -> new MinecraftPlanetTokenItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

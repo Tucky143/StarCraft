@@ -3,6 +3,6 @@
   "biomes": {
     "type": "forge:any"
   },
-  "features": "starcraft:kyber_ore",
+  "features": "starcraft:kyber_crystal_ore",
   "step": "underground_ores"
 }

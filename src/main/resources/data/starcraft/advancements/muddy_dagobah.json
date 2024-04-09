@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mud"
+    },
+    "title": {
+      "translate": "advancements.muddy_dagobah.title"
+    },
+    "description": {
+      "translate": "advancements.muddy_dagobah.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "muddy_dagobah": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "starcraft:muddy_swamp"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/root"
+}
