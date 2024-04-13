@@ -47,11 +47,17 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.LIGHTSABER_HILT_CASING.get());
 			tabData.accept(StarcraftModItems.LIGHTSABER_HILT_HANDLE.get());
 			tabData.accept(StarcraftModItems.LIGHTSABER_HILT.get());
+			tabData.accept(StarcraftModItems.HYPER_PLATE.get());
+			tabData.accept(StarcraftModItems.HYPER_TOKEN.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarcraftModBlocks.KYBER_CRYSTAL_ORE.get().asItem());
 			tabData.accept(StarcraftModBlocks.OLD_MUD.get().asItem());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(StarcraftModItems.LIQUID_MUD_BUCKET.get());
 		}
 	}
 }

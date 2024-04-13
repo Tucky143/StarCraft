@@ -1,25 +1,14 @@
 {
   "variants": {
-    "facing=north": {
-      "model": "starcraft:block/old_mud"
-    },
-    "facing=east": {
+    "axis=x": {
       "model": "starcraft:block/old_mud",
+      "x": 90,
       "y": 90
     },
-    "facing=south": {
-      "model": "starcraft:block/old_mud",
-      "y": 180
+    "axis=y": {
+      "model": "starcraft:block/old_mud"
     },
-    "facing=west": {
-      "model": "starcraft:block/old_mud",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "starcraft:block/old_mud",
-      "x": 270
-    },
-    "facing=down": {
+    "axis=z": {
       "model": "starcraft:block/old_mud",
       "x": 90
     }

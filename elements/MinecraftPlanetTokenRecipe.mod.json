@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:minecraft:flowers"
+      },
+      {
+        "value": "TAG:minecraft:flowers"
+      },
+      {
+        "value": "TAG:minecraft:flowers"
+      },
+      {
+        "value": "Blocks.DIRT"
+      },
+      {
+        "value": "CUSTOM:HyperToken"
+      },
+      {
+        "value": "Blocks.DIRT"
+      },
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MinecraftPlanetToken"
+    },
+    "name": "minecraft_planet_token_recipe",
+    "namespace": "mod"
+  }
+}

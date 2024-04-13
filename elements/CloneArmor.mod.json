@@ -76,8 +76,8 @@
     "damageValueLeggings": 12,
     "damageValueBoots": 4,
     "enchantability": 18,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "toughness": 1.2000000000000002,
+    "knockbackResistance": 0.1,
     "equipSound": {
       "value": ""
     },

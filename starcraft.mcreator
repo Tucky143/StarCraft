@@ -355,7 +355,14 @@
       "locked_code": false,
       "registry_name": "force_pull_on_key_pressed",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/ForcePullOnKeyPressedProcedure.java"
+        ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -542,17 +549,281 @@
           "src/main/resources/data/starcraft/advancements/muddy_dagobah.json"
         ]
       }
+    },
+    {
+      "name": "ForcePushOnKeyPressed",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_push_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/ForcePushOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ForcePush",
+      "type": "keybind",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_push",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/network/ForcePushMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "HyperPlate",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/hyper_plate.json",
+          "src/main/java/net/mcreator/starcraft/item/HyperPlateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HyperPlateRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/hyper_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HyperToken",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_token",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/hyper_token.json",
+          "src/main/java/net/mcreator/starcraft/item/HyperTokenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HyperTokenRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/hyper_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DagobahPlanetTokenRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagobah_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/dagobah_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MinecraftPlanetTokenRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/minecraft_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/flowers.json"
+        ]
+      }
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
+        ]
+      }
+    },
+    {
+      "name": "OldMudDrops",
+      "type": "loottable",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_mud_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_mud.json"
+        ]
+      }
+    },
+    {
+      "name": "LiquidMud",
+      "type": "fluid",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/liquid_mud.json",
+          "src/main/java/net/mcreator/starcraft/block/LiquidMudBlock.java",
+          "src/main/java/net/mcreator/starcraft/item/LiquidMudItem.java",
+          "src/main/resources/assets/starcraft/models/item/liquid_mud_bucket.json",
+          "src/main/java/net/mcreator/starcraft/fluid/LiquidMudFluid.java",
+          "src/main/resources/assets/starcraft/models/block/liquid_mud.json",
+          "src/main/java/net/mcreator/starcraft/fluid/types/LiquidMudFluidType.java"
+        ]
+      }
+    },
+    {
+      "name": "MudBucketRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_bucket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/mud_bucket_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LiquidMudUpdateTick",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_mud_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/LiquidMudUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MudPit",
+      "type": "structure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_pit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/structure/mud_pit.json",
+          "src/main/resources/data/starcraft/worldgen/template_pool/mud_pit.json",
+          "src/main/resources/data/starcraft/worldgen/structure_set/mud_pit.json"
+        ]
+      }
+    },
+    {
+      "name": "Tatooine",
+      "type": "dimension",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/dimension/tatooine.json",
+          "src/main/java/net/mcreator/starcraft/world/dimension/TatooineDimension.java",
+          "src/main/resources/data/starcraft/dimension_type/tatooine.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.starcraft.liquid_mud": "Liquid Mud",
       "advancements.muddy_dagobah.title": "Muddy Dagobah",
       "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
+      "item.starcraft.hyper_token": "Hyper Token",
+      "item.starcraft.liquid_mud_bucket": "Mud Bucket",
       "advancements.dark_side_or_light_side.title": "Dark Side Or Light Side",
       "item.starcraft.white_kyber": "White Kyber Crystal",
       "item.starcraft.lightsaber_hilt_casing": "Lightsaber Hilt Casing",
+      "key.starcraft.force_push": "Force Push",
       "advancements.muddy_dagobah.descr": "Enter the Muddy Swamp",
       "item.starcraft.minecraft_planet_token": "Minecraft Planet Token",
       "item.starcraft.orange_kyber": "Orange Kyber Crystal",
@@ -569,6 +840,8 @@
       "item.starcraft.black_kyber": "Black Kyber Crystal",
       "item.starcraft.clone_armor_boots": "Clone Boots",
       "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
+      "fluid.starcraft.liquid_mud": "Liquid Mud",
+      "item.starcraft.hyper_plate": "Hyper Plate",
       "item.starcraft.clone_armor_helmet": "Clone Helmet",
       "item.starcraft.lightsaber_hilt": "Lightsaber Hilt",
       "biome.starcraft.muddy_swamp": "Muddy Swamp",

@@ -52,7 +52,7 @@ public class ForcePullMessage {
 			return;
 		if (type == 0) {
 
-			ForcePullOnKeyPressedProcedure.execute(world, x, y, z);
+			ForcePullOnKeyPressedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

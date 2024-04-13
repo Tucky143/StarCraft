@@ -18,11 +18,14 @@ import net.mcreator.starcraft.item.RedKyberItem;
 import net.mcreator.starcraft.item.PurpleKyberItem;
 import net.mcreator.starcraft.item.OrangeKyberItem;
 import net.mcreator.starcraft.item.MinecraftPlanetTokenItem;
+import net.mcreator.starcraft.item.LiquidMudItem;
 import net.mcreator.starcraft.item.LightsaberHiltItem;
 import net.mcreator.starcraft.item.LightsaberHiltHandleItem;
 import net.mcreator.starcraft.item.LightsaberHiltCoreItem;
 import net.mcreator.starcraft.item.LightsaberHiltCasingItem;
 import net.mcreator.starcraft.item.KyberItem;
+import net.mcreator.starcraft.item.HyperTokenItem;
+import net.mcreator.starcraft.item.HyperPlateItem;
 import net.mcreator.starcraft.item.GreenKyberItem;
 import net.mcreator.starcraft.item.DagobahPlanetTokenItem;
 import net.mcreator.starcraft.item.CloneArmorItem;
@@ -51,6 +54,9 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> OLD_MUD = block(StarcraftModBlocks.OLD_MUD);
 	public static final RegistryObject<Item> DAGOBAH_PLANET_TOKEN = REGISTRY.register("dagobah_planet_token", () -> new DagobahPlanetTokenItem());
 	public static final RegistryObject<Item> MINECRAFT_PLANET_TOKEN = REGISTRY.register("minecraft_planet_token", () -> new MinecraftPlanetTokenItem());
+	public static final RegistryObject<Item> HYPER_PLATE = REGISTRY.register("hyper_plate", () -> new HyperPlateItem());
+	public static final RegistryObject<Item> HYPER_TOKEN = REGISTRY.register("hyper_token", () -> new HyperTokenItem());
+	public static final RegistryObject<Item> LIQUID_MUD_BUCKET = REGISTRY.register("liquid_mud_bucket", () -> new LiquidMudItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

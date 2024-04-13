@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.KeyMapping;
 
+import net.mcreator.starcraft.network.ForcePushMessage;
 import net.mcreator.starcraft.network.ForcePullMessage;
 import net.mcreator.starcraft.StarcraftMod;
 
@@ -33,10 +34,24 @@ public class StarcraftModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping FORCE_PUSH = new KeyMapping("key.starcraft.force_push", GLFW.GLFW_KEY_X, "key.categories.gameplay") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				StarcraftMod.PACKET_HANDLER.sendToServer(new ForcePushMessage(0, 0));
+				ForcePushMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(FORCE_PULL);
+		event.register(FORCE_PUSH);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -45,6 +60,7 @@ public class StarcraftModKeyMappings {
 		public static void onClientTick(TickEvent.ClientTickEvent event) {
 			if (Minecraft.getInstance().screen == null) {
 				FORCE_PULL.consumeClick();
+				FORCE_PUSH.consumeClick();
 			}
 		}
 	}

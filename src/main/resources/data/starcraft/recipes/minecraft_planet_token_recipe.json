@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:flowers"
+    },
+    "b": {
+      "tag": "minecraft:dirt"
+    },
+    "c": {
+      "item": "starcraft:hyper_token"
+    },
+    "d": {
+      "tag": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "starcraft:minecraft_planet_token",
+    "count": 1
+  }
+}

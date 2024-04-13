@@ -31,6 +31,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.starcraft.init.StarcraftModTabs;
 import net.mcreator.starcraft.init.StarcraftModItems;
+import net.mcreator.starcraft.init.StarcraftModFluids;
+import net.mcreator.starcraft.init.StarcraftModFluidTypes;
 import net.mcreator.starcraft.init.StarcraftModBlocks;
 
 import java.util.function.Supplier;
@@ -57,6 +59,8 @@ public class StarcraftMod {
 
 		StarcraftModTabs.REGISTRY.register(bus);
 
+		StarcraftModFluids.REGISTRY.register(bus);
+		StarcraftModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
