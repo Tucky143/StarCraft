@@ -22,9 +22,22 @@ public class StarcraftModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(StarcraftModBlocks.OLD_WOOD.get().asItem());
+			tabData.accept(StarcraftModBlocks.OLD_LOG.get().asItem());
+			tabData.accept(StarcraftModBlocks.OLD_PLANKS.get().asItem());
+			tabData.accept(StarcraftModBlocks.OLD_STAIRS.get().asItem());
+			tabData.accept(StarcraftModBlocks.OLD_SLAB.get().asItem());
+			tabData.accept(StarcraftModBlocks.OLD_FENCE.get().asItem());
+			tabData.accept(StarcraftModBlocks.OLD_FENCE_GATE.get().asItem());
+			tabData.accept(StarcraftModBlocks.OLD_PRESSURE_PLATE.get().asItem());
+			tabData.accept(StarcraftModBlocks.OLD_BUTTON.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(StarcraftModItems.DAGOBAH_PLANET_TOKEN.get());
 			tabData.accept(StarcraftModItems.MINECRAFT_PLANET_TOKEN.get());
+			tabData.accept(StarcraftModItems.TATOOINE_PLANET_TOKEN.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -54,10 +67,15 @@ public class StarcraftModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarcraftModBlocks.KYBER_CRYSTAL_ORE.get().asItem());
 			tabData.accept(StarcraftModBlocks.OLD_MUD.get().asItem());
+			tabData.accept(StarcraftModBlocks.FLOWERING_CACTUS.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(StarcraftModItems.LIQUID_MUD_BUCKET.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(StarcraftModItems.CACTUS_FRUIT.get());
 		}
 	}
 }

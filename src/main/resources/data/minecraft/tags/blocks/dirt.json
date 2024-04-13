@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "starcraft:old_mud"
+    "starcraft:old_mud",
+    "minecraft:sand"
   ]
 }

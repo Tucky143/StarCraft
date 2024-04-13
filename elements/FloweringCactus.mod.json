@@ -1,0 +1,104 @@
+{
+  "_fv": 57,
+  "_type": "plant",
+  "definition": {
+    "renderType": 120,
+    "texture": "flowering_cactus_top",
+    "textureBottom": "flowering_cactus_bottom",
+    "customModelName": "Cross model",
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "Foliage",
+    "isItemTinted": true,
+    "plantType": "double",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Desert",
+    "growapableMaxHeight": 3,
+    "customBoundingBox": true,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 11.0,
+        "My": 18.700000000000003,
+        "Mz": 11.0,
+        "subtract": false
+      }
+    ],
+    "name": "Flowering Cactus",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "hardness": 3.0,
+    "resistance": 2.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": true,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": true,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "PINK",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "BLOCKED",
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "Blocks.SAND#0"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 5,
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "desert"
+      }
+    ],
+    "generationType": "Flower",
+    "patchSize": 3,
+    "generateAtAnyHeight": false,
+    "onEntityCollides": {
+      "name": "FloweringCactusMobplayerCollidesWithPlant"
+    },
+    "onHitByProjectile": {
+      "name": "FloweringCactusOnBlockHitByProjectile"
+    }
+  }
+}

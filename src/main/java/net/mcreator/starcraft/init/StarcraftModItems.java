@@ -10,10 +10,12 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.starcraft.item.YellowKyberItem;
 import net.mcreator.starcraft.item.WhiteKyberItem;
+import net.mcreator.starcraft.item.TatooinePlanetTokenItem;
 import net.mcreator.starcraft.item.RedKyberItem;
 import net.mcreator.starcraft.item.PurpleKyberItem;
 import net.mcreator.starcraft.item.OrangeKyberItem;
@@ -29,6 +31,7 @@ import net.mcreator.starcraft.item.HyperPlateItem;
 import net.mcreator.starcraft.item.GreenKyberItem;
 import net.mcreator.starcraft.item.DagobahPlanetTokenItem;
 import net.mcreator.starcraft.item.CloneArmorItem;
+import net.mcreator.starcraft.item.CactusFruitItem;
 import net.mcreator.starcraft.item.BlackKyberItem;
 import net.mcreator.starcraft.StarcraftMod;
 
@@ -57,8 +60,24 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> HYPER_PLATE = REGISTRY.register("hyper_plate", () -> new HyperPlateItem());
 	public static final RegistryObject<Item> HYPER_TOKEN = REGISTRY.register("hyper_token", () -> new HyperTokenItem());
 	public static final RegistryObject<Item> LIQUID_MUD_BUCKET = REGISTRY.register("liquid_mud_bucket", () -> new LiquidMudItem());
+	public static final RegistryObject<Item> FLOWERING_CACTUS = doubleBlock(StarcraftModBlocks.FLOWERING_CACTUS);
+	public static final RegistryObject<Item> CACTUS_FRUIT = REGISTRY.register("cactus_fruit", () -> new CactusFruitItem());
+	public static final RegistryObject<Item> TATOOINE_PLANET_TOKEN = REGISTRY.register("tatooine_planet_token", () -> new TatooinePlanetTokenItem());
+	public static final RegistryObject<Item> OLD_WOOD = block(StarcraftModBlocks.OLD_WOOD);
+	public static final RegistryObject<Item> OLD_LOG = block(StarcraftModBlocks.OLD_LOG);
+	public static final RegistryObject<Item> OLD_PLANKS = block(StarcraftModBlocks.OLD_PLANKS);
+	public static final RegistryObject<Item> OLD_STAIRS = block(StarcraftModBlocks.OLD_STAIRS);
+	public static final RegistryObject<Item> OLD_SLAB = block(StarcraftModBlocks.OLD_SLAB);
+	public static final RegistryObject<Item> OLD_FENCE = block(StarcraftModBlocks.OLD_FENCE);
+	public static final RegistryObject<Item> OLD_FENCE_GATE = block(StarcraftModBlocks.OLD_FENCE_GATE);
+	public static final RegistryObject<Item> OLD_PRESSURE_PLATE = block(StarcraftModBlocks.OLD_PRESSURE_PLATE);
+	public static final RegistryObject<Item> OLD_BUTTON = block(StarcraftModBlocks.OLD_BUTTON);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

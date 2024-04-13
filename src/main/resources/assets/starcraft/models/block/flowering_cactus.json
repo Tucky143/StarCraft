@@ -1,0 +1,8 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "starcraft:block/flowering_cactus_top",
+    "particle": "starcraft:block/flowering_cactus_top"
+  },
+  "render_type": "cutout"
+}

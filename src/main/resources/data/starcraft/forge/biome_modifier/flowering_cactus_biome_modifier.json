@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "desert",
+  "features": "starcraft:flowering_cactus",
+  "step": "vegetal_decoration"
+}

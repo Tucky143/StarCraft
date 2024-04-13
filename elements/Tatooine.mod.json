@@ -8,14 +8,17 @@
       },
       {
         "value": "wooded_badlands_plateau"
+      },
+      {
+        "value": "CUSTOM:DeadForest"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "Blocks.SAND#0"
+      "value": "Blocks.SANDSTONE#0"
     },
     "fluidBlock": {
-      "value": "Blocks.FLOWING_WATER"
+      "value": "Blocks.AIR"
     },
     "airColor": {
       "value": -4973,

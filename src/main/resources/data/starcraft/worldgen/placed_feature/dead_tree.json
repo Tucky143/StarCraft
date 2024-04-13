@@ -1,0 +1,15 @@
+{
+  "feature": "starcraft:dead_tree",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
