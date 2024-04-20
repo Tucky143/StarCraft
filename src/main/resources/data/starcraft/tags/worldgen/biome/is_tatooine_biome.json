@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "starcraft:dead_forest",
+    "desert",
+    "wooded_badlands"
+  ]
+}

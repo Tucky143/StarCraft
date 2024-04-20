@@ -1,0 +1,25 @@
+{
+  "_fv": 57,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:DeadForest"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "wooded_badlands_plateau"
+      }
+    ],
+    "damageTypes": [],
+    "name": "is_tatooine_biome",
+    "namespace": "mod"
+  }
+}

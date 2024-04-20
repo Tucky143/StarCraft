@@ -7,9 +7,6 @@
     "blocks": [
       {
         "value": "CUSTOM:OldMud"
-      },
-      {
-        "value": "Blocks.SAND#0"
       }
     ],
     "functions": [],

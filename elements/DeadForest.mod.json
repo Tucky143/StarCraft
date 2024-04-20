@@ -10,7 +10,7 @@
       "value": "Blocks.SANDSTONE#0"
     },
     "underwaterBlock": {
-      "value": ""
+      "value": "Blocks.SAND#0"
     },
     "airColor": {
       "value": -8687514,
@@ -59,7 +59,7 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 0,
+    "treesPerChunk": 2,
     "vanillaTreeType": "Default",
     "treeType": 1,
     "minHeight": 4,
@@ -85,12 +85,12 @@
     "villageType": "desert",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
-    "spawnDesertPyramid": false,
+    "spawnDesertPyramid": true,
     "spawnSwampHut": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
-    "spawnShipwreckBeached": false,
+    "spawnShipwreckBeached": true,
     "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,

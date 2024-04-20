@@ -634,7 +634,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:sandstone"
+                            "Name": "minecraft:sand"
                           }
                         }
                       ]

@@ -1304,7 +1304,12 @@
       "registry_name": "dead_forest",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/worldgen/biome/dead_forest.json"
+          "src/main/resources/data/starcraft/worldgen/configured_feature/dead_forest_tree.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestFruitDecorator.java",
+          "src/main/resources/data/starcraft/worldgen/biome/dead_forest.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestLeaveDecorator.java",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestTrunkDecorator.java",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/dead_forest_tree.json"
         ]
       }
     },
@@ -1333,6 +1338,19 @@
       "metadata": {
         "files": [
           "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "IsTatooineBiome",
+      "type": "tag",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_tatooine_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/tags/worldgen/biome/is_tatooine_biome.json"
         ]
       }
     }
