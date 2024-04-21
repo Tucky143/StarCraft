@@ -72,6 +72,8 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> OLD_FENCE_GATE = block(StarcraftModBlocks.OLD_FENCE_GATE);
 	public static final RegistryObject<Item> OLD_PRESSURE_PLATE = block(StarcraftModBlocks.OLD_PRESSURE_PLATE);
 	public static final RegistryObject<Item> OLD_BUTTON = block(StarcraftModBlocks.OLD_BUTTON);
+	public static final RegistryObject<Item> CRACKED_SANDSTONE = block(StarcraftModBlocks.CRACKED_SANDSTONE);
+	public static final RegistryObject<Item> WET_SAND = block(StarcraftModBlocks.WET_SAND);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

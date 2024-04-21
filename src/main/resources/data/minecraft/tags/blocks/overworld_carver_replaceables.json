@@ -4,6 +4,7 @@
     "starcraft:old_mud",
     "minecraft:mud",
     "minecraft:sandstone",
-    "minecraft:sand"
+    "starcraft:wet_sand",
+    "starcraft:cracked_sandstone"
   ]
 }

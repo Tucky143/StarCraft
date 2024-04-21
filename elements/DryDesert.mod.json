@@ -2,9 +2,9 @@
   "_fv": 57,
   "_type": "biome",
   "definition": {
-    "name": "Dead Forest",
+    "name": "Dry Desert",
     "groundBlock": {
-      "value": "CUSTOM:WetSand"
+      "value": "CUSTOM:CrackedSandstone"
     },
     "undergroundBlock": {
       "value": "Blocks.SANDSTONE#0"
@@ -13,7 +13,23 @@
       "value": "Blocks.SAND#0"
     },
     "airColor": {
-      "value": -8687514,
+      "value": -6584207,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6584207,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -6584207,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -9874374,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -9874374,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -23,17 +39,17 @@
       "value": ""
     },
     "music": {
-      "value": "music.overworld.desert"
+      "value": "block.sand.break"
     },
     "moodSound": {
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "ASH"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 0.1,
     "rainingPossibility": 0.0,
     "temperature": 1.7999999999999998,
     "spawnBiome": false,
@@ -45,69 +61,62 @@
     },
     "genHumidity": {
       "min": -2.0,
-      "max": 0.5
+      "max": 1.0
     },
     "genContinentalness": {
       "min": 0.3,
-      "max": 1.0
+      "max": 2.0
     },
     "genErosion": {
-      "min": -0.5,
-      "max": 0.5
+      "min": -1.0,
+      "max": 0.0
     },
     "genWeirdness": {
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 1,
-    "minHeight": 4,
+    "treeType": 0,
+    "minHeight": 7,
     "treeStem": {
-      "value": "CUSTOM:OldLog"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeVines": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeFruits": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "defaultFeatures": [
-      "Ores"
+      "Caves",
+      "Ores",
+      "DeadBushes",
+      "DesertFeatures"
     ],
     "spawnStronghold": false,
-    "spawnMineshaft": true,
-    "spawnMineshaftMesa": true,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
-    "villageType": "desert",
+    "villageType": "none",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
-    "spawnDesertPyramid": true,
+    "spawnDesertPyramid": false,
     "spawnSwampHut": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
-    "spawnShipwreckBeached": true,
+    "spawnShipwreckBeached": false,
     "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "DESERT",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "EntityRabbit"
-        },
-        "minGroup": 2,
-        "maxGroup": 8,
-        "weight": 12,
-        "spawnType": "creature"
-      }
-    ]
+    "spawnRuinedPortal": "NONE",
+    "spawnEntries": []
   }
 }

@@ -15,7 +15,7 @@
         "value": "desert"
       },
       {
-        "value": "wooded_badlands_plateau"
+        "value": "CUSTOM:DryDesert"
       }
     ],
     "damageTypes": [],

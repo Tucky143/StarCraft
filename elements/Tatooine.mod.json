@@ -7,10 +7,10 @@
         "value": "desert"
       },
       {
-        "value": "wooded_badlands_plateau"
+        "value": "CUSTOM:DeadForest"
       },
       {
-        "value": "CUSTOM:DeadForest"
+        "value": "CUSTOM:DryDesert"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -18,7 +18,7 @@
       "value": "Blocks.SANDSTONE#0"
     },
     "fluidBlock": {
-      "value": "Blocks.AIR"
+      "value": "CUSTOM:WetSand"
     },
     "airColor": {
       "value": -4973,
