@@ -4,7 +4,10 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "starcraft:wet_sand"
+        "Name": "starcraft:dirty_sand",
+        "Properties": {
+          "facing": "north"
+        }
       }
     },
     "foliage_provider": {

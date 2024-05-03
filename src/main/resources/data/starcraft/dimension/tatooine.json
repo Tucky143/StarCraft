@@ -99,7 +99,7 @@
         "Name": "minecraft:sandstone"
       },
       "default_fluid": {
-        "Name": "starcraft:wet_sand"
+        "Name": "minecraft:sand"
       },
       "spawn_target": [],
       "noise": {
@@ -555,7 +555,10 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "starcraft:wet_sand"
+                              "Name": "starcraft:dirty_sand",
+                              "Properties": {
+                                "facing": "north"
+                              }
                             }
                           }
                         },

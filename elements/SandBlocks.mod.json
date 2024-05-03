@@ -6,17 +6,17 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:OldMud"
+        "value": "CUSTOM:DirtySand"
       },
       {
-        "value": "CUSTOM:DirtySand"
+        "value": "Blocks.SAND#0"
       }
     ],
     "functions": [],
     "entities": [],
     "biomes": [],
     "damageTypes": [],
-    "name": "dirt",
-    "namespace": "minecraft"
+    "name": "sand",
+    "namespace": "forge"
   }
 }

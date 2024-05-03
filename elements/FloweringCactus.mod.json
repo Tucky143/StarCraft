@@ -89,6 +89,9 @@
     "restrictionBiomes": [
       {
         "value": "desert"
+      },
+      {
+        "value": "CUSTOM:DeadForest"
       }
     ],
     "generationType": "Flower",

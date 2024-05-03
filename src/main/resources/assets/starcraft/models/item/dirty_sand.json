@@ -1,5 +1,5 @@
 {
-  "parent": "starcraft:block/wet_sand",
+  "parent": "starcraft:block/dirty_sand",
   "display": {
     "thirdperson": {
       "rotation": [

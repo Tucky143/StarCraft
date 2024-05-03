@@ -1384,18 +1384,59 @@
       }
     },
     {
-      "name": "WetSand",
-      "type": "block",
+      "name": "DirtySandLoot",
+      "type": "loottable",
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wet_sand",
+      "registry_name": "dirty_sand_loot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/block/wet_sand.json",
-          "src/main/java/net/mcreator/starcraft/block/WetSandBlock.java",
-          "src/main/resources/assets/starcraft/blockstates/wet_sand.json",
-          "src/main/resources/assets/starcraft/models/item/wet_sand.json"
+          "src/main/resources/data/starcraft/loot_tables/blocks/dirty_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtySand",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_sand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/DirtySandBlock.java",
+          "src/main/resources/assets/starcraft/models/item/dirty_sand.json",
+          "src/main/resources/assets/starcraft/models/block/dirty_sand.json",
+          "src/main/resources/assets/starcraft/blockstates/dirty_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "SandBlocks",
+      "type": "tag",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/sand.json"
+        ]
+      }
+    },
+    {
+      "name": "Cactus",
+      "type": "feature",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/cactus.json",
+          "src/main/resources/data/starcraft/forge/biome_modifier/cactus_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/cactus.json"
         ]
       }
     }
@@ -1416,6 +1457,7 @@
       "item.starcraft.red_kyber": "Red Kyber Crystal",
       "key.starcraft.force_pull": "Force Pull",
       "block.starcraft.old_mud": "Old Mud",
+      "block.starcraft.dirty_sand": "Dirty Sand",
       "block.starcraft.old_log": "Old Log",
       "item.starcraft.green_kyber": "Green Kyber Crystal",
       "item.starcraft.blue_kyber": "Blue Kyber Crystal",
@@ -1423,10 +1465,10 @@
       "item.starcraft.clone_armor_boots": "Clone Boots",
       "fluid.starcraft.liquid_mud": "Liquid Mud",
       "item.starcraft.hyper_plate": "Hyper Plate",
-      "item.starcraft.lightsaber_hilt": "Lightsaber Hilt",
       "biome.starcraft.muddy_swamp": "Muddy Swamp",
-      "item.starcraft.dagobah_planet_token": "Dagobah Planet Token",
+      "item.starcraft.lightsaber_hilt": "Lightsaber Hilt",
       "item.starcraft.lightsaber_hilt_core": "Lightsaber Hilt Core",
+      "item.starcraft.dagobah_planet_token": "Dagobah Planet Token",
       "block.starcraft.liquid_mud": "Liquid Mud",
       "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
       "block.starcraft.old_wood": "Old Wood",
@@ -1448,7 +1490,6 @@
       "item.starcraft.black_kyber": "Black Kyber Crystal",
       "block.starcraft.old_slab": "Old Slab",
       "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
-      "block.starcraft.wet_sand": "Wet Sand",
       "block.starcraft.old_button": "Old Button",
       "item.starcraft.clone_armor_helmet": "Clone Helmet",
       "block.starcraft.old_stairs": "Old Stairs"

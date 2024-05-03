@@ -69,7 +69,7 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModBlocks.OLD_MUD.get().asItem());
 			tabData.accept(StarcraftModBlocks.FLOWERING_CACTUS.get().asItem());
 			tabData.accept(StarcraftModBlocks.CRACKED_SANDSTONE.get().asItem());
-			tabData.accept(StarcraftModBlocks.WET_SAND.get().asItem());
+			tabData.accept(StarcraftModBlocks.DIRTY_SAND.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

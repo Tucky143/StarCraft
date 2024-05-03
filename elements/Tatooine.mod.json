@@ -18,7 +18,7 @@
       "value": "Blocks.SANDSTONE#0"
     },
     "fluidBlock": {
-      "value": "CUSTOM:WetSand"
+      "value": "Blocks.SAND#0"
     },
     "airColor": {
       "value": -4973,

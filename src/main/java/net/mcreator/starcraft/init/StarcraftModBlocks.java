@@ -14,7 +14,6 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.starcraft.block.WetSandBlock;
 import net.mcreator.starcraft.block.OldWoodBlock;
 import net.mcreator.starcraft.block.OldStairsBlock;
 import net.mcreator.starcraft.block.OldSlabBlock;
@@ -28,6 +27,7 @@ import net.mcreator.starcraft.block.OldButtonBlock;
 import net.mcreator.starcraft.block.LiquidMudBlock;
 import net.mcreator.starcraft.block.KyberCrystalOreBlock;
 import net.mcreator.starcraft.block.FloweringCactusBlock;
+import net.mcreator.starcraft.block.DirtySandBlock;
 import net.mcreator.starcraft.block.CrackedSandstoneBlock;
 import net.mcreator.starcraft.StarcraftMod;
 
@@ -47,7 +47,7 @@ public class StarcraftModBlocks {
 	public static final RegistryObject<Block> OLD_PRESSURE_PLATE = REGISTRY.register("old_pressure_plate", () -> new OldPressurePlateBlock());
 	public static final RegistryObject<Block> OLD_BUTTON = REGISTRY.register("old_button", () -> new OldButtonBlock());
 	public static final RegistryObject<Block> CRACKED_SANDSTONE = REGISTRY.register("cracked_sandstone", () -> new CrackedSandstoneBlock());
-	public static final RegistryObject<Block> WET_SAND = REGISTRY.register("wet_sand", () -> new WetSandBlock());
+	public static final RegistryObject<Block> DIRTY_SAND = REGISTRY.register("dirty_sand", () -> new DirtySandBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

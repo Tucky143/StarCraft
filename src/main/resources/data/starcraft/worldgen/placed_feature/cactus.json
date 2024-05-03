@@ -1,0 +1,21 @@
+{
+  "feature": "starcraft:cactus",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:cactus",
+          "Properties": {
+            "age": "0"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 10
+    }
+  ]
+}
