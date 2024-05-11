@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "starcraft:block/old_planks",
+    "top": "starcraft:block/old_planks",
+    "side": "starcraft:block/old_planks"
+  },
+  "render_type": "solid"
+}

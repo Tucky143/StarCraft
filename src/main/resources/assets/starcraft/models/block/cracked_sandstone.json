@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "starcraft:block/sandstone_bottom",
+    "up": "starcraft:block/sandstone_top",
+    "north": "starcraft:block/sandstone",
+    "east": "starcraft:block/sandstone",
+    "south": "starcraft:block/sandstone",
+    "west": "starcraft:block/sandstone",
+    "particle": "starcraft:block/sandstone_bottom"
+  },
+  "render_type": "cutout_mipped"
+}

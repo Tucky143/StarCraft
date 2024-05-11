@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "starcraft:block/old_log_top",
+    "up": "starcraft:block/old_log_top",
+    "north": "starcraft:block/old_log_side",
+    "east": "starcraft:block/old_log_side",
+    "south": "starcraft:block/old_log_side",
+    "west": "starcraft:block/old_log_side",
+    "particle": "starcraft:block/old_log_top"
+  },
+  "render_type": "solid"
+}

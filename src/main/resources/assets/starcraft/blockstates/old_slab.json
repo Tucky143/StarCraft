@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "starcraft:block/old_slab"
+    },
+    "type=top": {
+      "model": "starcraft:block/old_slab_top"
+    },
+    "type=double": {
+      "model": "starcraft:block/old_slab_full"
+    }
+  }
+}

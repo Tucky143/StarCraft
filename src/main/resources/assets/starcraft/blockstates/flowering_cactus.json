@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "starcraft:block/flowering_cactus"
+    },
+    "half=lower": {
+      "model": "starcraft:block/flowering_cactus_bottom"
+    }
+  }
+}

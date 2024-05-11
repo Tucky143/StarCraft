@@ -1,0 +1,60 @@
+{
+  "_fv": 60,
+  "_type": "fluid",
+  "definition": {
+    "name": "Liquid Mud",
+    "bucketName": "Mud Bucket",
+    "textureStill": "water_still",
+    "textureFlowing": "water_flow",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 45,
+    "levelDecrease": 1,
+    "slopeFindDistance": 3,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 0.6,
+    "luminosity": 0,
+    "density": 1400,
+    "viscosity": 1655,
+    "temperature": 260,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 14,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "BROWN",
+    "onBlockAdded": {
+      "name": "LiquidMudUpdateTick"
+    },
+    "onNeighbourChanges": {
+      "name": "LiquidMudUpdateTick"
+    },
+    "onTickUpdate": {
+      "name": "LiquidMudUpdateTick"
+    },
+    "onEntityCollides": {
+      "name": "LiquidMudUpdateTick"
+    },
+    "onRandomUpdateEvent": {
+      "name": "LiquidMudUpdateTick"
+    }
+  }
+}

@@ -212,6 +212,1177 @@
           "src/main/resources/data/starcraft/loot_tables/blocks/kyber_ore.json"
         ]
       }
+    },
+    {
+      "name": "OldPlanksLogRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DarkSideOrLightSide",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_side_or_light_side",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/advancements/dark_side_or_light_side.json"
+        ]
+      }
+    },
+    {
+      "name": "MuddySwampMangroves",
+      "type": "feature",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muddy_swamp_mangroves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/muddy_swamp_mangroves.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/muddy_swamp_mangroves.json",
+          "src/main/resources/data/starcraft/forge/biome_modifier/muddy_swamp_mangroves_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "ForcePush",
+      "type": "keybind",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_push",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/network/ForcePushMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "OldFenceRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MinecraftPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/MinecraftPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HyperTokenRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/hyper_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHilt",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/lightsaber_hilt.json",
+          "src/main/java/net/mcreator/starcraft/item/LightsaberHiltItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DirtySand",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_sand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/DirtySandBlock.java",
+          "src/main/resources/assets/starcraft/models/item/dirty_sand.json",
+          "src/main/resources/assets/starcraft/models/block/dirty_sand.json",
+          "src/main/resources/assets/starcraft/blockstates/dirty_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "MuddyDagobah",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muddy_dagobah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/advancements/muddy_dagobah.json"
+        ]
+      }
+    },
+    {
+      "name": "TatooinePlanetToken",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/tatooine_planet_token.json",
+          "src/main/java/net/mcreator/starcraft/item/TatooinePlanetTokenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OldStairs",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/block/old_stairs_outer.json",
+          "src/main/java/net/mcreator/starcraft/block/OldStairsBlock.java",
+          "src/main/resources/assets/starcraft/models/block/old_stairs_inner.json",
+          "src/main/resources/assets/starcraft/models/block/old_stairs.json",
+          "src/main/resources/assets/starcraft/models/item/old_stairs.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_stairs.json",
+          "src/main/resources/assets/starcraft/blockstates/old_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "OldPressurePlate",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/OldPressurePlateBlock.java",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_pressure_plate.json",
+          "src/main/resources/assets/starcraft/models/block/old_pressure_plate_down.json",
+          "src/main/resources/assets/starcraft/models/block/old_pressure_plate.json",
+          "src/main/resources/assets/starcraft/blockstates/old_pressure_plate.json",
+          "src/main/resources/assets/starcraft/models/item/old_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "DryDesert",
+      "type": "biome",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/biome/dry_desert.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltCasing",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_casing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/LightsaberHiltCasingItem.java",
+          "src/main/resources/assets/starcraft/models/item/lightsaber_hilt_casing.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadTree",
+      "type": "feature",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/dead_tree.json",
+          "src/main/resources/data/starcraft/forge/biome_modifier/dead_tree_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/dead_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "OldPlanks",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/OldPlanksBlock.java",
+          "src/main/resources/assets/starcraft/blockstates/old_planks.json",
+          "src/main/resources/assets/starcraft/models/item/old_planks.json",
+          "src/main/resources/assets/starcraft/models/block/old_planks.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "OldWoodRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cactus",
+      "type": "feature",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/cactus.json",
+          "src/main/resources/data/starcraft/forge/biome_modifier/cactus_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/cactus.json"
+        ]
+      }
+    },
+    {
+      "name": "MinecraftPlanetTokenRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/minecraft_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ForcePullOnKeyPressed",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_pull_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/ForcePullOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DagobahPlanetToken",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagobah_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/dagobah_planet_token.json",
+          "src/main/java/net/mcreator/starcraft/item/DagobahPlanetTokenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltHandle",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_handle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/LightsaberHiltHandleItem.java",
+          "src/main/resources/assets/starcraft/models/item/lightsaber_hilt_handle.json"
+        ]
+      }
+    },
+    {
+      "name": "MoistureVaporator",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/MoistureVaporatorBlock.java",
+          "src/main/java/net/mcreator/starcraft/block/entity/MoistureVaporatorBlockEntity.java",
+          "src/main/resources/assets/starcraft/models/item/moisture_vaporator.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/moisture_vaporator.json",
+          "src/main/resources/assets/starcraft/models/block/moisture_vaporator.json",
+          "src/main/resources/assets/starcraft/blockstates/moisture_vaporator.json"
+        ]
+      }
+    },
+    {
+      "name": "OldPlanksWoodRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_planks_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStickRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HyperPlateRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/hyper_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DagobahPlanetTokenRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagobah_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/dagobah_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtySandLoot",
+      "type": "loottable",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_sand_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/dirty_sand.json"
+        ]
+      }
+    },
+    {
+      "name": "FloweringCactus",
+      "type": "plant",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/flowering_cactus.json",
+          "src/main/resources/assets/starcraft/models/item/flowering_cactus.json",
+          "src/main/resources/assets/starcraft/models/block/flowering_cactus.json",
+          "src/main/resources/data/starcraft/forge/biome_modifier/flowering_cactus_biome_modifier.json",
+          "src/main/java/net/mcreator/starcraft/block/FloweringCactusBlock.java",
+          "src/main/resources/assets/starcraft/models/block/flowering_cactus_bottom.json",
+          "src/main/resources/assets/starcraft/blockstates/flowering_cactus.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/flowering_cactus.json"
+        ]
+      }
+    },
+    {
+      "name": "OldFence",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/block/old_fence_inventory.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_fence.json",
+          "src/main/resources/assets/starcraft/models/item/old_fence.json",
+          "src/main/java/net/mcreator/starcraft/block/OldFenceBlock.java",
+          "src/main/resources/assets/starcraft/models/block/old_fence.json",
+          "src/main/resources/assets/starcraft/blockstates/old_fence.json",
+          "src/main/resources/assets/starcraft/models/block/old_fence_post.json"
+        ]
+      }
+    },
+    {
+      "name": "MinecraftPlanetToken",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/MinecraftPlanetTokenItem.java",
+          "src/main/resources/assets/starcraft/models/item/minecraft_planet_token.json"
+        ]
+      }
+    },
+    {
+      "name": "MoistureVaporatorUpdateTick",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/MoistureVaporatorUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MuddySwamp",
+      "type": "biome",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muddy_swamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/muddy_swamp_tree.json",
+          "src/main/resources/data/starcraft/worldgen/biome/muddy_swamp.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/MuddySwampLeaveDecorator.java",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/MuddySwampTrunkDecorator.java",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/muddy_swamp_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "LiquidMud",
+      "type": "fluid",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/liquid_mud.json",
+          "src/main/java/net/mcreator/starcraft/block/LiquidMudBlock.java",
+          "src/main/java/net/mcreator/starcraft/item/LiquidMudItem.java",
+          "src/main/resources/assets/starcraft/models/item/liquid_mud_bucket.json",
+          "src/main/java/net/mcreator/starcraft/fluid/LiquidMudFluid.java",
+          "src/main/resources/assets/starcraft/models/block/liquid_mud.json",
+          "src/main/java/net/mcreator/starcraft/fluid/types/LiquidMudFluidType.java"
+        ]
+      }
+    },
+    {
+      "name": "LiquidMudUpdateTick",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_mud_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/LiquidMudUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltHandleRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_handle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_handle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FloweringCactusMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_cactus_mobplayer_collides_with_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/FloweringCactusMobplayerCollidesWithPlantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ForcePull",
+      "type": "keybind",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_pull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/network/ForcePullMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "OldPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HyperToken",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_token",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/hyper_token.json",
+          "src/main/java/net/mcreator/starcraft/item/HyperTokenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tatooine",
+      "type": "dimension",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/dimension/tatooine.json",
+          "src/main/java/net/mcreator/starcraft/world/dimension/TatooineDimension.java",
+          "src/main/resources/data/starcraft/dimension_type/tatooine.json"
+        ]
+      }
+    },
+    {
+      "name": "DagobahPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagobah_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/DagobahPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FloweringCactusDrops",
+      "type": "loottable",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_cactus_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/flowering_cactus.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadForest",
+      "type": "biome",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/dead_forest_tree.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestFruitDecorator.java",
+          "src/main/resources/data/starcraft/worldgen/biome/dead_forest.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestLeaveDecorator.java",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestTrunkDecorator.java",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/dead_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedSandstone",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/CrackedSandstoneBlock.java",
+          "src/main/resources/assets/starcraft/blockstates/cracked_sandstone.json",
+          "src/main/resources/assets/starcraft/models/item/cracked_sandstone.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/cracked_sandstone.json",
+          "src/main/resources/assets/starcraft/models/block/cracked_sandstone.json"
+        ]
+      }
+    },
+    {
+      "name": "OldButton",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_button.json",
+          "src/main/resources/assets/starcraft/blockstates/old_button.json",
+          "src/main/java/net/mcreator/starcraft/block/OldButtonBlock.java",
+          "src/main/resources/assets/starcraft/models/block/old_button_inventory.json",
+          "src/main/resources/assets/starcraft/models/block/old_button_pressed.json",
+          "src/main/resources/assets/starcraft/models/item/old_button.json",
+          "src/main/resources/assets/starcraft/models/block/old_button.json"
+        ]
+      }
+    },
+    {
+      "name": "OldSlabRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OldButtonRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OldFenceGate",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/old_fence_gate.json",
+          "src/main/java/net/mcreator/starcraft/block/OldFenceGateBlock.java",
+          "src/main/resources/assets/starcraft/models/item/old_fence_gate.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_fence_gate.json",
+          "src/main/resources/assets/starcraft/models/block/old_fence_gate_open.json",
+          "src/main/resources/assets/starcraft/models/block/old_fence_gate.json",
+          "src/main/resources/assets/starcraft/models/block/old_fence_gate_wall.json",
+          "src/main/resources/assets/starcraft/models/block/old_fence_gate_wall_open.json"
+        ]
+      }
+    },
+    {
+      "name": "MoistureVaporatorGUI",
+      "type": "gui",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/world/inventory/MoistureVaporatorGUIMenu.java",
+          "src/main/java/net/mcreator/starcraft/client/gui/MoistureVaporatorGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltCasingRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_casing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_casing_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HyperPlate",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/hyper_plate.json",
+          "src/main/java/net/mcreator/starcraft/item/HyperPlateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OldLog",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/OldLogBlock.java",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_log.json",
+          "src/main/resources/assets/starcraft/models/item/old_log.json",
+          "src/main/resources/assets/starcraft/blockstates/old_log.json",
+          "src/main/resources/assets/starcraft/models/block/old_log.json"
+        ]
+      }
+    },
+    {
+      "name": "FloweringCactusOnBlockHitByProjectile",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_cactus_on_block_hit_by_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/FloweringCactusOnBlockHitByProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TatooinePlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/TatooinePlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OldWood",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_wood.json",
+          "src/main/resources/assets/starcraft/models/item/old_wood.json",
+          "src/main/java/net/mcreator/starcraft/block/OldWoodBlock.java",
+          "src/main/resources/assets/starcraft/models/block/old_wood.json",
+          "src/main/resources/assets/starcraft/blockstates/old_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberCrystalOre",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_crystal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/forge/biome_modifier/kyber_crystal_ore_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/kyber_crystal_ore.json",
+          "src/main/resources/assets/starcraft/models/block/kyber_crystal_ore.json",
+          "src/main/resources/assets/starcraft/models/item/kyber_crystal_ore.json",
+          "src/main/java/net/mcreator/starcraft/block/KyberCrystalOreBlock.java",
+          "src/main/resources/data/starcraft/worldgen/configured_feature/kyber_crystal_ore.json",
+          "src/main/resources/assets/starcraft/blockstates/kyber_crystal_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OldMud",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/old_mud.json",
+          "src/main/resources/assets/starcraft/blockstates/old_mud.json",
+          "src/main/resources/assets/starcraft/models/block/old_mud.json",
+          "src/main/java/net/mcreator/starcraft/block/OldMudBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MudPit",
+      "type": "structure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_pit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/structure/mud_pit.json",
+          "src/main/resources/data/starcraft/worldgen/template_pool/mud_pit.json",
+          "src/main/resources/data/starcraft/worldgen/structure_set/mud_pit.json"
+        ]
+      }
+    },
+    {
+      "name": "OldSlab",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/old_slab.json",
+          "src/main/resources/assets/starcraft/models/block/old_slab_full.json",
+          "src/main/resources/assets/starcraft/models/block/old_slab.json",
+          "src/main/java/net/mcreator/starcraft/block/OldSlabBlock.java",
+          "src/main/resources/assets/starcraft/models/item/old_slab.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_slab.json",
+          "src/main/resources/assets/starcraft/models/block/old_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "MudBucketRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_bucket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/mud_bucket_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltCoreRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_core_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStairsRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CactusFruit",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cactus_fruit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/cactus_fruit.json",
+          "src/main/java/net/mcreator/starcraft/item/CactusFruitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DagobahPlanet",
+      "type": "dimension",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagobah_planet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/world/dimension/DagobahPlanetDimension.java",
+          "src/main/resources/data/starcraft/dimension/dagobah_planet.json",
+          "src/main/resources/data/starcraft/dimension_type/dagobah_planet.json"
+        ]
+      }
+    },
+    {
+      "name": "ForcePushOnKeyPressed",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_push_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/ForcePushOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightsaberHiltCore",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/LightsaberHiltCoreItem.java",
+          "src/main/resources/assets/starcraft/models/item/lightsaber_hilt_core.json"
+        ]
+      }
+    },
+    {
+      "name": "OldMudDrops",
+      "type": "loottable",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_mud_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_mud.json"
+        ]
+      }
+    },
+    {
+      "name": "OldFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/old_fence_gate_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

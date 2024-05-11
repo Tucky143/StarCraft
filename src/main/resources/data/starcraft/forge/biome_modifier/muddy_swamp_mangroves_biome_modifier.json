@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "starcraft:muddy_swamp",
+  "features": "starcraft:muddy_swamp_mangroves",
+  "step": "surface_structures"
+}

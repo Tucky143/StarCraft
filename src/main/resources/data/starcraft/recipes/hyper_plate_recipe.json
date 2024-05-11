@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_block"
+    },
+    "b": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "tag": "starcraft:kyber_item"
+    }
+  },
+  "result": {
+    "item": "starcraft:hyper_plate",
+    "count": 1
+  }
+}

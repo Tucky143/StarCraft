@@ -1,0 +1,13 @@
+{
+  "_fv": 60,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:DeadForest"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_block_pile\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CACTUS</field></block></value></block></value><next><block type=\"placement_block_survival_filter\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.CACTUS</field></block></value><next><block type=\"placement_rarity\"><field name=\"rarity\">10</field></block></next></block></next></block></xml>"
+  }
+}
