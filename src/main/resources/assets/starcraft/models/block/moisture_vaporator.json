@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "starcraft:block/vaporator_bottom",
+    "up": "starcraft:block/vaporator_top",
+    "north": "starcraft:block/vaporator_side",
+    "east": "starcraft:block/vaporator_side",
+    "south": "starcraft:block/vaporator_side",
+    "west": "starcraft:block/vaporator_side",
+    "particle": "starcraft:block/vaporator_bottom"
+  },
+  "render_type": "solid"
+}

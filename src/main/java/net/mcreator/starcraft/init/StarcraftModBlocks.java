@@ -24,6 +24,7 @@ import net.mcreator.starcraft.block.OldLogBlock;
 import net.mcreator.starcraft.block.OldFenceGateBlock;
 import net.mcreator.starcraft.block.OldFenceBlock;
 import net.mcreator.starcraft.block.OldButtonBlock;
+import net.mcreator.starcraft.block.MoistureVaporatorBlock;
 import net.mcreator.starcraft.block.LiquidMudBlock;
 import net.mcreator.starcraft.block.KyberCrystalOreBlock;
 import net.mcreator.starcraft.block.FloweringCactusBlock;
@@ -48,6 +49,7 @@ public class StarcraftModBlocks {
 	public static final RegistryObject<Block> OLD_BUTTON = REGISTRY.register("old_button", () -> new OldButtonBlock());
 	public static final RegistryObject<Block> CRACKED_SANDSTONE = REGISTRY.register("cracked_sandstone", () -> new CrackedSandstoneBlock());
 	public static final RegistryObject<Block> DIRTY_SAND = REGISTRY.register("dirty_sand", () -> new DirtySandBlock());
+	public static final RegistryObject<Block> MOISTURE_VAPORATOR = REGISTRY.register("moisture_vaporator", () -> new MoistureVaporatorBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -30,10 +30,12 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.starcraft.init.StarcraftModTabs;
+import net.mcreator.starcraft.init.StarcraftModMenus;
 import net.mcreator.starcraft.init.StarcraftModItems;
 import net.mcreator.starcraft.init.StarcraftModFluids;
 import net.mcreator.starcraft.init.StarcraftModFluidTypes;
 import net.mcreator.starcraft.init.StarcraftModBlocks;
+import net.mcreator.starcraft.init.StarcraftModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -54,11 +56,12 @@ public class StarcraftMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		StarcraftModBlocks.REGISTRY.register(bus);
-
+		StarcraftModBlockEntities.REGISTRY.register(bus);
 		StarcraftModItems.REGISTRY.register(bus);
 
 		StarcraftModTabs.REGISTRY.register(bus);
 
+		StarcraftModMenus.REGISTRY.register(bus);
 		StarcraftModFluids.REGISTRY.register(bus);
 		StarcraftModFluidTypes.REGISTRY.register(bus);
 	}

@@ -40,6 +40,10 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.TATOOINE_PLANET_TOKEN.get());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+			tabData.accept(StarcraftModBlocks.MOISTURE_VAPORATOR.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_HELMET.get());
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_CHESTPLATE.get());

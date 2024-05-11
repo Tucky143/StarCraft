@@ -1439,6 +1439,37 @@
           "src/main/resources/data/starcraft/worldgen/placed_feature/cactus.json"
         ]
       }
+    },
+    {
+      "name": "MoistureVaporatorGUI",
+      "type": "gui",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/world/inventory/MoistureVaporatorGUIMenu.java",
+          "src/main/java/net/mcreator/starcraft/client/gui/MoistureVaporatorGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "MoistureVaporator",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/MoistureVaporatorBlock.java",
+          "src/main/java/net/mcreator/starcraft/block/entity/MoistureVaporatorBlockEntity.java",
+          "src/main/resources/assets/starcraft/models/item/moisture_vaporator.json",
+          "src/main/resources/assets/starcraft/models/block/moisture_vaporator.json",
+          "src/main/resources/assets/starcraft/blockstates/moisture_vaporator.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1462,13 +1493,14 @@
       "item.starcraft.green_kyber": "Green Kyber Crystal",
       "item.starcraft.blue_kyber": "Blue Kyber Crystal",
       "item.starcraft.tatooine_planet_token": "Tatooine Planet Token",
+      "gui.starcraft.moisture_vaporator_gui.WaterGen": "Water",
       "item.starcraft.clone_armor_boots": "Clone Boots",
       "fluid.starcraft.liquid_mud": "Liquid Mud",
       "item.starcraft.hyper_plate": "Hyper Plate",
-      "item.starcraft.lightsaber_hilt": "Lightsaber Hilt",
       "biome.starcraft.muddy_swamp": "Muddy Swamp",
-      "item.starcraft.dagobah_planet_token": "Dagobah Planet Token",
+      "item.starcraft.lightsaber_hilt": "Lightsaber Hilt",
       "item.starcraft.lightsaber_hilt_core": "Lightsaber Hilt Core",
+      "item.starcraft.dagobah_planet_token": "Dagobah Planet Token",
       "block.starcraft.liquid_mud": "Liquid Mud",
       "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
       "block.starcraft.old_wood": "Old Wood",
@@ -1478,6 +1510,7 @@
       "key.starcraft.force_push": "Force Push",
       "biome.starcraft.dead_forest": "Dead Forest",
       "item.starcraft.orange_kyber": "Orange Kyber Crystal",
+      "gui.starcraft.moisture_vaporator_gui.label_moisture_vaporator": "Moisture Vaporator",
       "advancements.dark_side_or_light_side.descr": "Have a lightsaber hilt in your inventory.",
       "biome.starcraft.dry_desert": "Dry Desert",
       "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
@@ -1491,6 +1524,7 @@
       "block.starcraft.old_slab": "Old Slab",
       "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
       "block.starcraft.old_button": "Old Button",
+      "block.starcraft.moisture_vaporator": "Moisture Vaporator",
       "item.starcraft.clone_armor_helmet": "Clone Helmet",
       "block.starcraft.old_stairs": "Old Stairs"
     }
