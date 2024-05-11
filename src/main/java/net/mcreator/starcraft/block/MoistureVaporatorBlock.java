@@ -3,6 +3,9 @@ package net.mcreator.starcraft.block;
 
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.block.state.BlockState;
@@ -36,7 +39,7 @@ import io.netty.buffer.Unpooled;
 
 public class MoistureVaporatorBlock extends Block implements EntityBlock {
 	public MoistureVaporatorBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 18f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 18f).requiresCorrectToolForDrops().noOcclusion().pushReaction(PushReaction.BLOCK).isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -45,8 +48,18 @@ public class MoistureVaporatorBlock extends Block implements EntityBlock {
 	}
 
 	@Override
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
+	}
+
+	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 0;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
 	}
 
 	@Override

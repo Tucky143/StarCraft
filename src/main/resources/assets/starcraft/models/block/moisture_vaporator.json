@@ -1,13 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cross",
   "textures": {
-    "down": "starcraft:block/vaporator_bottom",
-    "up": "starcraft:block/vaporator_top",
-    "north": "starcraft:block/vaporator_side",
-    "east": "starcraft:block/vaporator_side",
-    "south": "starcraft:block/vaporator_side",
-    "west": "starcraft:block/vaporator_side",
-    "particle": "starcraft:block/vaporator_bottom"
+    "cross": "starcraft:block/vaporator_side",
+    "particle": "starcraft:block/vaporator_side"
   },
-  "render_type": "solid"
+  "render_type": "cutout_mipped"
 }
