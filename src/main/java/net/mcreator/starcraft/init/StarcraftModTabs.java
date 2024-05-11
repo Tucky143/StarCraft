@@ -23,7 +23,7 @@ public class StarcraftModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(StarcraftModBlocks.KYBER_ORE.get().asItem());
+			tabData.accept(StarcraftModItems.KYBER_ORE.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {

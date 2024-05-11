@@ -212,19 +212,6 @@
           "src/main/resources/data/starcraft/loot_tables/blocks/kyber_ore.json"
         ]
       }
-    },
-    {
-      "name": "KyberItem",
-      "type": "tag",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kyber_item",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/starcraft/tags/items/kyber_item.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -257,7 +244,7 @@
     "author": "ldsbo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
