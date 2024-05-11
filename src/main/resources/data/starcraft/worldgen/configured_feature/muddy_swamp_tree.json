@@ -14,7 +14,7 @@
       "state": {
         "Name": "starcraft:old_mud",
         "Properties": {
-          "facing": "north"
+          "axis": "y"
         }
       }
     },

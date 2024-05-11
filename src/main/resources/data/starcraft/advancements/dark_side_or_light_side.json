@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "dark_side_or_light_side": {
+    "dark_side_or_light_side_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

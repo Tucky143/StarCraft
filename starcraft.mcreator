@@ -195,19 +195,6 @@
       }
     },
     {
-      "name": "KyberItem",
-      "type": "tag",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kyber_item",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/starcraft/tags/items/kyber_item.json"
-        ]
-      }
-    },
-    {
       "name": "LightsaberHiltCore",
       "type": "item",
       "sortid": 21,
@@ -460,19 +447,6 @@
       }
     },
     {
-      "name": "DirtBlocks",
-      "type": "tag",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
-        ]
-      }
-    },
-    {
       "name": "MinecraftPlanetToken",
       "type": "item",
       "sortid": 40,
@@ -675,32 +649,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/starcraft/recipes/minecraft_planet_token_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "FlowerItems",
-      "type": "tag",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flower_items",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/items/flowers.json"
-        ]
-      }
-    },
-    {
-      "name": "SmallFlowerItems",
-      "type": "tag",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "small_flower_items",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
         ]
       }
     },
@@ -912,19 +860,6 @@
       }
     },
     {
-      "name": "TallFlowerBlocks",
-      "type": "tag",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tall_flower_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
-        ]
-      }
-    },
-    {
       "name": "TatooinePlanetToken",
       "type": "item",
       "sortid": 67,
@@ -966,6 +901,7 @@
       "registry_name": "old_wood",
       "metadata": {
         "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_wood.json",
           "src/main/resources/assets/starcraft/models/item/old_wood.json",
           "src/main/java/net/mcreator/starcraft/block/OldWoodBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_wood.json",
@@ -983,6 +919,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/starcraft/block/OldLogBlock.java",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_log.json",
           "src/main/resources/assets/starcraft/models/item/old_log.json",
           "src/main/resources/assets/starcraft/blockstates/old_log.json",
           "src/main/resources/assets/starcraft/models/block/old_log.json"
@@ -1001,7 +938,8 @@
           "src/main/java/net/mcreator/starcraft/block/OldPlanksBlock.java",
           "src/main/resources/assets/starcraft/blockstates/old_planks.json",
           "src/main/resources/assets/starcraft/models/item/old_planks.json",
-          "src/main/resources/assets/starcraft/models/block/old_planks.json"
+          "src/main/resources/assets/starcraft/models/block/old_planks.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_planks.json"
         ]
       }
     },
@@ -1019,6 +957,7 @@
           "src/main/resources/assets/starcraft/models/block/old_stairs_inner.json",
           "src/main/resources/assets/starcraft/models/block/old_stairs.json",
           "src/main/resources/assets/starcraft/models/item/old_stairs.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_stairs.json",
           "src/main/resources/assets/starcraft/blockstates/old_stairs.json"
         ]
       }
@@ -1037,6 +976,7 @@
           "src/main/resources/assets/starcraft/models/block/old_slab.json",
           "src/main/java/net/mcreator/starcraft/block/OldSlabBlock.java",
           "src/main/resources/assets/starcraft/models/item/old_slab.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_slab.json",
           "src/main/resources/assets/starcraft/models/block/old_slab_top.json"
         ]
       }
@@ -1051,6 +991,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/starcraft/models/block/old_fence_inventory.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_fence.json",
           "src/main/resources/assets/starcraft/models/item/old_fence.json",
           "src/main/java/net/mcreator/starcraft/block/OldFenceBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_fence.json",
@@ -1071,6 +1012,7 @@
           "src/main/resources/assets/starcraft/blockstates/old_fence_gate.json",
           "src/main/java/net/mcreator/starcraft/block/OldFenceGateBlock.java",
           "src/main/resources/assets/starcraft/models/item/old_fence_gate.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_fence_gate.json",
           "src/main/resources/assets/starcraft/models/block/old_fence_gate_open.json",
           "src/main/resources/assets/starcraft/models/block/old_fence_gate.json",
           "src/main/resources/assets/starcraft/models/block/old_fence_gate_wall.json",
@@ -1088,6 +1030,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/starcraft/block/OldPressurePlateBlock.java",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_pressure_plate.json",
           "src/main/resources/assets/starcraft/models/block/old_pressure_plate_down.json",
           "src/main/resources/assets/starcraft/models/block/old_pressure_plate.json",
           "src/main/resources/assets/starcraft/blockstates/old_pressure_plate.json",
@@ -1104,6 +1047,7 @@
       "registry_name": "old_button",
       "metadata": {
         "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_button.json",
           "src/main/resources/assets/starcraft/blockstates/old_button.json",
           "src/main/java/net/mcreator/starcraft/block/OldButtonBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_button_inventory.json",
@@ -1244,58 +1188,6 @@
       }
     },
     {
-      "name": "LogBlocks",
-      "type": "tag",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "log_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/logs.json"
-        ]
-      }
-    },
-    {
-      "name": "FenceBlocks",
-      "type": "tag",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fence_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/fences.json"
-        ]
-      }
-    },
-    {
-      "name": "WoodenFenceBlocks",
-      "type": "tag",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wooden_fence_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
-        ]
-      }
-    },
-    {
-      "name": "PlankItems",
-      "type": "tag",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plank_items",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/items/planks.json"
-        ]
-      }
-    },
-    {
       "name": "DeadForest",
       "type": "biome",
       "sortid": 93,
@@ -1329,32 +1221,6 @@
       }
     },
     {
-      "name": "IsForestBiomes",
-      "type": "tag",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_forest_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json"
-        ]
-      }
-    },
-    {
-      "name": "IsTatooineBiome",
-      "type": "tag",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_tatooine_biome",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/starcraft/tags/worldgen/biome/is_tatooine_biome.json"
-        ]
-      }
-    },
-    {
       "name": "CrackedSandstone",
       "type": "block",
       "sortid": 97,
@@ -1366,6 +1232,7 @@
           "src/main/java/net/mcreator/starcraft/block/CrackedSandstoneBlock.java",
           "src/main/resources/assets/starcraft/blockstates/cracked_sandstone.json",
           "src/main/resources/assets/starcraft/models/item/cracked_sandstone.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/cracked_sandstone.json",
           "src/main/resources/assets/starcraft/models/block/cracked_sandstone.json"
         ]
       }
@@ -1413,19 +1280,6 @@
       }
     },
     {
-      "name": "SandBlocks",
-      "type": "tag",
-      "sortid": 101,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sand_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forge/tags/blocks/sand.json"
-        ]
-      }
-    },
-    {
       "name": "Cactus",
       "type": "feature",
       "sortid": 102,
@@ -1437,6 +1291,77 @@
           "src/main/resources/data/starcraft/worldgen/configured_feature/cactus.json",
           "src/main/resources/data/starcraft/forge/biome_modifier/cactus_biome_modifier.json",
           "src/main/resources/data/starcraft/worldgen/placed_feature/cactus.json"
+        ]
+      }
+    },
+    {
+      "name": "MoistureVaporatorGUI",
+      "type": "gui",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/world/inventory/MoistureVaporatorGUIMenu.java",
+          "src/main/java/net/mcreator/starcraft/client/gui/MoistureVaporatorGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "MoistureVaporatorUpdateTick",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/MoistureVaporatorUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoistureVaporator",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/MoistureVaporatorBlock.java",
+          "src/main/java/net/mcreator/starcraft/block/entity/MoistureVaporatorBlockEntity.java",
+          "src/main/resources/assets/starcraft/models/item/moisture_vaporator.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/moisture_vaporator.json",
+          "src/main/resources/assets/starcraft/models/block/moisture_vaporator.json",
+          "src/main/resources/assets/starcraft/blockstates/moisture_vaporator.json"
         ]
       }
     }
@@ -1478,6 +1403,7 @@
       "key.starcraft.force_push": "Force Push",
       "biome.starcraft.dead_forest": "Dead Forest",
       "item.starcraft.orange_kyber": "Orange Kyber Crystal",
+      "gui.starcraft.moisture_vaporator_gui.label_moisture_vaporator": "Moisture Vaporator",
       "advancements.dark_side_or_light_side.descr": "Have a lightsaber hilt in your inventory.",
       "biome.starcraft.dry_desert": "Dry Desert",
       "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
@@ -1486,11 +1412,13 @@
       "block.starcraft.old_fence": "Old Fence",
       "block.starcraft.old_planks": "Old Planks",
       "item.starcraft.clone_armor_leggings": "Clone Leggings",
+      "gui.starcraft.moisture_vaporator_gui.WaterGeneration": "Water Collection On",
       "block.starcraft.old_fence_gate": "Old Fence Gate",
       "item.starcraft.black_kyber": "Black Kyber Crystal",
       "block.starcraft.old_slab": "Old Slab",
       "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
       "block.starcraft.old_button": "Old Button",
+      "block.starcraft.moisture_vaporator": "Moisture Vaporator",
       "item.starcraft.clone_armor_helmet": "Clone Helmet",
       "block.starcraft.old_stairs": "Old Stairs"
     }
@@ -1506,7 +1434,7 @@
     "author": "ldsbo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],

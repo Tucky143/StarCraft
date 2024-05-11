@@ -1,61 +1,56 @@
 
+
 package net.mcreator.starcraft.world.features.treedecorators;
 
-import net.minecraftforge.registries.RegisterEvent;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD) public class DeadForestFruitDecorator extends CocoaDecorator {
 
-import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
-import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
-import net.minecraft.world.level.levelgen.feature.treedecorators.CocoaDecorator;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.util.RandomSource;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
+    public static Codec<DeadForestFruitDecorator> CODEC = Codec.unit(DeadForestFruitDecorator::new);
 
-import java.util.List;
+    public static TreeDecoratorType<?> DECORATOR_TYPE = new TreeDecoratorType<>(CODEC);
 
-import com.mojang.serialization.Codec;
+    @SubscribeEvent public static void registerTreeDecorator(RegisterEvent event) {
+        event.register(ForgeRegistries.Keys.TREE_DECORATOR_TYPES, registerHelper -> registerHelper.register("dead_forest_tree_fruit_decorator", DECORATOR_TYPE));
+    }
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class DeadForestFruitDecorator extends CocoaDecorator {
-	public static Codec<DeadForestFruitDecorator> CODEC = Codec.unit(DeadForestFruitDecorator::new);
-	public static TreeDecoratorType<?> DECORATOR_TYPE = new TreeDecoratorType<>(CODEC);
+    public DeadForestFruitDecorator() {
+        super(0.2f);
+    }
 
-	@SubscribeEvent
-	public static void registerPointOfInterest(RegisterEvent event) {
-		event.register(ForgeRegistries.Keys.TREE_DECORATOR_TYPES, registerHelper -> registerHelper.register("dead_forest_tree_fruit_decorator", DECORATOR_TYPE));
-	}
+    @Override protected TreeDecoratorType<?> type() {
+        return DECORATOR_TYPE;
+    }
 
-	public DeadForestFruitDecorator() {
-		super(0.2f);
-	}
+    @Override public void place(TreeDecorator.Context context){
+  RandomSource randomsource=context.random();
+  if (!(randomsource.nextFloat() >= 0.2F)) {
+    List<BlockPos> list=context.logs();
+    int i=list.get(0).getY();
+    list.stream().filter((p_69980_) -> {
+      return p_69980_.getY() - i <= 2;
+    }
+).forEach((p_226026_) -> {
+      for (      Direction direction : Direction.Plane.HORIZONTAL) {
+        if (randomsource.nextFloat() <= 0.25F) {
+          Direction direction1=direction.getOpposite();
+          BlockPos blockpos=p_226026_.offset(direction1.getStepX(),0,direction1.getStepZ());
+          if (context.isAir(blockpos)) {
+            context.setBlock(blockpos,oriented(Blocks.AIR.defaultBlockState(), direction1));
+          }
+        }
+      }
+    }
+);
+  }
+}
 
-	@Override
-	protected TreeDecoratorType<?> type() {
-		return DECORATOR_TYPE;
-	}
 
-	@Override
-	public void place(TreeDecorator.Context context) {
-		RandomSource randomsource = context.random();
-		if (!(randomsource.nextFloat() >= 0.2F)) {
-			List<BlockPos> list = context.logs();
-			int i = list.get(0).getY();
-			list.stream().filter((p_69980_) -> {
-				return p_69980_.getY() - i <= 2;
-			}).forEach((p_226026_) -> {
-				for (Direction direction : Direction.Plane.HORIZONTAL) {
-					if (randomsource.nextFloat() <= 0.25F) {
-						Direction direction1 = direction.getOpposite();
-						BlockPos blockpos = p_226026_.offset(direction1.getStepX(), 0, direction1.getStepZ());
-						if (context.isAir(blockpos)) {
-							context.setBlock(blockpos, Blocks.AIR.defaultBlockState());
-						}
-					}
-				}
-			});
-		}
-	}
+    private static BlockState oriented(BlockState blockstate, Direction direction) {
+        return switch (direction) {
+            case SOUTH -> blockstate.getBlock().rotate(blockstate, Rotation.CLOCKWISE_180);
+            case EAST -> blockstate.getBlock().rotate(blockstate, Rotation.CLOCKWISE_90);
+            case WEST -> blockstate.getBlock().rotate(blockstate, Rotation.COUNTERCLOCKWISE_90);
+            default -> blockstate;
+        };
+    }
+
 }

@@ -32,6 +32,7 @@
   "key.starcraft.force_push": "Force Push",
   "biome.starcraft.dead_forest": "Dead Forest",
   "item.starcraft.orange_kyber": "Orange Kyber Crystal",
+  "gui.starcraft.moisture_vaporator_gui.label_moisture_vaporator": "Moisture Vaporator",
   "advancements.dark_side_or_light_side.descr": "Have a lightsaber hilt in your inventory.",
   "biome.starcraft.dry_desert": "Dry Desert",
   "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
@@ -40,11 +41,13 @@
   "block.starcraft.old_fence": "Old Fence",
   "block.starcraft.old_planks": "Old Planks",
   "item.starcraft.clone_armor_leggings": "Clone Leggings",
+  "gui.starcraft.moisture_vaporator_gui.WaterGeneration": "Water Collection On",
   "block.starcraft.old_fence_gate": "Old Fence Gate",
   "item.starcraft.black_kyber": "Black Kyber Crystal",
   "block.starcraft.old_slab": "Old Slab",
   "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
   "block.starcraft.old_button": "Old Button",
+  "block.starcraft.moisture_vaporator": "Moisture Vaporator",
   "item.starcraft.clone_armor_helmet": "Clone Helmet",
   "block.starcraft.old_stairs": "Old Stairs"
 }

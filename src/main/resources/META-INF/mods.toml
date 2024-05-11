@@ -17,6 +17,12 @@ authors="ldsbo, MCreator"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.starcraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0]"
+    ordering="NONE"
+    side="BOTH"
 
 
 

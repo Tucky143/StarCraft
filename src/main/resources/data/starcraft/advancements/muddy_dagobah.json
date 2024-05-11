@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "muddy_dagobah": {
+    "muddy_dagobah_0": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
