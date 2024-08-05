@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 66,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -40,12 +40,15 @@
     },
     "enableIgniter": true,
     "igniterName": "Dagobah Planet Portal Igniter",
+    "igniterRarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
-    "igniterTab": {
-      "value": "TOOLS"
-    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
     "texture": "",
     "portalTexture": "",
     "enablePortal": false

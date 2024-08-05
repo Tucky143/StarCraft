@@ -1,6 +1,9 @@
 
 package net.mcreator.starcraft.block;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
@@ -53,6 +56,7 @@ public class LiquidMudBlock extends LiquidBlock {
 	}
 
 	@Override
+	@OnlyIn(Dist.CLIENT)
 	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
 		super.animateTick(blockstate, world, pos, random);
 		LiquidMudUpdateTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());

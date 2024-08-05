@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "starcraft:old_mud",
-    "minecraft:mud",
     "minecraft:sandstone",
+    "starcraft:cracked_sandstone",
     "starcraft:dirty_sand",
-    "starcraft:cracked_sandstone"
+    "minecraft:mud",
+    "starcraft:old_mud"
   ]
 }

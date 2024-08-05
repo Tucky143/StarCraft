@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "starcraft:kyber_crystal_ore",
+    "starcraft:moisture_vaporator",
     "starcraft:cracked_sandstone",
-    "starcraft:moisture_vaporator"
+    "starcraft:kyber_crystal_ore"
   ]
 }

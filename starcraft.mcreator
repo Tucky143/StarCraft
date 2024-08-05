@@ -3,7 +3,6 @@
     {
       "name": "Kyber",
       "type": "item",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_kyber",
@@ -17,7 +16,6 @@
     {
       "name": "CloneArmor",
       "type": "armor",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clone_armor",
@@ -34,7 +32,6 @@
     {
       "name": "CloneArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clone_armor_helmet_recipe",
@@ -47,7 +44,6 @@
     {
       "name": "CloneArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clone_armor_chestplate_recipe",
@@ -60,7 +56,6 @@
     {
       "name": "CloneArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clone_armor_leggings_recipe",
@@ -73,7 +68,6 @@
     {
       "name": "CloneArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clone_armor_boots_recipe",
@@ -86,7 +80,6 @@
     {
       "name": "RedKyber",
       "type": "item",
-      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_kyber",
@@ -100,7 +93,6 @@
     {
       "name": "GreenKyber",
       "type": "item",
-      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_kyber",
@@ -114,7 +106,6 @@
     {
       "name": "PurpleKyber",
       "type": "item",
-      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_kyber",
@@ -128,7 +119,6 @@
     {
       "name": "OrangeKyber",
       "type": "item",
-      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_kyber",
@@ -142,7 +132,6 @@
     {
       "name": "YellowKyber",
       "type": "item",
-      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_kyber",
@@ -156,7 +145,6 @@
     {
       "name": "WhiteKyber",
       "type": "item",
-      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_kyber",
@@ -170,7 +158,6 @@
     {
       "name": "BlackKyber",
       "type": "item",
-      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_kyber",
@@ -184,7 +171,6 @@
     {
       "name": "KyberOreDrops",
       "type": "loottable",
-      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kyber_ore_drops",
@@ -195,22 +181,8 @@
       }
     },
     {
-      "name": "KyberItem",
-      "type": "tag",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kyber_item",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/starcraft/tags/items/kyber_item.json"
-        ]
-      }
-    },
-    {
       "name": "LightsaberHiltCore",
       "type": "item",
-      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightsaber_hilt_core",
@@ -224,7 +196,6 @@
     {
       "name": "LightsaberHiltCoreRecipe",
       "type": "recipe",
-      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightsaber_hilt_core_recipe",
@@ -237,7 +208,6 @@
     {
       "name": "LightsaberHiltCasing",
       "type": "item",
-      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightsaber_hilt_casing",
@@ -251,7 +221,6 @@
     {
       "name": "LightsaberHiltCasingRecipe",
       "type": "recipe",
-      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightsaber_hilt_casing_recipe",
@@ -264,7 +233,6 @@
     {
       "name": "LightsaberHiltHandle",
       "type": "item",
-      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightsaber_hilt_handle",
@@ -278,7 +246,6 @@
     {
       "name": "LightsaberHiltHandleRecipe",
       "type": "recipe",
-      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightsaber_hilt_handle_recipe",
@@ -291,7 +258,6 @@
     {
       "name": "LightsaberHilt",
       "type": "item",
-      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightsaber_hilt",
@@ -305,7 +271,6 @@
     {
       "name": "LightsaberHiltRecipe",
       "type": "recipe",
-      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightsaber_hilt_recipe",
@@ -318,7 +283,6 @@
     {
       "name": "DarkSideOrLightSide",
       "type": "achievement",
-      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_side_or_light_side",
@@ -331,7 +295,6 @@
     {
       "name": "KyberCrystalOre",
       "type": "block",
-      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kyber_crystal_ore",
@@ -350,7 +313,6 @@
     {
       "name": "ForcePullOnKeyPressed",
       "type": "procedure",
-      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "force_pull_on_key_pressed",
@@ -385,7 +347,6 @@
     {
       "name": "ForcePull",
       "type": "keybind",
-      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "force_pull",
@@ -398,7 +359,6 @@
     {
       "name": "DagobahPlanet",
       "type": "dimension",
-      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagobah_planet",
@@ -413,7 +373,6 @@
     {
       "name": "OldMud",
       "type": "block",
-      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_mud",
@@ -429,7 +388,6 @@
     {
       "name": "DagobahPlanetTokenRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagobah_planet_token_rightclicked_on_block",
@@ -448,7 +406,6 @@
     {
       "name": "DagobahPlanetToken",
       "type": "item",
-      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagobah_planet_token",
@@ -460,22 +417,8 @@
       }
     },
     {
-      "name": "DirtBlocks",
-      "type": "tag",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
-        ]
-      }
-    },
-    {
       "name": "MinecraftPlanetToken",
       "type": "item",
-      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "minecraft_planet_token",
@@ -489,7 +432,6 @@
     {
       "name": "MinecraftPlanetTokenRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "minecraft_planet_token_rightclicked_on_block",
@@ -508,7 +450,6 @@
     {
       "name": "MuddySwamp",
       "type": "biome",
-      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muddy_swamp",
@@ -525,7 +466,6 @@
     {
       "name": "MuddySwampMangroves",
       "type": "feature",
-      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muddy_swamp_mangroves",
@@ -540,7 +480,6 @@
     {
       "name": "MuddyDagobah",
       "type": "achievement",
-      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "muddy_dagobah",
@@ -553,7 +492,6 @@
     {
       "name": "ForcePushOnKeyPressed",
       "type": "procedure",
-      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "force_push_on_key_pressed",
@@ -588,7 +526,6 @@
     {
       "name": "ForcePush",
       "type": "keybind",
-      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "force_push",
@@ -601,7 +538,6 @@
     {
       "name": "HyperPlate",
       "type": "item",
-      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyper_plate",
@@ -615,7 +551,6 @@
     {
       "name": "HyperPlateRecipe",
       "type": "recipe",
-      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyper_plate_recipe",
@@ -628,7 +563,6 @@
     {
       "name": "HyperToken",
       "type": "item",
-      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyper_token",
@@ -642,7 +576,6 @@
     {
       "name": "HyperTokenRecipe",
       "type": "recipe",
-      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hyper_token_recipe",
@@ -655,7 +588,6 @@
     {
       "name": "DagobahPlanetTokenRecipe",
       "type": "recipe",
-      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dagobah_planet_token_recipe",
@@ -668,7 +600,6 @@
     {
       "name": "MinecraftPlanetTokenRecipe",
       "type": "recipe",
-      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "minecraft_planet_token_recipe",
@@ -679,35 +610,8 @@
       }
     },
     {
-      "name": "FlowerItems",
-      "type": "tag",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flower_items",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/items/flowers.json"
-        ]
-      }
-    },
-    {
-      "name": "SmallFlowerItems",
-      "type": "tag",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "small_flower_items",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
-        ]
-      }
-    },
-    {
       "name": "OldMudDrops",
       "type": "loottable",
-      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_mud_drops",
@@ -720,7 +624,6 @@
     {
       "name": "LiquidMud",
       "type": "fluid",
-      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liquid_mud",
@@ -739,7 +642,6 @@
     {
       "name": "MudBucketRecipe",
       "type": "recipe",
-      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mud_bucket_recipe",
@@ -752,7 +654,6 @@
     {
       "name": "LiquidMudUpdateTick",
       "type": "procedure",
-      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liquid_mud_update_tick",
@@ -783,7 +684,6 @@
     {
       "name": "MudPit",
       "type": "structure",
-      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mud_pit",
@@ -798,7 +698,6 @@
     {
       "name": "Tatooine",
       "type": "dimension",
-      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tatooine",
@@ -813,7 +712,6 @@
     {
       "name": "FloweringCactus",
       "type": "plant",
-      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flowering_cactus",
@@ -833,7 +731,6 @@
     {
       "name": "FloweringCactusMobplayerCollidesWithPlant",
       "type": "procedure",
-      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flowering_cactus_mobplayer_collides_with_plant",
@@ -856,7 +753,6 @@
     {
       "name": "FloweringCactusOnBlockHitByProjectile",
       "type": "procedure",
-      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flowering_cactus_on_block_hit_by_projectile",
@@ -887,7 +783,6 @@
     {
       "name": "CactusFruit",
       "type": "item",
-      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cactus_fruit",
@@ -901,7 +796,6 @@
     {
       "name": "FloweringCactusDrops",
       "type": "loottable",
-      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flowering_cactus_drops",
@@ -912,22 +806,8 @@
       }
     },
     {
-      "name": "TallFlowerBlocks",
-      "type": "tag",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tall_flower_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
-        ]
-      }
-    },
-    {
       "name": "TatooinePlanetToken",
       "type": "item",
-      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tatooine_planet_token",
@@ -941,7 +821,6 @@
     {
       "name": "TatooinePlanetTokenRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tatooine_planet_token_rightclicked_on_block",
@@ -960,12 +839,12 @@
     {
       "name": "OldWood",
       "type": "block",
-      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_wood",
       "metadata": {
         "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_wood.json",
           "src/main/resources/assets/starcraft/models/item/old_wood.json",
           "src/main/java/net/mcreator/starcraft/block/OldWoodBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_wood.json",
@@ -976,13 +855,13 @@
     {
       "name": "OldLog",
       "type": "block",
-      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_log",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/starcraft/block/OldLogBlock.java",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_log.json",
           "src/main/resources/assets/starcraft/models/item/old_log.json",
           "src/main/resources/assets/starcraft/blockstates/old_log.json",
           "src/main/resources/assets/starcraft/models/block/old_log.json"
@@ -992,7 +871,6 @@
     {
       "name": "OldPlanks",
       "type": "block",
-      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_planks",
@@ -1001,14 +879,14 @@
           "src/main/java/net/mcreator/starcraft/block/OldPlanksBlock.java",
           "src/main/resources/assets/starcraft/blockstates/old_planks.json",
           "src/main/resources/assets/starcraft/models/item/old_planks.json",
-          "src/main/resources/assets/starcraft/models/block/old_planks.json"
+          "src/main/resources/assets/starcraft/models/block/old_planks.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_planks.json"
         ]
       }
     },
     {
       "name": "OldStairs",
       "type": "block",
-      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_stairs",
@@ -1019,6 +897,7 @@
           "src/main/resources/assets/starcraft/models/block/old_stairs_inner.json",
           "src/main/resources/assets/starcraft/models/block/old_stairs.json",
           "src/main/resources/assets/starcraft/models/item/old_stairs.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_stairs.json",
           "src/main/resources/assets/starcraft/blockstates/old_stairs.json"
         ]
       }
@@ -1026,7 +905,6 @@
     {
       "name": "OldSlab",
       "type": "block",
-      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_slab",
@@ -1037,6 +915,7 @@
           "src/main/resources/assets/starcraft/models/block/old_slab.json",
           "src/main/java/net/mcreator/starcraft/block/OldSlabBlock.java",
           "src/main/resources/assets/starcraft/models/item/old_slab.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_slab.json",
           "src/main/resources/assets/starcraft/models/block/old_slab_top.json"
         ]
       }
@@ -1044,13 +923,13 @@
     {
       "name": "OldFence",
       "type": "block",
-      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_fence",
       "metadata": {
         "files": [
           "src/main/resources/assets/starcraft/models/block/old_fence_inventory.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_fence.json",
           "src/main/resources/assets/starcraft/models/item/old_fence.json",
           "src/main/java/net/mcreator/starcraft/block/OldFenceBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_fence.json",
@@ -1062,7 +941,6 @@
     {
       "name": "OldFenceGate",
       "type": "block",
-      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_fence_gate",
@@ -1071,6 +949,7 @@
           "src/main/resources/assets/starcraft/blockstates/old_fence_gate.json",
           "src/main/java/net/mcreator/starcraft/block/OldFenceGateBlock.java",
           "src/main/resources/assets/starcraft/models/item/old_fence_gate.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_fence_gate.json",
           "src/main/resources/assets/starcraft/models/block/old_fence_gate_open.json",
           "src/main/resources/assets/starcraft/models/block/old_fence_gate.json",
           "src/main/resources/assets/starcraft/models/block/old_fence_gate_wall.json",
@@ -1081,13 +960,13 @@
     {
       "name": "OldPressurePlate",
       "type": "block",
-      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_pressure_plate",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/starcraft/block/OldPressurePlateBlock.java",
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_pressure_plate.json",
           "src/main/resources/assets/starcraft/models/block/old_pressure_plate_down.json",
           "src/main/resources/assets/starcraft/models/block/old_pressure_plate.json",
           "src/main/resources/assets/starcraft/blockstates/old_pressure_plate.json",
@@ -1098,12 +977,12 @@
     {
       "name": "OldButton",
       "type": "block",
-      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_button",
       "metadata": {
         "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/old_button.json",
           "src/main/resources/assets/starcraft/blockstates/old_button.json",
           "src/main/java/net/mcreator/starcraft/block/OldButtonBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_button_inventory.json",
@@ -1116,7 +995,6 @@
     {
       "name": "OldWoodRecipe",
       "type": "recipe",
-      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_wood_recipe",
@@ -1129,7 +1007,6 @@
     {
       "name": "OldPlanksLogRecipe",
       "type": "recipe",
-      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_planks_log_recipe",
@@ -1142,7 +1019,6 @@
     {
       "name": "OldPlanksWoodRecipe",
       "type": "recipe",
-      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_planks_wood_recipe",
@@ -1155,7 +1031,6 @@
     {
       "name": "OldStairsRecipe",
       "type": "recipe",
-      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_stairs_recipe",
@@ -1168,7 +1043,6 @@
     {
       "name": "OldSlabRecipe",
       "type": "recipe",
-      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_slab_recipe",
@@ -1181,7 +1055,6 @@
     {
       "name": "OldFenceRecipe",
       "type": "recipe",
-      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_fence_recipe",
@@ -1194,7 +1067,6 @@
     {
       "name": "OldFenceGateRecipe",
       "type": "recipe",
-      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_fence_gate_recipe",
@@ -1207,7 +1079,6 @@
     {
       "name": "OldPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_pressure_plate_recipe",
@@ -1220,7 +1091,6 @@
     {
       "name": "OldButtonRecipe",
       "type": "recipe",
-      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_button_recipe",
@@ -1233,7 +1103,6 @@
     {
       "name": "OldStickRecipe",
       "type": "recipe",
-      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_stick_recipe",
@@ -1244,61 +1113,8 @@
       }
     },
     {
-      "name": "LogBlocks",
-      "type": "tag",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "log_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/logs.json"
-        ]
-      }
-    },
-    {
-      "name": "FenceBlocks",
-      "type": "tag",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fence_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/fences.json"
-        ]
-      }
-    },
-    {
-      "name": "WoodenFenceBlocks",
-      "type": "tag",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wooden_fence_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
-        ]
-      }
-    },
-    {
-      "name": "PlankItems",
-      "type": "tag",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plank_items",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/items/planks.json"
-        ]
-      }
-    },
-    {
       "name": "DeadForest",
       "type": "biome",
-      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dead_forest",
@@ -1316,7 +1132,6 @@
     {
       "name": "DeadTree",
       "type": "feature",
-      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dead_tree",
@@ -1329,35 +1144,8 @@
       }
     },
     {
-      "name": "IsForestBiomes",
-      "type": "tag",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_forest_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json"
-        ]
-      }
-    },
-    {
-      "name": "IsTatooineBiome",
-      "type": "tag",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_tatooine_biome",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/starcraft/tags/worldgen/biome/is_tatooine_biome.json"
-        ]
-      }
-    },
-    {
       "name": "CrackedSandstone",
       "type": "block",
-      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cracked_sandstone",
@@ -1366,6 +1154,7 @@
           "src/main/java/net/mcreator/starcraft/block/CrackedSandstoneBlock.java",
           "src/main/resources/assets/starcraft/blockstates/cracked_sandstone.json",
           "src/main/resources/assets/starcraft/models/item/cracked_sandstone.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/cracked_sandstone.json",
           "src/main/resources/assets/starcraft/models/block/cracked_sandstone.json"
         ]
       }
@@ -1373,7 +1162,6 @@
     {
       "name": "DryDesert",
       "type": "biome",
-      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dry_desert",
@@ -1386,7 +1174,6 @@
     {
       "name": "DirtySandLoot",
       "type": "loottable",
-      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirty_sand_loot",
@@ -1399,7 +1186,6 @@
     {
       "name": "DirtySand",
       "type": "block",
-      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dirty_sand",
@@ -1413,22 +1199,8 @@
       }
     },
     {
-      "name": "SandBlocks",
-      "type": "tag",
-      "sortid": 101,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sand_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forge/tags/blocks/sand.json"
-        ]
-      }
-    },
-    {
       "name": "Cactus",
       "type": "feature",
-      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cactus",
@@ -1443,7 +1215,6 @@
     {
       "name": "MoistureVaporatorGUI",
       "type": "gui",
-      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moisture_vaporator_gui",
@@ -1457,7 +1228,6 @@
     {
       "name": "MoistureVaporator",
       "type": "block",
-      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moisture_vaporator",
@@ -1466,6 +1236,7 @@
           "src/main/java/net/mcreator/starcraft/block/MoistureVaporatorBlock.java",
           "src/main/java/net/mcreator/starcraft/block/entity/MoistureVaporatorBlockEntity.java",
           "src/main/resources/assets/starcraft/models/item/moisture_vaporator.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/moisture_vaporator.json",
           "src/main/resources/assets/starcraft/models/block/moisture_vaporator.json",
           "src/main/resources/assets/starcraft/blockstates/moisture_vaporator.json"
         ]
@@ -1474,6 +1245,113 @@
   ],
   "variable_elements": [],
   "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:LiquidMud"
+    ],
+    "BLOCKS:minecraft:tall_flowers": [
+      "CUSTOM:FloweringCactus"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:OldLog"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:OldSlab"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_desert": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:MoistureVaporator",
+      "~CUSTOM:CrackedSandstone"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:OldStairs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:OldPlanks"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:MuddySwamp"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:KyberCrystalOre"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "CUSTOM:OldFence",
+      "CUSTOM:OldFenceGate"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.SANDSTONE#0",
+      "~CUSTOM:CrackedSandstone",
+      "~CUSTOM:DirtySand",
+      "~Blocks.MUD",
+      "~CUSTOM:OldMud"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:OldMud",
+      "CUSTOM:DirtySand"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:OldPlanks",
+      "~CUSTOM:OldLog",
+      "~CUSTOM:OldWood"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MoistureVaporator",
+      "~CUSTOM:CrackedSandstone",
+      "~CUSTOM:KyberCrystalOre"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "CUSTOM:OldFence",
+      "CUSTOM:OldFenceGate"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:DirtySand",
+      "~CUSTOM:OldMud"
+    ],
+    "ITEMS:mod:kyber_item": [
+      "CUSTOM:Kyber",
+      "CUSTOM:RedKyber",
+      "CUSTOM:GreenKyber",
+      "CUSTOM:PurpleKyber",
+      "CUSTOM:OrangeKyber",
+      "CUSTOM:YellowKyber",
+      "CUSTOM:WhiteKyber",
+      "CUSTOM:BlackKyber"
+    ],
+    "BIOMES:minecraft:is_forest": [
+      "CUSTOM:DeadForest"
+    ],
+    "BIOMES:mod:is_tatooine_biome": [
+      "CUSTOM:DeadForest",
+      "desert",
+      "CUSTOM:DryDesert"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_swamp": [
+      "~CUSTOM:MuddySwamp"
+    ],
+    "BLOCKS:forge:sand": [
+      "CUSTOM:DirtySand",
+      "Blocks.SAND#0"
+    ]
+  },
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "advancements.muddy_dagobah.title": "Muddy Dagobah",
@@ -1540,15 +1418,13 @@
     "author": "ldsbo, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "modElementsPackage": "net.mcreator.starcraft",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.mcreator.starcraft"
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202400229712
 }

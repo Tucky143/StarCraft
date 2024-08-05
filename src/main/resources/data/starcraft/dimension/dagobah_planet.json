@@ -71,7 +71,7 @@
       "default_block": {
         "Name": "starcraft:old_mud",
         "Properties": {
-          "facing": "north"
+          "axis": "y"
         }
       },
       "default_fluid": {
@@ -564,7 +564,7 @@
                       "result_state": {
                         "Name": "starcraft:old_mud",
                         "Properties": {
-                          "facing": "north"
+                          "axis": "y"
                         }
                       }
                     }

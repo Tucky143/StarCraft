@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 66,
   "_type": "fluid",
   "definition": {
     "name": "Liquid Mud",
@@ -23,9 +23,11 @@
     "type": "WATER",
     "generateBucket": true,
     "textureBucket": "",
-    "creativeTab": {
-      "value": "TOOLS"
-    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
     "emptySound": {
       "value": ""
     },

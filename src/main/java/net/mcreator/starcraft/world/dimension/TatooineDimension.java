@@ -14,7 +14,7 @@ import net.minecraft.client.renderer.DimensionSpecialEffects;
 @Mod.EventBusSubscriber
 public class TatooineDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	public static class DimensionSpecialEffectsHandler {
+	public static class TatooineSpecialEffectsHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {

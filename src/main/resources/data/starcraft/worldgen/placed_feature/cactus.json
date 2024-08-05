@@ -6,10 +6,7 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:cactus",
-          "Properties": {
-            "age": "0"
-          }
+          "Name": "minecraft:cactus"
         }
       }
     },

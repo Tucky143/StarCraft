@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 66,
   "_type": "block",
   "definition": {
     "texture": "old_mud",
@@ -41,9 +41,11 @@
     "resistance": 8.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "DECORATIONS"
-    },
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
     "destroyTool": "shovel",
     "customDrop": {
       "value": "Blocks.MUD"
@@ -100,7 +102,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

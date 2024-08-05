@@ -26,7 +26,7 @@ public class StarcraftModFluids {
 	public static final RegistryObject<FlowingFluid> FLOWING_LIQUID_MUD = REGISTRY.register("flowing_liquid_mud", () -> new LiquidMudFluid.Flowing());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class ClientSideHandler {
+	public static class FluidsClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ItemBlockRenderTypes.setRenderLayer(LIQUID_MUD.get(), RenderType.translucent());

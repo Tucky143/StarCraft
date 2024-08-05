@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 66,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -10,9 +10,11 @@
     "textureLeggings": "clone_leggings",
     "enableBoots": true,
     "textureBoots": "clone_boots",
-    "creativeTab": {
-      "value": "COMBAT"
-    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
     "armorTextureFile": "clone",
     "helmetName": "Clone Helmet",
     "bodyName": "Clone Chestplate",

@@ -23,12 +23,9 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.FoliageColor;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.BiomeColors;
@@ -36,8 +33,6 @@ import net.minecraft.client.renderer.BiomeColors;
 import net.mcreator.starcraft.procedures.FloweringCactusOnBlockHitByProjectileProcedure;
 import net.mcreator.starcraft.procedures.FloweringCactusMobplayerCollidesWithPlantProcedure;
 import net.mcreator.starcraft.init.StarcraftModBlocks;
-
-import java.util.List;
 
 public class FloweringCactusBlock extends DoublePlantBlock {
 	public FloweringCactusBlock() {
@@ -58,11 +53,6 @@ public class FloweringCactusBlock extends DoublePlantBlock {
 	@Override
 	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
 		return BlockPathTypes.BLOCKED;
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override

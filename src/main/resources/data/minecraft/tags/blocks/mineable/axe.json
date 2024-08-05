@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "starcraft:old_wood",
+    "starcraft:old_planks",
     "starcraft:old_log",
-    "starcraft:old_planks"
+    "starcraft:old_wood"
   ]
 }

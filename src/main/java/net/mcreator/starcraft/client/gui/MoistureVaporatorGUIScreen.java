@@ -61,18 +61,8 @@ public class MoistureVaporatorGUIScreen extends AbstractContainerScreen<Moisture
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.starcraft.moisture_vaporator_gui.label_moisture_vaporator"), 43, 3, -12829636, false);
-	}
-
-	@Override
-	public void onClose() {
-		super.onClose();
 	}
 
 	@Override

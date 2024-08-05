@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 66,
   "_type": "plant",
   "definition": {
     "renderType": 120,
@@ -32,9 +32,11 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "DECORATIONS"
-    },
+    "creativeTabs": [
+      {
+        "value": "DECORATIONS"
+      }
+    ],
     "hardness": 3.0,
     "resistance": 2.0,
     "luminance": 0,

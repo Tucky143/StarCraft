@@ -1,6 +1,7 @@
 {
   "parent": "block/slab",
   "textures": {
+    "particle": "starcraft:block/old_planks",
     "bottom": "starcraft:block/old_planks",
     "top": "starcraft:block/old_planks",
     "side": "starcraft:block/old_planks"

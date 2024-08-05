@@ -51,8 +51,10 @@ public class StarcraftModBlocks {
 	public static final RegistryObject<Block> DIRTY_SAND = REGISTRY.register("dirty_sand", () -> new DirtySandBlock());
 	public static final RegistryObject<Block> MOISTURE_VAPORATOR = REGISTRY.register("moisture_vaporator", () -> new MoistureVaporatorBlock());
 
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class ClientSideHandler {
+	public static class BlocksClientSideHandler {
 		@SubscribeEvent
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			FloweringCactusBlock.blockColorLoad(event);

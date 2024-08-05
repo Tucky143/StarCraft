@@ -1,6 +1,7 @@
 {
   "parent": "block/template_fence_gate",
   "textures": {
+    "particle": "starcraft:block/old_planks",
     "texture": "starcraft:block/old_planks"
   },
   "render_type": "solid"

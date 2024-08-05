@@ -21,7 +21,6 @@ public class StarcraftModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(StarcraftModBlocks.OLD_WOOD.get().asItem());
 			tabData.accept(StarcraftModBlocks.OLD_LOG.get().asItem());
@@ -32,26 +31,18 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModBlocks.OLD_FENCE_GATE.get().asItem());
 			tabData.accept(StarcraftModBlocks.OLD_PRESSURE_PLATE.get().asItem());
 			tabData.accept(StarcraftModBlocks.OLD_BUTTON.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(StarcraftModItems.DAGOBAH_PLANET_TOKEN.get());
 			tabData.accept(StarcraftModItems.MINECRAFT_PLANET_TOKEN.get());
 			tabData.accept(StarcraftModItems.TATOOINE_PLANET_TOKEN.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(StarcraftModBlocks.MOISTURE_VAPORATOR.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_HELMET.get());
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_CHESTPLATE.get());
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_LEGGINGS.get());
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_BOOTS.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(StarcraftModItems.BLUE_KYBER.get());
 			tabData.accept(StarcraftModItems.RED_KYBER.get());
 			tabData.accept(StarcraftModItems.GREEN_KYBER.get());
@@ -66,21 +57,15 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.LIGHTSABER_HILT.get());
 			tabData.accept(StarcraftModItems.HYPER_PLATE.get());
 			tabData.accept(StarcraftModItems.HYPER_TOKEN.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarcraftModBlocks.KYBER_CRYSTAL_ORE.get().asItem());
 			tabData.accept(StarcraftModBlocks.OLD_MUD.get().asItem());
 			tabData.accept(StarcraftModBlocks.FLOWERING_CACTUS.get().asItem());
 			tabData.accept(StarcraftModBlocks.CRACKED_SANDSTONE.get().asItem());
 			tabData.accept(StarcraftModBlocks.DIRTY_SAND.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(StarcraftModItems.LIQUID_MUD_BUCKET.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(StarcraftModItems.CACTUS_FRUIT.get());
 		}
 	}
