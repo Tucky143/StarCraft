@@ -1307,15 +1307,15 @@
     "BIOMES:minecraft:has_structure/shipwreck_beached": [
       "~CUSTOM:DeadForest"
     ],
-    "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:OldPlanks",
-      "~CUSTOM:OldLog",
-      "~CUSTOM:OldWood"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:MoistureVaporator",
       "~CUSTOM:CrackedSandstone",
       "~CUSTOM:KyberCrystalOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:OldPlanks",
+      "~CUSTOM:OldLog",
+      "~CUSTOM:OldWood"
     ],
     "BLOCKS:minecraft:fences": [
       "CUSTOM:OldFence",
