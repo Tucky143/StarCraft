@@ -1241,6 +1241,43 @@
           "src/main/resources/assets/starcraft/blockstates/moisture_vaporator.json"
         ]
       }
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/IronRodItem.java",
+          "src/main/resources/assets/starcraft/models/item/iron_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "IronRodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/iron_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ForceEnergyOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_energy_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/client/screens/ForceEnergyOverlayOverlay.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1364,6 +1401,7 @@
       "item.starcraft.purple_kyber": "Purple Kyber Crystal",
       "block.starcraft.old_pressure_plate": "Old Pressure Plate",
       "item.starcraft.red_kyber": "Red Kyber Crystal",
+      "item.starcraft.iron_rod": "Iron Rod",
       "key.starcraft.force_pull": "Force Pull",
       "block.starcraft.old_mud": "Old Mud",
       "block.starcraft.dirty_sand": "Dirty Sand",

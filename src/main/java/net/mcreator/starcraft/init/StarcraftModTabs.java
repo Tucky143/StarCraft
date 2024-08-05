@@ -57,6 +57,7 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.LIGHTSABER_HILT.get());
 			tabData.accept(StarcraftModItems.HYPER_PLATE.get());
 			tabData.accept(StarcraftModItems.HYPER_TOKEN.get());
+			tabData.accept(StarcraftModItems.IRON_ROD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(StarcraftModBlocks.KYBER_CRYSTAL_ORE.get().asItem());
 			tabData.accept(StarcraftModBlocks.OLD_MUD.get().asItem());

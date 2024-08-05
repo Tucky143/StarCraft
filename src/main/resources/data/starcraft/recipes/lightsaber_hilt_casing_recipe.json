@@ -8,13 +8,13 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:iron_ingot"
     },
     "b": {
-      "item": "minecraft:leather"
+      "item": "minecraft:gold_ingot"
     },
     "c": {
-      "item": "minecraft:stick"
+      "item": "starcraft:iron_rod"
     }
   },
   "result": {

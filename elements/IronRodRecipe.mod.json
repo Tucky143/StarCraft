@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 2,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "CUSTOM:IronRod"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
+        "value": ""
       },
       {
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LightsaberHiltCasing"
+      "value": "CUSTOM:IronRod"
     },
-    "name": "lightsaber_hilt_casing_recipe",
+    "name": "iron_rod_recipe",
     "namespace": "mod"
   }
 }

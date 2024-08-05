@@ -26,6 +26,7 @@ import net.mcreator.starcraft.item.LightsaberHiltHandleItem;
 import net.mcreator.starcraft.item.LightsaberHiltCoreItem;
 import net.mcreator.starcraft.item.LightsaberHiltCasingItem;
 import net.mcreator.starcraft.item.KyberItem;
+import net.mcreator.starcraft.item.IronRodItem;
 import net.mcreator.starcraft.item.HyperTokenItem;
 import net.mcreator.starcraft.item.HyperPlateItem;
 import net.mcreator.starcraft.item.GreenKyberItem;
@@ -75,6 +76,7 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> CRACKED_SANDSTONE = block(StarcraftModBlocks.CRACKED_SANDSTONE);
 	public static final RegistryObject<Item> DIRTY_SAND = block(StarcraftModBlocks.DIRTY_SAND);
 	public static final RegistryObject<Item> MOISTURE_VAPORATOR = block(StarcraftModBlocks.MOISTURE_VAPORATOR);
+	public static final RegistryObject<Item> IRON_ROD = REGISTRY.register("iron_rod", () -> new IronRodItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
