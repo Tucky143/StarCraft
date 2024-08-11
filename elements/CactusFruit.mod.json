@@ -12,6 +12,9 @@
     "creativeTabs": [
       {
         "value": "FOOD"
+      },
+      {
+        "value": "CUSTOM:StarTab"
       }
     ],
     "stackSize": 64,

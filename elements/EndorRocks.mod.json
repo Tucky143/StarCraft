@@ -1,0 +1,14 @@
+{
+  "_fv": 66,
+  "_type": "feature",
+  "definition": {
+    "skipPlacement": false,
+    "generationStep": "VEGETAL_DECORATION",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:EndorianForest"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"feature\"><block type=\"feature_forest_rock\"><value name=\"block\"><block type=\"blockstate_selector\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" inputs=\"0\"></mutation><field name=\"block\">Blocks.COBBLESTONE</field></block></value></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_rarity\"><field name=\"rarity\">10</field></block></next></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "starcraft:redwood_planks"
+    }
+  ],
+  "result": {
+    "item": "starcraft:redwood_button",
+    "count": 1
+  }
+}

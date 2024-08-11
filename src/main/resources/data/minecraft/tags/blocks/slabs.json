@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "starcraft:redwood_slab",
     "starcraft:old_slab"
   ]
 }

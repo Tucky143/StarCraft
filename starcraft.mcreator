@@ -1278,6 +1278,434 @@
           "src/main/java/net/mcreator/starcraft/client/screens/ForceEnergyOverlayOverlay.java"
         ]
       }
+    },
+    {
+      "name": "RedwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_wood.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_wood.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_wood.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodWoodBlock.java",
+          "src/main/resources/assets/starcraft/blockstates/redwood_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_log.json",
+          "src/main/resources/assets/starcraft/blockstates/redwood_log.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_log.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodLogBlock.java",
+          "src/main/resources/assets/starcraft/models/item/redwood_log.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/redwood_planks.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_planks.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_planks.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodPlanksBlock.java",
+          "src/main/resources/assets/starcraft/models/item/redwood_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_leaves.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodLeavesBlock.java",
+          "src/main/resources/assets/starcraft/models/block/redwood_leaves.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_leaves.json",
+          "src/main/resources/assets/starcraft/blockstates/redwood_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_stairs.json",
+          "src/main/resources/assets/starcraft/blockstates/redwood_stairs.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_stairs_inner.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodStairsBlock.java",
+          "src/main/resources/assets/starcraft/models/block/redwood_stairs_outer.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_stairs.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/block/RedwoodSlabBlock.java",
+          "src/main/resources/assets/starcraft/models/block/redwood_slab_full.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_slab_top.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_slab.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_slab.json",
+          "src/main/resources/assets/starcraft/blockstates/redwood_slab.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/redwood_fence.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_post.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodFenceBlock.java",
+          "src/main/resources/assets/starcraft/models/item/redwood_fence.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_inventory.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_fence.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodFenceGateBlock.java",
+          "src/main/resources/assets/starcraft/blockstates/redwood_fence_gate.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate_open.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate_wall.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_fence_gate.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate.json",
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/redwood_pressure_plate.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_pressure_plate_down.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_pressure_plate.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodPressurePlateBlock.java",
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_pressure_plate.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/block/redwood_button.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_button.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_button_pressed.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_button_inventory.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodButtonBlock.java",
+          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_button.json",
+          "src/main/resources/assets/starcraft/blockstates/redwood_button.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_planks_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/redwood_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedwoodTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/forge/biome_modifier/redwood_tree_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/configured_feature/redwood_tree.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/redwood_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "EndorianForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endorian_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/biome/endorian_forest.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/EndorianForestTrunkDecorator.java",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/EndorianForestFruitDecorator.java",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/EndorianForestLeaveDecorator.java",
+          "src/main/resources/data/starcraft/worldgen/configured_feature/endorian_forest_tree.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/endorian_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Endor",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/dimension_type/endor.json",
+          "src/main/java/net/mcreator/starcraft/world/dimension/EndorDimension.java",
+          "src/main/resources/data/starcraft/dimension/endor.json"
+        ]
+      }
+    },
+    {
+      "name": "EndorPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/endor_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TatooinePlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/tatooine_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndorPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/EndorPlanetTokenItem.java",
+          "src/main/resources/assets/starcraft/models/item/endor_planet_token.json"
+        ]
+      }
+    },
+    {
+      "name": "EndorPlanetTokenRightClickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_planet_token_right_clicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/EndorPlanetTokenRightClickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndorRocks",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_rocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/forge/biome_modifier/endor_rocks_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/configured_feature/endor_rocks.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/endor_rocks.json"
+        ]
+      }
+    },
+    {
+      "name": "StarTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Melting",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/advancements/melting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1289,13 +1717,31 @@
     "BLOCKS:minecraft:tall_flowers": [
       "CUSTOM:FloweringCactus"
     ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:RedwoodLeaves"
+    ],
+    "BLOCKS:forge:logs": [
+      "CUSTOM:OldLog",
+      "CUSTOM:RedwoodLog"
+    ],
+    "BIOMES:mod:endor/biomes": [
+      "CUSTOM:EndorianForest",
+      "savanna",
+      "stony_peaks",
+      "frozen_peaks"
+    ],
     "BLOCKS:minecraft:logs": [
-      "CUSTOM:OldLog"
+      "CUSTOM:OldLog",
+      "CUSTOM:RedwoodLog"
     ],
     "BIOMES:minecraft:has_structure/mineshaft_mesa": [
       "~CUSTOM:DeadForest"
     ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:RedwoodLeaves"
+    ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:RedwoodSlab",
       "~CUSTOM:OldSlab"
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_desert": [
@@ -1306,10 +1752,12 @@
       "~CUSTOM:CrackedSandstone"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:RedwoodStairs",
       "~CUSTOM:OldStairs"
     ],
     "ITEMS:minecraft:planks": [
-      "CUSTOM:OldPlanks"
+      "CUSTOM:OldPlanks",
+      "CUSTOM:RedwoodPlanks"
     ],
     "BIOMES:minecraft:has_structure/swamp_hut": [
       "~CUSTOM:MuddySwamp"
@@ -1319,7 +1767,9 @@
     ],
     "BLOCKS:minecraft:wooden_fences": [
       "CUSTOM:OldFence",
-      "CUSTOM:OldFenceGate"
+      "CUSTOM:OldFenceGate",
+      "CUSTOM:RedwoodFence",
+      "CUSTOM:RedwoodFenceGate"
     ],
     "BIOMES:minecraft:has_structure/village_desert": [
       "~CUSTOM:DeadForest"
@@ -1331,6 +1781,9 @@
       "~CUSTOM:DeadForest"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STONE#0",
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS",
       "~Blocks.SANDSTONE#0",
       "~CUSTOM:CrackedSandstone",
       "~CUSTOM:DirtySand",
@@ -1339,7 +1792,8 @@
     ],
     "BLOCKS:minecraft:dirt": [
       "CUSTOM:OldMud",
-      "CUSTOM:DirtySand"
+      "CUSTOM:DirtySand",
+      "Blocks.DIRT#0"
     ],
     "BIOMES:minecraft:has_structure/shipwreck_beached": [
       "~CUSTOM:DeadForest"
@@ -1350,11 +1804,15 @@
       "~CUSTOM:KyberCrystalOre"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:RedwoodPlanks",
+      "~CUSTOM:RedwoodLog",
+      "~CUSTOM:RedwoodWood",
       "~CUSTOM:OldPlanks",
       "~CUSTOM:OldLog",
       "~CUSTOM:OldWood"
     ],
     "BLOCKS:minecraft:fences": [
+      "~CUSTOM:RedwoodFence",
       "CUSTOM:OldFence",
       "CUSTOM:OldFenceGate"
     ],
@@ -1373,7 +1831,8 @@
       "CUSTOM:BlackKyber"
     ],
     "BIOMES:minecraft:is_forest": [
-      "CUSTOM:DeadForest"
+      "CUSTOM:DeadForest",
+      "CUSTOM:EndorianForest"
     ],
     "BIOMES:mod:is_tatooine_biome": [
       "CUSTOM:DeadForest",
@@ -1388,27 +1847,86 @@
       "Blocks.SAND#0"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:StarTab": [
+      "Kyber",
+      "RedKyber",
+      "GreenKyber",
+      "PurpleKyber",
+      "OrangeKyber",
+      "YellowKyber",
+      "WhiteKyber",
+      "BlackKyber",
+      "CloneArmor",
+      "CactusFruit",
+      "HyperPlate",
+      "LightsaberHiltCore",
+      "LightsaberHiltCasing",
+      "LightsaberHiltHandle",
+      "LightsaberHilt",
+      "KyberCrystalOre",
+      "OldMud",
+      "LiquidMud",
+      "OldWood",
+      "OldLog",
+      "OldPlanks",
+      "OldStairs",
+      "OldSlab",
+      "OldFence",
+      "OldFenceGate",
+      "OldPressurePlate",
+      "OldButton",
+      "CrackedSandstone",
+      "DirtySand",
+      "IronRod",
+      "RedwoodLeaves",
+      "RedwoodWood",
+      "RedwoodLog",
+      "RedwoodPlanks",
+      "RedwoodStairs",
+      "RedwoodSlab",
+      "RedwoodFence",
+      "RedwoodFenceGate",
+      "RedwoodPressurePlate",
+      "RedwoodButton",
+      "MoistureVaporator",
+      "EndorPlanetToken",
+      "DagobahPlanetToken",
+      "MinecraftPlanetToken",
+      "TatooinePlanetToken",
+      "HyperToken"
+    ]
+  },
   "language_map": {
     "en_us": {
       "advancements.muddy_dagobah.title": "Muddy Dagobah",
+      "item_group.starcraft.star_tab": "Star Craft",
       "block.starcraft.cracked_sandstone": "Cracked Sandstone",
       "item.starcraft.hyper_token": "Hyper Token",
       "item.starcraft.liquid_mud_bucket": "Mud Bucket",
       "item.starcraft.lightsaber_hilt_casing": "Lightsaber Hilt Casing",
+      "biome.starcraft.endorian_forest": "Endorian Forest",
       "advancements.muddy_dagobah.descr": "Enter the Muddy Swamp",
+      "block.starcraft.redwood_slab": "Redwood Slab",
       "item.starcraft.minecraft_planet_token": "Minecraft Planet Token",
+      "block.starcraft.redwood_leaves": "Redwood Leaves",
       "item.starcraft.purple_kyber": "Purple Kyber Crystal",
       "block.starcraft.old_pressure_plate": "Old Pressure Plate",
+      "block.starcraft.redwood_planks": "Redwood Planks",
       "item.starcraft.red_kyber": "Red Kyber Crystal",
       "item.starcraft.iron_rod": "Iron Rod",
+      "block.starcraft.redwood_wood": "Redwood Wood",
       "key.starcraft.force_pull": "Force Pull",
+      "block.starcraft.redwood_stairs": "Redwood Stairs",
       "block.starcraft.old_mud": "Old Mud",
       "block.starcraft.dirty_sand": "Dirty Sand",
+      "item.starcraft.endor_planet_token": "Endor Planet Token",
+      "advancements.melting.descr": "Travel to Tatooine",
       "block.starcraft.old_log": "Old Log",
       "item.starcraft.green_kyber": "Green Kyber Crystal",
       "item.starcraft.blue_kyber": "Blue Kyber Crystal",
       "item.starcraft.tatooine_planet_token": "Tatooine Planet Token",
+      "block.starcraft.redwood_fence": "Redwood Fence",
       "gui.starcraft.moisture_vaporator_gui.WaterGen": "Water",
       "item.starcraft.clone_armor_boots": "Clone Boots",
       "fluid.starcraft.liquid_mud": "Liquid Mud",
@@ -1417,6 +1935,7 @@
       "item.starcraft.lightsaber_hilt": "Lightsaber Hilt",
       "item.starcraft.lightsaber_hilt_core": "Lightsaber Hilt Core",
       "item.starcraft.dagobah_planet_token": "Dagobah Planet Token",
+      "block.starcraft.redwood_fence_gate": "Redwood Fence Gate",
       "block.starcraft.liquid_mud": "Liquid Mud",
       "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
       "block.starcraft.old_wood": "Old Wood",
@@ -1431,13 +1950,17 @@
       "biome.starcraft.dry_desert": "Dry Desert",
       "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
       "block.starcraft.kyber_crystal_ore": "Kyber Crystal Ore",
+      "block.starcraft.redwood_button": "Redwood Button",
       "item.starcraft.cactus_fruit": "Cactus Fruit",
       "block.starcraft.old_fence": "Old Fence",
+      "advancements.melting.title": "I am Melting!",
       "block.starcraft.old_planks": "Old Planks",
       "item.starcraft.clone_armor_leggings": "Clone Leggings",
       "block.starcraft.old_fence_gate": "Old Fence Gate",
       "item.starcraft.black_kyber": "Black Kyber Crystal",
       "block.starcraft.old_slab": "Old Slab",
+      "block.starcraft.redwood_log": "Redwood Log",
+      "block.starcraft.redwood_pressure_plate": "Redwood Pressure Plate",
       "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
       "block.starcraft.old_button": "Old Button",
       "block.starcraft.moisture_vaporator": "Moisture Vaporator",

@@ -30,6 +30,7 @@ import net.mcreator.starcraft.item.IronRodItem;
 import net.mcreator.starcraft.item.HyperTokenItem;
 import net.mcreator.starcraft.item.HyperPlateItem;
 import net.mcreator.starcraft.item.GreenKyberItem;
+import net.mcreator.starcraft.item.EndorPlanetTokenItem;
 import net.mcreator.starcraft.item.DagobahPlanetTokenItem;
 import net.mcreator.starcraft.item.CloneArmorItem;
 import net.mcreator.starcraft.item.CactusFruitItem;
@@ -77,6 +78,17 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> DIRTY_SAND = block(StarcraftModBlocks.DIRTY_SAND);
 	public static final RegistryObject<Item> MOISTURE_VAPORATOR = block(StarcraftModBlocks.MOISTURE_VAPORATOR);
 	public static final RegistryObject<Item> IRON_ROD = REGISTRY.register("iron_rod", () -> new IronRodItem());
+	public static final RegistryObject<Item> REDWOOD_WOOD = block(StarcraftModBlocks.REDWOOD_WOOD);
+	public static final RegistryObject<Item> REDWOOD_LOG = block(StarcraftModBlocks.REDWOOD_LOG);
+	public static final RegistryObject<Item> REDWOOD_PLANKS = block(StarcraftModBlocks.REDWOOD_PLANKS);
+	public static final RegistryObject<Item> REDWOOD_LEAVES = block(StarcraftModBlocks.REDWOOD_LEAVES);
+	public static final RegistryObject<Item> REDWOOD_STAIRS = block(StarcraftModBlocks.REDWOOD_STAIRS);
+	public static final RegistryObject<Item> REDWOOD_SLAB = block(StarcraftModBlocks.REDWOOD_SLAB);
+	public static final RegistryObject<Item> REDWOOD_FENCE = block(StarcraftModBlocks.REDWOOD_FENCE);
+	public static final RegistryObject<Item> REDWOOD_FENCE_GATE = block(StarcraftModBlocks.REDWOOD_FENCE_GATE);
+	public static final RegistryObject<Item> REDWOOD_PRESSURE_PLATE = block(StarcraftModBlocks.REDWOOD_PRESSURE_PLATE);
+	public static final RegistryObject<Item> REDWOOD_BUTTON = block(StarcraftModBlocks.REDWOOD_BUTTON);
+	public static final RegistryObject<Item> ENDOR_PLANET_TOKEN = REGISTRY.register("endor_planet_token", () -> new EndorPlanetTokenItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

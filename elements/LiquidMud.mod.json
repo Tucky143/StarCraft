@@ -26,6 +26,9 @@
     "creativeTabs": [
       {
         "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:StarTab"
       }
     ],
     "emptySound": {

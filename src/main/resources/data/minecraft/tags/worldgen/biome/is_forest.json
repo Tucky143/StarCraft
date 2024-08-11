@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "starcraft:dead_forest"
+    "starcraft:dead_forest",
+    "starcraft:endorian_forest"
   ]
 }

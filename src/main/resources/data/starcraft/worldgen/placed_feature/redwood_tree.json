@@ -1,0 +1,21 @@
+{
+  "feature": "starcraft:redwood_tree",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:spruce_sapling"
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    }
+  ]
+}

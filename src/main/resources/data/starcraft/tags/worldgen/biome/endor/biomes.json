@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "starcraft:endorian_forest",
+    "savanna",
+    "stony_peaks",
+    "frozen_peaks"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "starcraft:blocks/redwood_stairs",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "starcraft:redwood_stairs"
+        }
+      ]
+    }
+  ]
+}

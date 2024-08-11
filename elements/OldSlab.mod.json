@@ -45,6 +45,9 @@
     "creativeTabs": [
       {
         "value": "BUILDING_BLOCKS"
+      },
+      {
+        "value": "CUSTOM:StarTab"
       }
     ],
     "destroyTool": "Not specified",

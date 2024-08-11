@@ -14,6 +14,16 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.starcraft.block.RedwoodWoodBlock;
+import net.mcreator.starcraft.block.RedwoodStairsBlock;
+import net.mcreator.starcraft.block.RedwoodSlabBlock;
+import net.mcreator.starcraft.block.RedwoodPressurePlateBlock;
+import net.mcreator.starcraft.block.RedwoodPlanksBlock;
+import net.mcreator.starcraft.block.RedwoodLogBlock;
+import net.mcreator.starcraft.block.RedwoodLeavesBlock;
+import net.mcreator.starcraft.block.RedwoodFenceGateBlock;
+import net.mcreator.starcraft.block.RedwoodFenceBlock;
+import net.mcreator.starcraft.block.RedwoodButtonBlock;
 import net.mcreator.starcraft.block.OldWoodBlock;
 import net.mcreator.starcraft.block.OldStairsBlock;
 import net.mcreator.starcraft.block.OldSlabBlock;
@@ -50,6 +60,16 @@ public class StarcraftModBlocks {
 	public static final RegistryObject<Block> CRACKED_SANDSTONE = REGISTRY.register("cracked_sandstone", () -> new CrackedSandstoneBlock());
 	public static final RegistryObject<Block> DIRTY_SAND = REGISTRY.register("dirty_sand", () -> new DirtySandBlock());
 	public static final RegistryObject<Block> MOISTURE_VAPORATOR = REGISTRY.register("moisture_vaporator", () -> new MoistureVaporatorBlock());
+	public static final RegistryObject<Block> REDWOOD_WOOD = REGISTRY.register("redwood_wood", () -> new RedwoodWoodBlock());
+	public static final RegistryObject<Block> REDWOOD_LOG = REGISTRY.register("redwood_log", () -> new RedwoodLogBlock());
+	public static final RegistryObject<Block> REDWOOD_PLANKS = REGISTRY.register("redwood_planks", () -> new RedwoodPlanksBlock());
+	public static final RegistryObject<Block> REDWOOD_LEAVES = REGISTRY.register("redwood_leaves", () -> new RedwoodLeavesBlock());
+	public static final RegistryObject<Block> REDWOOD_STAIRS = REGISTRY.register("redwood_stairs", () -> new RedwoodStairsBlock());
+	public static final RegistryObject<Block> REDWOOD_SLAB = REGISTRY.register("redwood_slab", () -> new RedwoodSlabBlock());
+	public static final RegistryObject<Block> REDWOOD_FENCE = REGISTRY.register("redwood_fence", () -> new RedwoodFenceBlock());
+	public static final RegistryObject<Block> REDWOOD_FENCE_GATE = REGISTRY.register("redwood_fence_gate", () -> new RedwoodFenceGateBlock());
+	public static final RegistryObject<Block> REDWOOD_PRESSURE_PLATE = REGISTRY.register("redwood_pressure_plate", () -> new RedwoodPressurePlateBlock());
+	public static final RegistryObject<Block> REDWOOD_BUTTON = REGISTRY.register("redwood_button", () -> new RedwoodButtonBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -44,6 +44,9 @@
     "creativeTabs": [
       {
         "value": "DECORATIONS"
+      },
+      {
+        "value": "CUSTOM:StarTab"
       }
     ],
     "destroyTool": "shovel",

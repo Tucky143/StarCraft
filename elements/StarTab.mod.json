@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Star Craft",
+    "icon": {
+      "value": "CUSTOM:CloneArmor.helmet"
+    },
+    "showSearch": true
+  }
+}

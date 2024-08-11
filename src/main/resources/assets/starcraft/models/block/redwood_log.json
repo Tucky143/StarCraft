@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "starcraft:block/redwood_log_top",
+    "up": "starcraft:block/redwood_log_top",
+    "north": "starcraft:block/redwood_log_side",
+    "east": "starcraft:block/redwood_log_side",
+    "south": "starcraft:block/redwood_log_side",
+    "west": "starcraft:block/redwood_log_side",
+    "particle": "starcraft:block/redwood_log_top"
+  },
+  "render_type": "solid"
+}

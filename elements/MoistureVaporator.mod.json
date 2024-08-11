@@ -44,6 +44,9 @@
     "creativeTabs": [
       {
         "value": "TRANSPORTATION"
+      },
+      {
+        "value": "CUSTOM:StarTab"
       }
     ],
     "destroyTool": "pickaxe",
@@ -58,7 +61,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,

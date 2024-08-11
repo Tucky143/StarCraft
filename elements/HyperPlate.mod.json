@@ -12,6 +12,9 @@
     "creativeTabs": [
       {
         "value": "MATERIALS"
+      },
+      {
+        "value": "CUSTOM:StarTab"
       }
     ],
     "stackSize": 64,

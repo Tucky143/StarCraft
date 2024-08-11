@@ -1,6 +1,7 @@
 
 package net.mcreator.starcraft.block;
 
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -18,7 +19,7 @@ public class OldMudBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public OldMudBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.MUD).strength(1f, 8f).speedFactor(0.4f).jumpFactor(0.8f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.MUD).strength(1f, 8f).speedFactor(0.4f).jumpFactor(0.8f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 
