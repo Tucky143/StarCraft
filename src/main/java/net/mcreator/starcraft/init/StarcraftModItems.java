@@ -58,7 +58,7 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> KYBER_CRYSTAL_ORE = block(StarcraftModBlocks.KYBER_CRYSTAL_ORE);
 	public static final RegistryObject<Item> OLD_MUD = block(StarcraftModBlocks.OLD_MUD);
 	public static final RegistryObject<Item> DAGOBAH_PLANET_TOKEN = REGISTRY.register("dagobah_planet_token", () -> new DagobahPlanetTokenItem());
-	public static final RegistryObject<Item> MINECRAFT_PLANET_TOKEN = REGISTRY.register("minecraft_planet_token", () -> new MinecraftPlanetTokenItem());
+	public static final RegistryObject<Item> MC_PLANET_TOKEN = REGISTRY.register("mc_planet_token", () -> new MinecraftPlanetTokenItem());
 	public static final RegistryObject<Item> HYPER_PLATE = REGISTRY.register("hyper_plate", () -> new HyperPlateItem());
 	public static final RegistryObject<Item> HYPER_TOKEN = REGISTRY.register("hyper_token", () -> new HyperTokenItem());
 	public static final RegistryObject<Item> LIQUID_MUD_BUCKET = REGISTRY.register("liquid_mud_bucket", () -> new LiquidMudItem());

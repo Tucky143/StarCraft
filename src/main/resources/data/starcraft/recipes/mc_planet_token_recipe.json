@@ -9,20 +9,20 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:cactus"
+      "tag": "minecraft:small_flowers"
     },
     "b": {
-      "tag": "minecraft:sand"
+      "tag": "minecraft:dirt"
     },
     "c": {
       "item": "starcraft:hyper_token"
     },
     "d": {
-      "tag": "minecraft:stone"
+      "tag": "forge:stone"
     }
   },
   "result": {
-    "item": "starcraft:minecraft_planet_token",
+    "item": "starcraft:mc_planet_token",
     "count": 1
   }
 }

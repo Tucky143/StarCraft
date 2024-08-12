@@ -69,9 +69,9 @@ public class StarcraftModTabs {
 				tabData.accept(StarcraftModBlocks.MOISTURE_VAPORATOR.get().asItem());
 				tabData.accept(StarcraftModItems.ENDOR_PLANET_TOKEN.get());
 				tabData.accept(StarcraftModItems.DAGOBAH_PLANET_TOKEN.get());
-				tabData.accept(StarcraftModItems.MINECRAFT_PLANET_TOKEN.get());
 				tabData.accept(StarcraftModItems.TATOOINE_PLANET_TOKEN.get());
 				tabData.accept(StarcraftModItems.HYPER_TOKEN.get());
+				tabData.accept(StarcraftModItems.MC_PLANET_TOKEN.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -97,7 +97,7 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModBlocks.REDWOOD_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(StarcraftModItems.DAGOBAH_PLANET_TOKEN.get());
-			tabData.accept(StarcraftModItems.MINECRAFT_PLANET_TOKEN.get());
+			tabData.accept(StarcraftModItems.MC_PLANET_TOKEN.get());
 			tabData.accept(StarcraftModItems.TATOOINE_PLANET_TOKEN.get());
 			tabData.accept(StarcraftModItems.ENDOR_PLANET_TOKEN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {

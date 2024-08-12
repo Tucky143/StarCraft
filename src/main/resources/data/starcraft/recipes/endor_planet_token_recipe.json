@@ -11,7 +11,7 @@
       "item": "minecraft:spruce_sapling"
     },
     "b": {
-      "tag": "minecraft:stone"
+      "tag": "forge:stone"
     },
     "c": {
       "item": "starcraft:hyper_token"

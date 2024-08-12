@@ -421,11 +421,11 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "minecraft_planet_token",
+      "registry_name": "mc_planet_token",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/starcraft/item/MinecraftPlanetTokenItem.java",
-          "src/main/resources/assets/starcraft/models/item/minecraft_planet_token.json"
+          "src/main/resources/assets/starcraft/models/item/mc_planet_token.json"
         ]
       }
     },
@@ -594,18 +594,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/starcraft/recipes/dagobah_planet_token_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "MinecraftPlanetTokenRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "minecraft_planet_token_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/starcraft/recipes/minecraft_planet_token_recipe.json"
         ]
       }
     },
@@ -1706,14 +1694,26 @@
       }
     },
     {
-      "name": "MinecraftPlanetTokenRecipe2",
+      "name": "MCPlanetTokenRecipe",
       "type": "recipe",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "minecraft_planet_token_recipe_2",
+      "registry_name": "mc_planet_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/minecraft_planet_token_recipe_2.json"
+          "src/main/resources/data/starcraft/recipes/mc_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MCPlanetTokenRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_planet_token_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/mc_planet_token_recipe_2.json"
         ]
       }
     }
@@ -1724,11 +1724,11 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:RedwoodLeaves"
-    ],
     "BLOCKS:minecraft:tall_flowers": [
       "CUSTOM:FloweringCactus"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:RedwoodLeaves"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
@@ -1750,7 +1750,6 @@
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:RedwoodLeaves"
     ],
-    "ITEMS:minecraft:small_flowers": [],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:RedwoodSlab",
       "~CUSTOM:OldSlab"
@@ -1801,7 +1800,6 @@
       "~Blocks.MUD",
       "~CUSTOM:OldMud"
     ],
-    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:dirt": [
       "CUSTOM:OldMud",
       "CUSTOM:DirtySand",
@@ -1857,7 +1855,8 @@
     "BLOCKS:forge:sand": [
       "CUSTOM:DirtySand",
       "Blocks.SAND#0"
-    ]
+    ],
+    "ITEMS:forge:stone": []
   },
   "tab_element_order": {
     "CUSTOM:StarTab": [
@@ -1904,9 +1903,9 @@
       "MoistureVaporator",
       "EndorPlanetToken",
       "DagobahPlanetToken",
-      "MinecraftPlanetToken",
       "TatooinePlanetToken",
-      "HyperToken"
+      "HyperToken",
+      "MinecraftPlanetToken"
     ]
   },
   "language_map": {
@@ -1920,7 +1919,6 @@
       "biome.starcraft.endorian_forest": "Endorian Forest",
       "advancements.muddy_dagobah.descr": "Enter the Muddy Swamp",
       "block.starcraft.redwood_slab": "Redwood Slab",
-      "item.starcraft.minecraft_planet_token": "Minecraft Planet Token",
       "block.starcraft.redwood_leaves": "Redwood Leaves",
       "item.starcraft.purple_kyber": "Purple Kyber Crystal",
       "block.starcraft.old_pressure_plate": "Old Pressure Plate",
@@ -1931,6 +1929,7 @@
       "key.starcraft.force_pull": "Force Pull",
       "block.starcraft.redwood_stairs": "Redwood Stairs",
       "block.starcraft.old_mud": "Old Mud",
+      "item.starcraft.mc_planet_token": "Minecraft Planet Token",
       "block.starcraft.dirty_sand": "Dirty Sand",
       "item.starcraft.endor_planet_token": "Endor Planet Token",
       "advancements.melting.descr": "Travel to Tatooine",

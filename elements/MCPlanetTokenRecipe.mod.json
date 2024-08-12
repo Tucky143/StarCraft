@@ -30,19 +30,19 @@
         "value": "Blocks.DIRT"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "TAG:forge:stone"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "TAG:forge:stone"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "TAG:forge:stone"
       }
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:MinecraftPlanetToken"
     },
-    "name": "minecraft_planet_token_recipe",
+    "name": "mc_planet_token_recipe",
     "namespace": "mod"
   }
 }

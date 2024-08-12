@@ -21,28 +21,28 @@
         "value": "Blocks.CACTUS"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Blocks.SAND#0"
       },
       {
         "value": "CUSTOM:HyperToken"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Blocks.SAND#0"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "TAG:forge:stone"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "TAG:forge:stone"
       },
       {
-        "value": "Blocks.STONE"
+        "value": "TAG:forge:stone"
       }
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:MinecraftPlanetToken"
     },
-    "name": "minecraft_planet_token_recipe_2",
+    "name": "mc_planet_token_recipe_2",
     "namespace": "mod"
   }
 }
