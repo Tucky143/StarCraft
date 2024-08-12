@@ -24,7 +24,7 @@
         "value": "Items.NETHERITE_SCRAP"
       },
       {
-        "value": "TAG:starcraft:kyber_item"
+        "value": "Items.NETHER_STAR"
       },
       {
         "value": "Items.NETHERITE_SCRAP"
@@ -42,7 +42,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:HyperPlate"
     },
-    "name": "hyper_plate_recipe",
+    "name": "hyper_plate_recipe_2",
     "namespace": "mod"
   }
 }

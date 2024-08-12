@@ -1130,20 +1130,6 @@
       }
     },
     {
-      "name": "DeadTree",
-      "type": "feature",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dead_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/starcraft/worldgen/configured_feature/dead_tree.json",
-          "src/main/resources/data/starcraft/forge/biome_modifier/dead_tree_biome_modifier.json",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/dead_tree.json"
-        ]
-      }
-    },
-    {
       "name": "CrackedSandstone",
       "type": "block",
       "compiles": true,
@@ -1706,6 +1692,30 @@
           "src/main/resources/data/starcraft/advancements/melting.json"
         ]
       }
+    },
+    {
+      "name": "HyperPlateRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_plate_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/hyper_plate_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "MinecraftPlanetTokenRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_planet_token_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/minecraft_planet_token_recipe_2.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1740,6 +1750,7 @@
     "BLOCKS:minecraft:leaves": [
       "~CUSTOM:RedwoodLeaves"
     ],
+    "ITEMS:minecraft:small_flowers": [],
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:RedwoodSlab",
       "~CUSTOM:OldSlab"
@@ -1790,6 +1801,7 @@
       "~Blocks.MUD",
       "~CUSTOM:OldMud"
     ],
+    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:dirt": [
       "CUSTOM:OldMud",
       "CUSTOM:DirtySand",
@@ -1987,5 +1999,5 @@
     "currentGenerator": "forge-1.20.1",
     "modElementsPackage": "net.mcreator.starcraft"
   },
-  "mcreatorVersion": 202400229712
+  "mcreatorVersion": 202400232117
 }

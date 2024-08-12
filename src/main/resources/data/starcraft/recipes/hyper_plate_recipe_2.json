@@ -18,7 +18,7 @@
       "item": "minecraft:diamond"
     },
     "d": {
-      "tag": "starcraft:kyber_item"
+      "item": "minecraft:nether_star"
     }
   },
   "result": {

@@ -12,22 +12,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "TAG:minecraft:small_flowers"
+        "value": "Blocks.CACTUS"
       },
       {
-        "value": "TAG:minecraft:small_flowers"
+        "value": "Blocks.CACTUS"
       },
       {
-        "value": "TAG:minecraft:small_flowers"
+        "value": "Blocks.CACTUS"
       },
       {
-        "value": "Blocks.DIRT"
+        "value": "Blocks.SAND"
       },
       {
         "value": "CUSTOM:HyperToken"
       },
       {
-        "value": "Blocks.DIRT"
+        "value": "Blocks.SAND"
       },
       {
         "value": "Blocks.STONE"
@@ -42,7 +42,7 @@
     "recipeReturnStack": {
       "value": "CUSTOM:MinecraftPlanetToken"
     },
-    "name": "minecraft_planet_token_recipe",
+    "name": "minecraft_planet_token_recipe_2",
     "namespace": "mod"
   }
 }

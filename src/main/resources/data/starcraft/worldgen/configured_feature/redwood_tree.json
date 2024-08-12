@@ -4,7 +4,7 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:rooted_dirt"
+        "Name": "minecraft:dirt"
       }
     },
     "foliage_provider": {
@@ -45,16 +45,6 @@
       "lower_size": 1,
       "upper_size": 2
     },
-    "decorators": [
-      {
-        "type": "minecraft:alter_ground",
-        "provider": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:coarse_dirt"
-          }
-        }
-      }
-    ]
+    "decorators": []
   }
 }

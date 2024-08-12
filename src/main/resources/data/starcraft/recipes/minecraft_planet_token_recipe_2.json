@@ -9,10 +9,10 @@
   ],
   "key": {
     "a": {
-      "tag": "minecraft:small_flowers"
+      "item": "minecraft:cactus"
     },
     "b": {
-      "tag": "minecraft:dirt"
+      "tag": "minecraft:sand"
     },
     "c": {
       "item": "starcraft:hyper_token"

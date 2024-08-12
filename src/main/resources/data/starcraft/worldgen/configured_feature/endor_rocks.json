@@ -1,8 +1,40 @@
 {
-  "type": "minecraft:forest_rock",
+  "type": "minecraft:simple_random_selector",
   "config": {
-    "state": {
-      "Name": "minecraft:cobblestone"
-    }
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:forest_rock",
+          "config": {
+            "state": {
+              "Name": "minecraft:mossy_cobblestone"
+            }
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:forest_rock",
+          "config": {
+            "state": {
+              "Name": "minecraft:stone"
+            }
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:forest_rock",
+          "config": {
+            "state": {
+              "Name": "minecraft:moss_block"
+            }
+          }
+        },
+        "placement": []
+      }
+    ]
   }
 }
