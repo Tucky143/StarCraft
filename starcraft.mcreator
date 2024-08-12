@@ -1724,11 +1724,11 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:tall_flowers": [
-      "CUSTOM:FloweringCactus"
-    ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:RedwoodLeaves"
+    ],
+    "BLOCKS:minecraft:tall_flowers": [
+      "CUSTOM:FloweringCactus"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
