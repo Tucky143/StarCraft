@@ -6,15 +6,15 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.starcraft.entity.EwokArcherEntity;
-import net.mcreator.starcraft.client.model.ModelEwok;
+import net.mcreator.starcraft.client.model.ModelEwokArcher;
 
-public class EwokArcherRenderer extends MobRenderer<EwokArcherEntity, ModelEwok<EwokArcherEntity>> {
+public class EwokArcherRenderer extends MobRenderer<EwokArcherEntity, ModelEwokArcher<EwokArcherEntity>> {
 	public EwokArcherRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelEwok(context.bakeLayer(ModelEwok.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelEwokArcher(context.bakeLayer(ModelEwokArcher.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
 	public ResourceLocation getTextureLocation(EwokArcherEntity entity) {
-		return new ResourceLocation("starcraft:textures/entities/ewok.png");
+		return new ResourceLocation("starcraft:textures/entities/ewokarcher.png");
 	}
 }

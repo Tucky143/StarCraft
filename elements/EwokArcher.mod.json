@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Ewok Archer",
     "mobLabel": "",
-    "mobModelName": "ModelEwok",
-    "mobModelTexture": "ewok.png",
+    "mobModelName": "ModelEwokArcher",
+    "mobModelTexture": "ewokarcher.png",
     "transparentModelCondition": {
       "fixedValue": false
     },
@@ -23,7 +23,7 @@
     },
     "modelLayers": [],
     "modelWidth": 0.6,
-    "modelHeight": 1.2,
+    "modelHeight": 1.8,
     "modelShadowSize": 0.4,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,

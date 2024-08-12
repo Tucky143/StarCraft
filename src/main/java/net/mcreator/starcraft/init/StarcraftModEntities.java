@@ -30,7 +30,7 @@ public class StarcraftModEntities {
 	public static final RegistryObject<EntityType<EwokArcherEntity>> EWOK_ARCHER = register("ewok_archer",
 			EntityType.Builder.<EwokArcherEntity>of(EwokArcherEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EwokArcherEntity::new)
 
-					.sized(0.6f, 1.2f));
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

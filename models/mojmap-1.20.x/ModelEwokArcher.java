@@ -2,21 +2,23 @@
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
-public class ModelEwok<T extends Entity> extends EntityModel<T> {
+public class ModelEwokArcher<T extends Entity> extends EntityModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(
-			new ResourceLocation("modid", "ewok"), "main");
+			new ResourceLocation("modid", "ewokarcher"), "main");
 	private final ModelPart LeftArm;
 	private final ModelPart RightArm;
+	private final ModelPart Bow;
 	private final ModelPart LeftLeg;
 	private final ModelPart RightLeg;
 	private final ModelPart Head;
 	private final ModelPart Body;
 
-	public ModelEwok(ModelPart root) {
+	public ModelEwokArcher(ModelPart root) {
 		this.LeftArm = root.getChild("LeftArm");
 		this.RightArm = root.getChild("RightArm");
+		this.Bow = root.getChild("Bow");
 		this.LeftLeg = root.getChild("LeftLeg");
 		this.RightLeg = root.getChild("RightLeg");
 		this.Head = root.getChild("Head");
@@ -42,6 +44,15 @@ public class ModelEwok<T extends Entity> extends EntityModel<T> {
 				CubeListBuilder.create().texOffs(32, 48).mirror()
 						.addBox(-2.0F, -12.0F, -2.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)).mirror(false),
 				PartPose.offsetAndRotation(-7.0F, 14.0F, 1.0F, 0.0F, 0.0F, 0.1745F));
+
+		PartDefinition Bow = RightArm.addOrReplaceChild("Bow",
+				CubeListBuilder.create().texOffs(1, 0)
+						.addBox(-2.0F, -7.0F, -1.0F, 1.0F, 4.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(1, 0)
+						.addBox(-1.0F, -4.0F, -1.0F, 1.0F, 3.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(1, 0)
+						.addBox(-1.0F, -9.0F, -1.0F, 1.0F, 3.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(1, 0)
+						.addBox(0.0F, -10.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(1, 0)
+						.addBox(0.0F, -2.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)),
+				PartPose.offsetAndRotation(-8.0F, 16.0F, -1.0F, 0.0F, -1.5708F, 0.1309F));
 
 		PartDefinition LeftLeg = partdefinition.addOrReplaceChild("LeftLeg", CubeListBuilder.create().texOffs(16, 48)
 				.addBox(-3.0F, -1.0F, -1.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)),
