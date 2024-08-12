@@ -1716,19 +1716,86 @@
           "src/main/resources/data/starcraft/recipes/mc_planet_token_recipe_2.json"
         ]
       }
+    },
+    {
+      "name": "Ewok",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/client/renderer/EwokRenderer.java",
+          "src/main/resources/assets/starcraft/models/item/ewok_spawn_egg.json",
+          "src/main/resources/data/starcraft/forge/biome_modifier/ewok_biome_modifier.json",
+          "src/main/java/net/mcreator/starcraft/entity/EwokEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "EwokArcher",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_archer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/forge/biome_modifier/ewok_archer_biome_modifier.json",
+          "src/main/resources/assets/starcraft/models/item/ewok_archer_spawn_egg.json",
+          "src/main/java/net/mcreator/starcraft/entity/EwokArcherEntity.java",
+          "src/main/java/net/mcreator/starcraft/client/renderer/EwokArcherRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "EwokArcherOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_archer_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/EwokArcherOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "ewok_ambient",
+      "files": [
+        "ewoktalking",
+        "ewoktalking2",
+        "ewoksinging"
+      ],
+      "category": "ambient",
+      "subtitle": "Ewok Talks"
+    },
+    {
+      "name": "ewok_hurt",
+      "files": [
+        "ewokhurt"
+      ],
+      "category": "hostile",
+      "subtitle": "Ewok Hurts"
+    }
+  ],
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:tall_flowers": [
-      "CUSTOM:FloweringCactus"
-    ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:RedwoodLeaves"
+    ],
+    "BLOCKS:minecraft:tall_flowers": [
+      "CUSTOM:FloweringCactus"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
@@ -1755,6 +1822,7 @@
       "~CUSTOM:OldSlab"
     ],
     "BIOMES:minecraft:has_structure/ruined_portal_desert": [
+      "~CUSTOM:DryDesert",
       "~CUSTOM:DeadForest"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -1782,6 +1850,7 @@
       "CUSTOM:RedwoodFenceGate"
     ],
     "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:DryDesert",
       "~CUSTOM:DeadForest"
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
@@ -1919,6 +1988,8 @@
       "biome.starcraft.endorian_forest": "Endorian Forest",
       "advancements.muddy_dagobah.descr": "Enter the Muddy Swamp",
       "block.starcraft.redwood_slab": "Redwood Slab",
+      "item.starcraft.ewok_archer_spawn_egg": "Ewok Archer Spawn Egg",
+      "item.starcraft.ewok_spawn_egg": "Ewok Spawn Egg",
       "block.starcraft.redwood_leaves": "Redwood Leaves",
       "item.starcraft.purple_kyber": "Purple Kyber Crystal",
       "block.starcraft.old_pressure_plate": "Old Pressure Plate",
@@ -1962,16 +2033,20 @@
       "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
       "block.starcraft.kyber_crystal_ore": "Kyber Crystal Ore",
       "block.starcraft.redwood_button": "Redwood Button",
+      "entity.starcraft.ewok": "Ewok",
       "item.starcraft.cactus_fruit": "Cactus Fruit",
       "block.starcraft.old_fence": "Old Fence",
       "advancements.melting.title": "I am Melting!",
       "block.starcraft.old_planks": "Old Planks",
       "item.starcraft.clone_armor_leggings": "Clone Leggings",
+      "subtitles.ewok_ambient": "Ewok Talks",
       "block.starcraft.old_fence_gate": "Old Fence Gate",
       "item.starcraft.black_kyber": "Black Kyber Crystal",
       "block.starcraft.old_slab": "Old Slab",
+      "subtitles.ewok_hurt": "Ewok Hurts",
       "block.starcraft.redwood_log": "Redwood Log",
       "block.starcraft.redwood_pressure_plate": "Redwood Pressure Plate",
+      "entity.starcraft.ewok_archer": "Ewok Archer",
       "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
       "block.starcraft.old_button": "Old Button",
       "block.starcraft.moisture_vaporator": "Moisture Vaporator",

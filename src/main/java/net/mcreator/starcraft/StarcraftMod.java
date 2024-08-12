@@ -18,10 +18,12 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.starcraft.init.StarcraftModTabs;
+import net.mcreator.starcraft.init.StarcraftModSounds;
 import net.mcreator.starcraft.init.StarcraftModMenus;
 import net.mcreator.starcraft.init.StarcraftModItems;
 import net.mcreator.starcraft.init.StarcraftModFluids;
 import net.mcreator.starcraft.init.StarcraftModFluidTypes;
+import net.mcreator.starcraft.init.StarcraftModEntities;
 import net.mcreator.starcraft.init.StarcraftModBlocks;
 import net.mcreator.starcraft.init.StarcraftModBlockEntities;
 
@@ -44,10 +46,11 @@ public class StarcraftMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		StarcraftModSounds.REGISTRY.register(bus);
 		StarcraftModBlocks.REGISTRY.register(bus);
 		StarcraftModBlockEntities.REGISTRY.register(bus);
 		StarcraftModItems.REGISTRY.register(bus);
+		StarcraftModEntities.REGISTRY.register(bus);
 
 		StarcraftModTabs.REGISTRY.register(bus);
 

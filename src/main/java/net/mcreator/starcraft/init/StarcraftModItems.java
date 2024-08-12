@@ -7,6 +7,7 @@ package net.mcreator.starcraft.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -89,6 +90,8 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> REDWOOD_PRESSURE_PLATE = block(StarcraftModBlocks.REDWOOD_PRESSURE_PLATE);
 	public static final RegistryObject<Item> REDWOOD_BUTTON = block(StarcraftModBlocks.REDWOOD_BUTTON);
 	public static final RegistryObject<Item> ENDOR_PLANET_TOKEN = REGISTRY.register("endor_planet_token", () -> new EndorPlanetTokenItem());
+	public static final RegistryObject<Item> EWOK_SPAWN_EGG = REGISTRY.register("ewok_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK, -10798064, -12836608, new Item.Properties()));
+	public static final RegistryObject<Item> EWOK_ARCHER_SPAWN_EGG = REGISTRY.register("ewok_archer_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK_ARCHER, -10798064, -12836608, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

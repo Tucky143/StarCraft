@@ -107,6 +107,9 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_CHESTPLATE.get());
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_LEGGINGS.get());
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_BOOTS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(StarcraftModItems.EWOK_SPAWN_EGG.get());
+			tabData.accept(StarcraftModItems.EWOK_ARCHER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(StarcraftModItems.BLUE_KYBER.get());
 			tabData.accept(StarcraftModItems.RED_KYBER.get());

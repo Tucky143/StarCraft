@@ -1,0 +1,28 @@
+{
+  "ewok_ambient": {
+    "subtitle": "subtitles.ewok_ambient",
+    "sounds": [
+      {
+        "name": "starcraft:ewoktalking",
+        "stream": false
+      },
+      {
+        "name": "starcraft:ewoktalking2",
+        "stream": false
+      },
+      {
+        "name": "starcraft:ewoksinging",
+        "stream": false
+      }
+    ]
+  },
+  "ewok_hurt": {
+    "subtitle": "subtitles.ewok_hurt",
+    "sounds": [
+      {
+        "name": "starcraft:ewokhurt",
+        "stream": false
+      }
+    ]
+  }
+}
