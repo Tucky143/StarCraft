@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "abb",
+    "aca",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ice"
+    },
+    "b": {
+      "item": "minecraft:blue_ice"
+    },
+    "c": {
+      "item": "starcraft:hyper_token"
+    }
+  },
+  "result": {
+    "item": "starcraft:hoth_planet_token",
+    "count": 1
+  }
+}

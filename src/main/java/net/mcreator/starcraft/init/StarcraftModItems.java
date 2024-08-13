@@ -30,6 +30,7 @@ import net.mcreator.starcraft.item.KyberItem;
 import net.mcreator.starcraft.item.IronRodItem;
 import net.mcreator.starcraft.item.HyperTokenItem;
 import net.mcreator.starcraft.item.HyperPlateItem;
+import net.mcreator.starcraft.item.HothPlanetTokenItem;
 import net.mcreator.starcraft.item.GreenKyberItem;
 import net.mcreator.starcraft.item.EndorPlanetTokenItem;
 import net.mcreator.starcraft.item.DagobahPlanetTokenItem;
@@ -92,6 +93,7 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> ENDOR_PLANET_TOKEN = REGISTRY.register("endor_planet_token", () -> new EndorPlanetTokenItem());
 	public static final RegistryObject<Item> EWOK_SPAWN_EGG = REGISTRY.register("ewok_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK, -10798064, -12836608, new Item.Properties()));
 	public static final RegistryObject<Item> EWOK_ARCHER_SPAWN_EGG = REGISTRY.register("ewok_archer_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK_ARCHER, -10798064, -12836608, new Item.Properties()));
+	public static final RegistryObject<Item> HOTH_PLANET_TOKEN = REGISTRY.register("hoth_planet_token", () -> new HothPlanetTokenItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

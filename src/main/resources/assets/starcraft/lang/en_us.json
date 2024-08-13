@@ -16,6 +16,7 @@
   "block.starcraft.redwood_planks": "Redwood Planks",
   "item.starcraft.red_kyber": "Red Kyber Crystal",
   "item.starcraft.iron_rod": "Iron Rod",
+  "biome.starcraft.frozen_wastelands": "Frozen Wastelands",
   "block.starcraft.redwood_wood": "Redwood Wood",
   "key.starcraft.force_pull": "Force Pull",
   "block.starcraft.redwood_stairs": "Redwood Stairs",
@@ -71,5 +72,6 @@
   "block.starcraft.old_button": "Old Button",
   "block.starcraft.moisture_vaporator": "Moisture Vaporator",
   "item.starcraft.clone_armor_helmet": "Clone Helmet",
-  "block.starcraft.old_stairs": "Old Stairs"
+  "block.starcraft.old_stairs": "Old Stairs",
+  "item.starcraft.hoth_planet_token": "Hoth Planet Token"
 }

@@ -1764,6 +1764,99 @@
           }
         ]
       }
+    },
+    {
+      "name": "EwokArcherLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_archer_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/entities/ewok_archer.json"
+        ]
+      }
+    },
+    {
+      "name": "Hoth",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/world/dimension/HothDimension.java",
+          "src/main/resources/data/starcraft/dimension_type/hoth.json",
+          "src/main/resources/data/starcraft/dimension/hoth.json"
+        ]
+      }
+    },
+    {
+      "name": "HothPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/HothPlanetTokenItem.java",
+          "src/main/resources/assets/starcraft/models/item/hoth_planet_token.json"
+        ]
+      }
+    },
+    {
+      "name": "HothPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/HothPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HothPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/hoth_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MCPlanetTokenRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_planet_token_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/mc_planet_token_recipe_3.json"
+        ]
+      }
+    },
+    {
+      "name": "FrozenWastelands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_wastelands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/biome/frozen_wastelands.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1800,6 +1893,9 @@
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
       "CUSTOM:RedwoodLog"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:FrozenWastelands"
     ],
     "BIOMES:mod:endor/biomes": [
       "CUSTOM:EndorianForest",
@@ -1860,6 +1956,8 @@
       "~CUSTOM:DeadForest"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.ICE",
+      "~Blocks.SNOW",
       "~Blocks.STONE#0",
       "~Blocks.DIRT#0",
       "~Blocks.GRASS",
@@ -1924,8 +2022,7 @@
     "BLOCKS:forge:sand": [
       "CUSTOM:DirtySand",
       "Blocks.SAND#0"
-    ],
-    "ITEMS:forge:stone": []
+    ]
   },
   "tab_element_order": {
     "CUSTOM:StarTab": [
@@ -1974,7 +2071,8 @@
       "DagobahPlanetToken",
       "TatooinePlanetToken",
       "HyperToken",
-      "MinecraftPlanetToken"
+      "MinecraftPlanetToken",
+      "HothPlanetToken"
     ]
   },
   "language_map": {
@@ -1996,6 +2094,7 @@
       "block.starcraft.redwood_planks": "Redwood Planks",
       "item.starcraft.red_kyber": "Red Kyber Crystal",
       "item.starcraft.iron_rod": "Iron Rod",
+      "biome.starcraft.frozen_wastelands": "Frozen Wastelands",
       "block.starcraft.redwood_wood": "Redwood Wood",
       "key.starcraft.force_pull": "Force Pull",
       "block.starcraft.redwood_stairs": "Redwood Stairs",
@@ -2051,7 +2150,8 @@
       "block.starcraft.old_button": "Old Button",
       "block.starcraft.moisture_vaporator": "Moisture Vaporator",
       "item.starcraft.clone_armor_helmet": "Clone Helmet",
-      "block.starcraft.old_stairs": "Old Stairs"
+      "block.starcraft.old_stairs": "Old Stairs",
+      "item.starcraft.hoth_planet_token": "Hoth Planet Token"
     }
   },
   "foldersRoot": {

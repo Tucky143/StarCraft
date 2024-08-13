@@ -21,11 +21,13 @@ import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.SpawnGroupData;
+import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.sounds.SoundEvent;
@@ -49,6 +51,7 @@ public class EwokArcherEntity extends Monster implements RangedAttackMob {
 		setMaxUpStep(0.5f);
 		xpReward = 0;
 		setNoAi(false);
+		refreshDimensions();
 	}
 
 	@Override
@@ -112,6 +115,11 @@ public class EwokArcherEntity extends Monster implements RangedAttackMob {
 		double d3 = target.getZ() - this.getZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
 		this.level().addFreshEntity(entityarrow);
+	}
+
+	@Override
+	public EntityDimensions getDimensions(Pose pose) {
+		return super.getDimensions(pose).scale(0.65f);
 	}
 
 	public static void init() {

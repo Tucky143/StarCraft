@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "minecraft:ice",
+    "minecraft:snow_block",
     "minecraft:stone",
     "minecraft:dirt",
     "minecraft:grass_block",
