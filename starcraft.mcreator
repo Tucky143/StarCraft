@@ -1857,6 +1857,32 @@
           "src/main/resources/data/starcraft/worldgen/biome/frozen_wastelands.json"
         ]
       }
+    },
+    {
+      "name": "MoistureVaporatorGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/MoistureVaporatorGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1884,11 +1910,11 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:tall_flowers": [
-      "CUSTOM:FloweringCactus"
-    ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:RedwoodLeaves"
+    ],
+    "BLOCKS:minecraft:tall_flowers": [
+      "CUSTOM:FloweringCactus"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",

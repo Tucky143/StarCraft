@@ -12,7 +12,20 @@
   },
   "spawners": {
     "monster": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "starcraft:ewok",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "starcraft:ewok_archer",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],

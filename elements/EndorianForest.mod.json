@@ -110,6 +110,25 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Ewok"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:EwokArcher"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 8,
+        "spawnType": "creature"
+      }
+    ]
   }
 }
