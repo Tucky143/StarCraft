@@ -1158,21 +1158,6 @@
       }
     },
     {
-      "name": "DirtySand",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirty_sand",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/starcraft/block/DirtySandBlock.java",
-          "src/main/resources/assets/starcraft/models/item/dirty_sand.json",
-          "src/main/resources/assets/starcraft/models/block/dirty_sand.json",
-          "src/main/resources/assets/starcraft/blockstates/dirty_sand.json"
-        ]
-      }
-    },
-    {
       "name": "Cactus",
       "type": "feature",
       "compiles": true,
@@ -1862,7 +1847,7 @@
       "name": "MoistureVaporatorGUIWhileThisGUIIsOpenTick",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "moisture_vaporator_gui_while_this_gui_is_open_tick",
       "metadata": {
         "files": [
@@ -1910,11 +1895,11 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:tall_flowers": [
-      "CUSTOM:FloweringCactus"
-    ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:RedwoodLeaves"
+    ],
+    "BLOCKS:minecraft:tall_flowers": [
+      "CUSTOM:FloweringCactus"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
@@ -1982,6 +1967,7 @@
       "~CUSTOM:DeadForest"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.SAND#0",
       "~Blocks.ICE",
       "~Blocks.SNOW",
       "~Blocks.STONE#0",
@@ -2020,7 +2006,6 @@
       "CUSTOM:OldFenceGate"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
-      "~CUSTOM:DirtySand",
       "~CUSTOM:OldMud"
     ],
     "ITEMS:mod:kyber_item": [
@@ -2080,7 +2065,6 @@
       "OldPressurePlate",
       "OldButton",
       "CrackedSandstone",
-      "DirtySand",
       "IronRod",
       "RedwoodLeaves",
       "RedwoodWood",
@@ -2115,6 +2099,7 @@
       "item.starcraft.ewok_archer_spawn_egg": "Ewok Archer Spawn Egg",
       "item.starcraft.ewok_spawn_egg": "Ewok Spawn Egg",
       "block.starcraft.redwood_leaves": "Redwood Leaves",
+      "gui.starcraft.moisture_vaporator_gui.label_wait_10_seconds": "Wait 10 Seconds",
       "item.starcraft.purple_kyber": "Purple Kyber Crystal",
       "block.starcraft.old_pressure_plate": "Old Pressure Plate",
       "block.starcraft.redwood_planks": "Redwood Planks",
@@ -2126,7 +2111,6 @@
       "block.starcraft.redwood_stairs": "Redwood Stairs",
       "block.starcraft.old_mud": "Old Mud",
       "item.starcraft.mc_planet_token": "Minecraft Planet Token",
-      "block.starcraft.dirty_sand": "Dirty Sand",
       "item.starcraft.endor_planet_token": "Endor Planet Token",
       "advancements.melting.descr": "Travel to Tatooine",
       "block.starcraft.old_log": "Old Log",

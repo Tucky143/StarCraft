@@ -4,7 +4,7 @@
   "definition": {
     "name": "Dead Forest",
     "groundBlock": {
-      "value": "CUSTOM:DirtySand"
+      "value": "Blocks.SAND#0"
     },
     "undergroundBlock": {
       "value": "Blocks.SANDSTONE#0"

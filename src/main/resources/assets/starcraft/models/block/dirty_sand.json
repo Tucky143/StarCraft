@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "starcraft:block/dirty_sand",
-    "particle": "starcraft:block/dirty_sand"
-  },
-  "render_type": "solid"
-}

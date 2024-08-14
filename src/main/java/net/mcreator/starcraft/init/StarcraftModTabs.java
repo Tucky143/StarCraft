@@ -54,7 +54,6 @@ public class StarcraftModTabs {
 				tabData.accept(StarcraftModBlocks.OLD_PRESSURE_PLATE.get().asItem());
 				tabData.accept(StarcraftModBlocks.OLD_BUTTON.get().asItem());
 				tabData.accept(StarcraftModBlocks.CRACKED_SANDSTONE.get().asItem());
-				tabData.accept(StarcraftModBlocks.DIRTY_SAND.get().asItem());
 				tabData.accept(StarcraftModItems.IRON_ROD.get());
 				tabData.accept(StarcraftModBlocks.REDWOOD_LEAVES.get().asItem());
 				tabData.accept(StarcraftModBlocks.REDWOOD_WOOD.get().asItem());
@@ -133,7 +132,6 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModBlocks.OLD_MUD.get().asItem());
 			tabData.accept(StarcraftModBlocks.FLOWERING_CACTUS.get().asItem());
 			tabData.accept(StarcraftModBlocks.CRACKED_SANDSTONE.get().asItem());
-			tabData.accept(StarcraftModBlocks.DIRTY_SAND.get().asItem());
 			tabData.accept(StarcraftModBlocks.REDWOOD_LEAVES.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(StarcraftModItems.LIQUID_MUD_BUCKET.get());

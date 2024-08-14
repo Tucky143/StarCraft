@@ -38,7 +38,6 @@ import net.mcreator.starcraft.block.MoistureVaporatorBlock;
 import net.mcreator.starcraft.block.LiquidMudBlock;
 import net.mcreator.starcraft.block.KyberCrystalOreBlock;
 import net.mcreator.starcraft.block.FloweringCactusBlock;
-import net.mcreator.starcraft.block.DirtySandBlock;
 import net.mcreator.starcraft.block.CrackedSandstoneBlock;
 import net.mcreator.starcraft.StarcraftMod;
 
@@ -58,7 +57,6 @@ public class StarcraftModBlocks {
 	public static final RegistryObject<Block> OLD_PRESSURE_PLATE = REGISTRY.register("old_pressure_plate", () -> new OldPressurePlateBlock());
 	public static final RegistryObject<Block> OLD_BUTTON = REGISTRY.register("old_button", () -> new OldButtonBlock());
 	public static final RegistryObject<Block> CRACKED_SANDSTONE = REGISTRY.register("cracked_sandstone", () -> new CrackedSandstoneBlock());
-	public static final RegistryObject<Block> DIRTY_SAND = REGISTRY.register("dirty_sand", () -> new DirtySandBlock());
 	public static final RegistryObject<Block> MOISTURE_VAPORATOR = REGISTRY.register("moisture_vaporator", () -> new MoistureVaporatorBlock());
 	public static final RegistryObject<Block> REDWOOD_WOOD = REGISTRY.register("redwood_wood", () -> new RedwoodWoodBlock());
 	public static final RegistryObject<Block> REDWOOD_LOG = REGISTRY.register("redwood_log", () -> new RedwoodLogBlock());

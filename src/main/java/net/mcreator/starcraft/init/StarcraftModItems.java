@@ -77,7 +77,6 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> OLD_PRESSURE_PLATE = block(StarcraftModBlocks.OLD_PRESSURE_PLATE);
 	public static final RegistryObject<Item> OLD_BUTTON = block(StarcraftModBlocks.OLD_BUTTON);
 	public static final RegistryObject<Item> CRACKED_SANDSTONE = block(StarcraftModBlocks.CRACKED_SANDSTONE);
-	public static final RegistryObject<Item> DIRTY_SAND = block(StarcraftModBlocks.DIRTY_SAND);
 	public static final RegistryObject<Item> MOISTURE_VAPORATOR = block(StarcraftModBlocks.MOISTURE_VAPORATOR);
 	public static final RegistryObject<Item> IRON_ROD = REGISTRY.register("iron_rod", () -> new IronRodItem());
 	public static final RegistryObject<Item> REDWOOD_WOOD = block(StarcraftModBlocks.REDWOOD_WOOD);

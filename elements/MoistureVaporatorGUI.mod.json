@@ -51,6 +51,21 @@
           "x": 169,
           "y": 40
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_wait_10_seconds",
+          "text": {
+            "fixedValue": "Wait 10 Seconds"
+          },
+          "color": {
+            "value": -10092544,
+            "falpha": 0.0
+          },
+          "x": 214,
+          "y": 103
+        }
       }
     ],
     "onTick": {

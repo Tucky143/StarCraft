@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:sand",
     "minecraft:ice",
     "minecraft:snow_block",
     "minecraft:stone",
@@ -8,7 +9,6 @@
     "minecraft:grass_block",
     "minecraft:sandstone",
     "starcraft:cracked_sandstone",
-    "starcraft:dirty_sand",
     "minecraft:mud",
     "starcraft:old_mud"
   ]

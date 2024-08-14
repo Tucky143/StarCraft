@@ -555,10 +555,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "starcraft:dirty_sand",
-                              "Properties": {
-                                "facing": "north"
-                              }
+                              "Name": "minecraft:sand"
                             }
                           }
                         },
