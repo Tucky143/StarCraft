@@ -23,7 +23,14 @@
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "stray",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 6
+      }
+    ],
     "creature": [],
     "ambient": [],
     "axolotls": [],

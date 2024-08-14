@@ -108,6 +108,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityStray"
+        },
+        "minGroup": 2,
+        "maxGroup": 6,
+        "weight": 10,
+        "spawnType": "monster"
+      }
+    ]
   }
 }
