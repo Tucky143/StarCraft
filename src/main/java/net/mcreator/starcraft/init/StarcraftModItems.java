@@ -17,10 +17,12 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.starcraft.item.YellowKyberItem;
 import net.mcreator.starcraft.item.WhiteKyberItem;
 import net.mcreator.starcraft.item.TatooinePlanetTokenItem;
+import net.mcreator.starcraft.item.RedLightsaberItem;
 import net.mcreator.starcraft.item.RedKyberItem;
 import net.mcreator.starcraft.item.RawEwokMeatItem;
 import net.mcreator.starcraft.item.PurpleKyberItem;
 import net.mcreator.starcraft.item.OrangeKyberItem;
+import net.mcreator.starcraft.item.MustafarPlanetTokenItem;
 import net.mcreator.starcraft.item.MinecraftPlanetTokenItem;
 import net.mcreator.starcraft.item.LiquidMudItem;
 import net.mcreator.starcraft.item.LightsaberHiltItem;
@@ -40,6 +42,7 @@ import net.mcreator.starcraft.item.CloneArmorItem;
 import net.mcreator.starcraft.item.CactusFruitItem;
 import net.mcreator.starcraft.item.BlueLightsaberItem;
 import net.mcreator.starcraft.item.BlackKyberItem;
+import net.mcreator.starcraft.item.AhchToPlanetTokenItem;
 import net.mcreator.starcraft.StarcraftMod;
 
 public class StarcraftModItems {
@@ -99,6 +102,10 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> BLUE_LIGHTSABER = REGISTRY.register("blue_lightsaber", () -> new BlueLightsaberItem());
 	public static final RegistryObject<Item> RAW_EWOK_MEAT = REGISTRY.register("raw_ewok_meat", () -> new RawEwokMeatItem());
 	public static final RegistryObject<Item> EWOK_JERKY = REGISTRY.register("ewok_jerky", () -> new EwokJerkyItem());
+	public static final RegistryObject<Item> ASH_BLOCK = block(StarcraftModBlocks.ASH_BLOCK);
+	public static final RegistryObject<Item> MUSTAFAR_PLANET_TOKEN = REGISTRY.register("mustafar_planet_token", () -> new MustafarPlanetTokenItem());
+	public static final RegistryObject<Item> RED_LIGHTSABER = REGISTRY.register("red_lightsaber", () -> new RedLightsaberItem());
+	public static final RegistryObject<Item> AHCH_TO_PLANET_TOKEN = REGISTRY.register("ahch_to_planet_token", () -> new AhchToPlanetTokenItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

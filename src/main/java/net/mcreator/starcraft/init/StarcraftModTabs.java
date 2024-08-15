@@ -75,6 +75,10 @@ public class StarcraftModTabs {
 				tabData.accept(StarcraftModItems.BLUE_LIGHTSABER.get());
 				tabData.accept(StarcraftModItems.RAW_EWOK_MEAT.get());
 				tabData.accept(StarcraftModItems.EWOK_JERKY.get());
+				tabData.accept(StarcraftModBlocks.ASH_BLOCK.get().asItem());
+				tabData.accept(StarcraftModItems.MUSTAFAR_PLANET_TOKEN.get());
+				tabData.accept(StarcraftModItems.RED_LIGHTSABER.get());
+				tabData.accept(StarcraftModItems.AHCH_TO_PLANET_TOKEN.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -104,6 +108,8 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.TATOOINE_PLANET_TOKEN.get());
 			tabData.accept(StarcraftModItems.ENDOR_PLANET_TOKEN.get());
 			tabData.accept(StarcraftModItems.HOTH_PLANET_TOKEN.get());
+			tabData.accept(StarcraftModItems.MUSTAFAR_PLANET_TOKEN.get());
+			tabData.accept(StarcraftModItems.AHCH_TO_PLANET_TOKEN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(StarcraftModBlocks.MOISTURE_VAPORATOR.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -112,6 +118,7 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_LEGGINGS.get());
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_BOOTS.get());
 			tabData.accept(StarcraftModItems.BLUE_LIGHTSABER.get());
+			tabData.accept(StarcraftModItems.RED_LIGHTSABER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(StarcraftModItems.EWOK_SPAWN_EGG.get());
 			tabData.accept(StarcraftModItems.EWOK_ARCHER_SPAWN_EGG.get());
@@ -137,6 +144,7 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModBlocks.FLOWERING_CACTUS.get().asItem());
 			tabData.accept(StarcraftModBlocks.CRACKED_SANDSTONE.get().asItem());
 			tabData.accept(StarcraftModBlocks.REDWOOD_LEAVES.get().asItem());
+			tabData.accept(StarcraftModBlocks.ASH_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(StarcraftModItems.LIQUID_MUD_BUCKET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {

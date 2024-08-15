@@ -1,13 +1,16 @@
 {
   "replace": false,
   "values": [
-    "minecraft:sand",
+    "minecraft:basalt",
+    "starcraft:ash_block",
+    "minecraft:lava",
     "minecraft:ice",
     "minecraft:snow_block",
     "minecraft:stone",
     "minecraft:dirt",
     "minecraft:grass_block",
     "minecraft:sandstone",
+    "minecraft:sand",
     "starcraft:cracked_sandstone",
     "minecraft:mud",
     "starcraft:old_mud"

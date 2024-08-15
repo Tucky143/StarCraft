@@ -3,23 +3,20 @@
   "group": "planet_token",
   "category": "equipment",
   "pattern": [
-    "abb",
-    "aca",
-    "bbb"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
     "a": {
-      "item": "minecraft:ice"
+      "item": "minecraft:lava_bucket"
     },
     "b": {
-      "item": "minecraft:blue_ice"
-    },
-    "c": {
       "item": "starcraft:hyper_token"
     }
   },
   "result": {
-    "item": "starcraft:hoth_planet_token",
+    "item": "starcraft:mustafar_planet_token",
     "count": 1
   }
 }

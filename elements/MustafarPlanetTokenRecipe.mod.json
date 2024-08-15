@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.SAND"
+        "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.LAVA_BUCKET"
       },
       {
         "value": "CUSTOM:HyperToken"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.LAVA_BUCKET"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TatooinePlanetToken"
+      "value": "CUSTOM:MustafarPlanetToken"
     },
-    "name": "tatooine_planet_token_recipe",
+    "name": "mustafar_planet_token_recipe",
     "namespace": "mod"
   }
 }

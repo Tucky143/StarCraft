@@ -3,20 +3,25 @@
   "group": "planet_token",
   "category": "equipment",
   "pattern": [
-    "aaa",
-    "aba",
-    "aaa"
+    "abc",
+    "dcc"
   ],
   "key": {
     "a": {
-      "tag": "minecraft:sand"
+      "item": "minecraft:grass_block"
     },
     "b": {
       "item": "starcraft:hyper_token"
+    },
+    "c": {
+      "item": "minecraft:water_bucket"
+    },
+    "d": {
+      "tag": "forge:dirt"
     }
   },
   "result": {
-    "item": "starcraft:tatooine_planet_token",
+    "item": "starcraft:ahch_to_planet_token",
     "count": 1
   }
 }

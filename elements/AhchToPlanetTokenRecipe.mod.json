@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.SAND"
+        "value": ""
       },
       {
-        "value": "Blocks.SAND"
+        "value": ""
       },
       {
-        "value": "Blocks.SAND"
+        "value": ""
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Blocks.GRASS"
       },
       {
         "value": "CUSTOM:HyperToken"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.WATER_BUCKET"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "TAG:forge:dirt"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.WATER_BUCKET"
       },
       {
-        "value": "Blocks.SAND"
+        "value": "Items.WATER_BUCKET"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TatooinePlanetToken"
+      "value": "CUSTOM:AhchToPlanetToken"
     },
-    "name": "tatooine_planet_token_recipe",
+    "name": "ahch_to_planet_token_recipe",
     "namespace": "mod"
   }
 }

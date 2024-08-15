@@ -2083,6 +2083,227 @@
           "src/main/resources/data/starcraft/recipes/blue_lightsaber_recipe.json"
         ]
       }
+    },
+    {
+      "name": "AshBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/blockstates/ash_block.json",
+          "src/main/java/net/mcreator/starcraft/block/AshBlockBlock.java",
+          "src/main/resources/data/starcraft/loot_tables/blocks/ash_block.json",
+          "src/main/resources/assets/starcraft/models/item/ash_block.json",
+          "src/main/resources/assets/starcraft/models/block/ash_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BurntPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/biome/burnt_plains.json"
+        ]
+      }
+    },
+    {
+      "name": "MustafarRocks",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar_rocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/mustafar_rocks.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/mustafar_rocks.json",
+          "src/main/resources/data/starcraft/forge/biome_modifier/mustafar_rocks_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaLakes",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_lakes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/configured_feature/lava_lakes.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/lava_lakes.json",
+          "src/main/resources/data/starcraft/forge/biome_modifier/lava_lakes_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "LavaOcean",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_ocean",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/biome/lava_ocean.json"
+        ]
+      }
+    },
+    {
+      "name": "Mustafar",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/dimension_type/mustafar.json",
+          "src/main/resources/data/starcraft/dimension/mustafar.json",
+          "src/main/java/net/mcreator/starcraft/world/dimension/MustafarDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "MustafarPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/mustafar_planet_token.json",
+          "src/main/java/net/mcreator/starcraft/item/MustafarPlanetTokenItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MustafarPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/MustafarPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MustafarPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/mustafar_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/red_lightsaber.json",
+          "src/main/java/net/mcreator/starcraft/item/RedLightsaberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AhchTo",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ahch_to",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/dimension_type/ahch_to.json",
+          "src/main/java/net/mcreator/starcraft/world/dimension/AhchToDimension.java",
+          "src/main/resources/data/starcraft/dimension/ahch_to.json"
+        ]
+      }
+    },
+    {
+      "name": "Islands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "islands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/biome/islands.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/islands_tree.json",
+          "src/main/resources/data/starcraft/worldgen/configured_feature/islands_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "AhchToPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ahch_to_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/AhchToPlanetTokenItem.java",
+          "src/main/resources/assets/starcraft/models/item/ahch_to_planet_token.json"
+        ]
+      }
+    },
+    {
+      "name": "AhchToPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ahch_to_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/AhchToPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AhchToPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ahch_to_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/ahch_to_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/red_lightsaber_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2160,6 +2381,9 @@
       "~CUSTOM:RedwoodSlab",
       "~CUSTOM:OldSlab"
     ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:BurntPlains"
+    ],
     "BIOMES:minecraft:has_structure/ruined_portal_desert": [
       "~CUSTOM:DryDesert",
       "~CUSTOM:DeadForest"
@@ -2173,6 +2397,7 @@
       "~CUSTOM:OldStairs"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:RedLightsaber",
       "~CUSTOM:BlueLightsaber"
     ],
     "ITEMS:minecraft:planks": [
@@ -2202,15 +2427,17 @@
       "~CUSTOM:DeadForest"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.SAND#0",
+      "~Blocks.BASALT",
+      "~CUSTOM:AshBlock",
+      "~Blocks.FLOWING_LAVA",
       "~Blocks.ICE",
       "~Blocks.SNOW",
       "~Blocks.STONE#0",
       "~Blocks.DIRT#0",
       "~Blocks.GRASS",
       "~Blocks.SANDSTONE#0",
+      "~Blocks.SAND#0",
       "~CUSTOM:CrackedSandstone",
-      "~CUSTOM:DirtySand",
       "~Blocks.MUD",
       "~CUSTOM:OldMud"
     ],
@@ -2241,6 +2468,7 @@
       "CUSTOM:OldFenceGate"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:AshBlock",
       "~CUSTOM:OldMud"
     ],
     "ITEMS:mod:kyber_item": [
@@ -2266,8 +2494,8 @@
       "~CUSTOM:MuddySwamp"
     ],
     "BLOCKS:forge:sand": [
-      "CUSTOM:DirtySand",
-      "Blocks.SAND#0"
+      "Blocks.SAND#0",
+      "CUSTOM:AshBlock"
     ]
   },
   "tab_element_order": {
@@ -2320,13 +2548,19 @@
       "HothPlanetToken",
       "BlueLightsaber",
       "RawEwokMeat",
-      "EwokJerky"
+      "EwokJerky",
+      "AshBlock",
+      "MustafarPlanetToken",
+      "RedLightsaber",
+      "AhchToPlanetToken"
     ]
   },
   "language_map": {
     "en_us": {
+      "biome.starcraft.burnt_plains": "Burnt Plains",
       "advancements.muddy_dagobah.title": "Muddy Dagobah",
       "item_group.starcraft.star_tab": "Star Craft",
+      "item.starcraft.mustafar_planet_token": "Mustafar Planet Token",
       "block.starcraft.cracked_sandstone": "Cracked Sandstone",
       "item.starcraft.hyper_token": "Hyper Token",
       "item.starcraft.liquid_mud_bucket": "Mud Bucket",
@@ -2338,12 +2572,15 @@
       "item.starcraft.ewok_archer_spawn_egg": "Ewok Archer Spawn Egg",
       "item.starcraft.ewok_spawn_egg": "Ewok Spawn Egg",
       "block.starcraft.redwood_leaves": "Redwood Leaves",
+      "item.starcraft.ahch_to_planet_token": "Ahch-To Planet Token",
       "gui.starcraft.moisture_vaporator_gui.label_wait_10_seconds": "Wait 10 Seconds",
       "item.starcraft.purple_kyber": "Purple Kyber Crystal",
+      "biome.starcraft.islands": "Islands",
       "block.starcraft.old_pressure_plate": "Old Pressure Plate",
       "block.starcraft.redwood_planks": "Redwood Planks",
       "item.starcraft.red_kyber": "Red Kyber Crystal",
       "item.starcraft.iron_rod": "Iron Rod",
+      "item.starcraft.red_lightsaber": "Red Lightsaber",
       "biome.starcraft.frozen_wastelands": "Frozen Wastelands",
       "block.starcraft.redwood_wood": "Redwood Wood",
       "key.starcraft.force_pull": "Force Pull",
@@ -2369,6 +2606,7 @@
       "item.starcraft.ewok_jerky": "Ewok Jerky",
       "block.starcraft.liquid_mud": "Liquid Mud",
       "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
+      "block.starcraft.ash_block": "Ash Block",
       "block.starcraft.old_wood": "Old Wood",
       "advancements.dark_side_or_light_side.title": "Dark Side Or Light Side",
       "item.starcraft.white_kyber": "White Kyber Crystal",
@@ -2389,6 +2627,7 @@
       "subtitles.lightsaber_swing": "Lightsaber Swings",
       "block.starcraft.old_fence": "Old Fence",
       "advancements.melting.title": "I am Melting!",
+      "biome.starcraft.lava_ocean": "Lava Ocean",
       "block.starcraft.old_planks": "Old Planks",
       "item.starcraft.clone_armor_leggings": "Clone Leggings",
       "subtitles.ewok_ambient": "Ewok Talks",

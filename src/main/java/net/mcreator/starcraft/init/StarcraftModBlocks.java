@@ -39,6 +39,7 @@ import net.mcreator.starcraft.block.LiquidMudBlock;
 import net.mcreator.starcraft.block.KyberCrystalOreBlock;
 import net.mcreator.starcraft.block.FloweringCactusBlock;
 import net.mcreator.starcraft.block.CrackedSandstoneBlock;
+import net.mcreator.starcraft.block.AshBlockBlock;
 import net.mcreator.starcraft.StarcraftMod;
 
 public class StarcraftModBlocks {
@@ -68,6 +69,7 @@ public class StarcraftModBlocks {
 	public static final RegistryObject<Block> REDWOOD_FENCE_GATE = REGISTRY.register("redwood_fence_gate", () -> new RedwoodFenceGateBlock());
 	public static final RegistryObject<Block> REDWOOD_PRESSURE_PLATE = REGISTRY.register("redwood_pressure_plate", () -> new RedwoodPressurePlateBlock());
 	public static final RegistryObject<Block> REDWOOD_BUTTON = REGISTRY.register("redwood_button", () -> new RedwoodButtonBlock());
+	public static final RegistryObject<Block> ASH_BLOCK = REGISTRY.register("ash_block", () -> new AshBlockBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "planet_token",
   "category": "equipment",
   "pattern": [
     "aba",

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:forest_rock",
+          "config": {
+            "state": {
+              "Name": "minecraft:basalt"
+            }
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:forest_rock",
+          "config": {
+            "state": {
+              "Name": "minecraft:magma_block"
+            }
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}
