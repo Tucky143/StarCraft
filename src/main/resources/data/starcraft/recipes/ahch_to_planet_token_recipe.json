@@ -17,7 +17,7 @@
       "item": "minecraft:water_bucket"
     },
     "d": {
-      "tag": "forge:dirt"
+      "tag": "minecraft:dirt"
     }
   },
   "result": {

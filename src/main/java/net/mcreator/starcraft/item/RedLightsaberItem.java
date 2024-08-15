@@ -38,7 +38,7 @@ public class RedLightsaberItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StarcraftModItems.RED_KYBER.get()));
 			}
-		}, 3, -2.8f, new Item.Properties());
+		}, 3, -3.2f, new Item.Properties());
 	}
 
 	@Override
