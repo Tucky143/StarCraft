@@ -29,7 +29,7 @@ public class MoistureVaporatorGUIWhileThisGUIIsOpenTickProcedure {
 						_player.containerMenu.broadcastChanges();
 					}
 					if ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == Items.BUCKET) {
-						for (int index0 = 0; index0 < 0; index0++) {
+						for (int index1 = 0; index1 < 0; index1++) {
 							if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 						ItemStack _setstack = new ItemStack(Items.WATER_BUCKET).copy();
 						_setstack.setCount(1);

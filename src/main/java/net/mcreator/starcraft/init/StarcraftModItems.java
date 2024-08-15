@@ -91,7 +91,7 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> REDWOOD_BUTTON = block(StarcraftModBlocks.REDWOOD_BUTTON);
 	public static final RegistryObject<Item> ENDOR_PLANET_TOKEN = REGISTRY.register("endor_planet_token", () -> new EndorPlanetTokenItem());
 	public static final RegistryObject<Item> EWOK_SPAWN_EGG = REGISTRY.register("ewok_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK, -10798064, -12836608, new Item.Properties()));
-	public static final RegistryObject<Item> EWOK_ARCHER_SPAWN_EGG = REGISTRY.register("ewok_archer_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK_ARCHER, -10798064, -12836608, new Item.Properties()));
+	public static final RegistryObject<Item> EWOK_ARCHER_SPAWN_EGG = REGISTRY.register("ewok_archer_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK_ARCHER, -10069431, -12836608, new Item.Properties()));
 	public static final RegistryObject<Item> HOTH_PLANET_TOKEN = REGISTRY.register("hoth_planet_token", () -> new HothPlanetTokenItem());
 
 	// Start of user code block custom items

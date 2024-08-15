@@ -1227,18 +1227,6 @@
       }
     },
     {
-      "name": "ForceEnergyOverlay",
-      "type": "overlay",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "force_energy_overlay",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/starcraft/client/screens/ForceEnergyOverlayOverlay.java"
-        ]
-      }
-    },
-    {
       "name": "RedwoodWood",
       "type": "block",
       "compiles": true,
@@ -1846,7 +1834,7 @@
     {
       "name": "MoistureVaporatorGUIWhileThisGUIIsOpenTick",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "moisture_vaporator_gui_while_this_gui_is_open_tick",
       "metadata": {
@@ -1895,11 +1883,11 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:RedwoodLeaves"
-    ],
     "BLOCKS:minecraft:tall_flowers": [
       "CUSTOM:FloweringCactus"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:RedwoodLeaves"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
