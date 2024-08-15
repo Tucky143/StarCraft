@@ -2071,6 +2071,18 @@
           "src/main/resources/data/starcraft/recipes/ewok_jerky_smoked.json"
         ]
       }
+    },
+    {
+      "name": "BlueLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/blue_lightsaber_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2115,11 +2127,11 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:RedwoodLeaves"
-    ],
     "BLOCKS:minecraft:tall_flowers": [
       "CUSTOM:FloweringCactus"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:RedwoodLeaves"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
