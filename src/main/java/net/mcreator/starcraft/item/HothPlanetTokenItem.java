@@ -16,7 +16,7 @@ public class HothPlanetTokenItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		HothPlanetTokenRightclickedOnBlockProcedure.execute(context.getPlayer());
+		HothPlanetTokenRightclickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
 		return InteractionResult.SUCCESS;
 	}
 }

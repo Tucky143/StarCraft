@@ -1,17 +1,39 @@
 {
+  "lightsaber_swing": {
+    "subtitle": "subtitles.lightsaber_swing",
+    "sounds": [
+      {
+        "name": "starcraft:swing1",
+        "stream": false
+      },
+      {
+        "name": "starcraft:swing2",
+        "stream": false
+      }
+    ]
+  },
+  "lightsaber_clash": {
+    "subtitle": "subtitles.lightsaber_clash",
+    "sounds": [
+      {
+        "name": "starcraft:saberclash",
+        "stream": false
+      }
+    ]
+  },
   "ewok_ambient": {
     "subtitle": "subtitles.ewok_ambient",
     "sounds": [
+      {
+        "name": "starcraft:ewoksinging",
+        "stream": false
+      },
       {
         "name": "starcraft:ewoktalking",
         "stream": false
       },
       {
         "name": "starcraft:ewoktalking2",
-        "stream": false
-      },
-      {
-        "name": "starcraft:ewoksinging",
         "stream": false
       }
     ]

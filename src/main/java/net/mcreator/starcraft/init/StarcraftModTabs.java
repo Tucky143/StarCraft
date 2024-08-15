@@ -72,6 +72,9 @@ public class StarcraftModTabs {
 				tabData.accept(StarcraftModItems.HYPER_TOKEN.get());
 				tabData.accept(StarcraftModItems.MC_PLANET_TOKEN.get());
 				tabData.accept(StarcraftModItems.HOTH_PLANET_TOKEN.get());
+				tabData.accept(StarcraftModItems.BLUE_LIGHTSABER.get());
+				tabData.accept(StarcraftModItems.RAW_EWOK_MEAT.get());
+				tabData.accept(StarcraftModItems.EWOK_JERKY.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -108,6 +111,7 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_CHESTPLATE.get());
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_LEGGINGS.get());
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_BOOTS.get());
+			tabData.accept(StarcraftModItems.BLUE_LIGHTSABER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(StarcraftModItems.EWOK_SPAWN_EGG.get());
 			tabData.accept(StarcraftModItems.EWOK_ARCHER_SPAWN_EGG.get());
@@ -137,6 +141,8 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.LIQUID_MUD_BUCKET.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(StarcraftModItems.CACTUS_FRUIT.get());
+			tabData.accept(StarcraftModItems.RAW_EWOK_MEAT.get());
+			tabData.accept(StarcraftModItems.EWOK_JERKY.get());
 		}
 	}
 }

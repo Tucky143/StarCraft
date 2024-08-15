@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "blue_lightsaber",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Blue Lightsaber",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:StarTab"
+      },
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 22,
+    "damageVsEntity": 12.5,
+    "usageCount": 6032,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Kyber"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BlueLightsaberLivingEntityIsHitWithTool"
+    },
+    "onEntitySwing": {
+      "name": "BlueLightsaberEntitySwingsItem"
+    }
+  }
+}

@@ -18,6 +18,7 @@ import net.mcreator.starcraft.item.YellowKyberItem;
 import net.mcreator.starcraft.item.WhiteKyberItem;
 import net.mcreator.starcraft.item.TatooinePlanetTokenItem;
 import net.mcreator.starcraft.item.RedKyberItem;
+import net.mcreator.starcraft.item.RawEwokMeatItem;
 import net.mcreator.starcraft.item.PurpleKyberItem;
 import net.mcreator.starcraft.item.OrangeKyberItem;
 import net.mcreator.starcraft.item.MinecraftPlanetTokenItem;
@@ -32,10 +33,12 @@ import net.mcreator.starcraft.item.HyperTokenItem;
 import net.mcreator.starcraft.item.HyperPlateItem;
 import net.mcreator.starcraft.item.HothPlanetTokenItem;
 import net.mcreator.starcraft.item.GreenKyberItem;
+import net.mcreator.starcraft.item.EwokJerkyItem;
 import net.mcreator.starcraft.item.EndorPlanetTokenItem;
 import net.mcreator.starcraft.item.DagobahPlanetTokenItem;
 import net.mcreator.starcraft.item.CloneArmorItem;
 import net.mcreator.starcraft.item.CactusFruitItem;
+import net.mcreator.starcraft.item.BlueLightsaberItem;
 import net.mcreator.starcraft.item.BlackKyberItem;
 import net.mcreator.starcraft.StarcraftMod;
 
@@ -93,6 +96,9 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> EWOK_SPAWN_EGG = REGISTRY.register("ewok_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK, -10798064, -12836608, new Item.Properties()));
 	public static final RegistryObject<Item> EWOK_ARCHER_SPAWN_EGG = REGISTRY.register("ewok_archer_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK_ARCHER, -10069431, -12836608, new Item.Properties()));
 	public static final RegistryObject<Item> HOTH_PLANET_TOKEN = REGISTRY.register("hoth_planet_token", () -> new HothPlanetTokenItem());
+	public static final RegistryObject<Item> BLUE_LIGHTSABER = REGISTRY.register("blue_lightsaber", () -> new BlueLightsaberItem());
+	public static final RegistryObject<Item> RAW_EWOK_MEAT = REGISTRY.register("raw_ewok_meat", () -> new RawEwokMeatItem());
+	public static final RegistryObject<Item> EWOK_JERKY = REGISTRY.register("ewok_jerky", () -> new EwokJerkyItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

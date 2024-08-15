@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "ewok_jerky",
+    "cookingBookCategory": "FOOD",
+    "xpReward": 1.5,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:RawEwokMeat"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:EwokJerky"
+    },
+    "name": "ewok_jerky_smoked",
+    "namespace": "mod"
+  }
+}

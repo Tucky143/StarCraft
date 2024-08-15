@@ -16,7 +16,7 @@ public class DagobahPlanetTokenItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		DagobahPlanetTokenRightclickedOnBlockProcedure.execute(context.getPlayer());
+		DagobahPlanetTokenRightclickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
 		return InteractionResult.SUCCESS;
 	}
 }

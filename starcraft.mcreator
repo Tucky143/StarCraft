@@ -399,6 +399,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -443,6 +459,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -820,6 +852,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1614,6 +1662,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1791,6 +1855,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -1834,7 +1914,7 @@
     {
       "name": "MoistureVaporatorGUIWhileThisGUIIsOpenTick",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "moisture_vaporator_gui_while_this_gui_is_open_tick",
       "metadata": {
@@ -1856,16 +1936,168 @@
           }
         ]
       }
+    },
+    {
+      "name": "BlueLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/BlueLightsaberItem.java",
+          "src/main/resources/assets/starcraft/models/item/blue_lightsaber.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueLightsaberEntitySwingsItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/BlueLightsaberEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueLightsaberLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/procedures/BlueLightsaberLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RawEwokMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_ewok_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/raw_ewok_meat.json",
+          "src/main/java/net/mcreator/starcraft/item/RawEwokMeatItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EwokJerky",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_jerky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/EwokJerkyItem.java",
+          "src/main/resources/assets/starcraft/models/item/ewok_jerky.json"
+        ]
+      }
+    },
+    {
+      "name": "EwokLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/loot_tables/entities/ewok.json"
+        ]
+      }
+    },
+    {
+      "name": "EwokJerkyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_jerky_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/ewok_jerky_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EwokJerkySmoked",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_jerky_smoked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/ewok_jerky_smoked.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
+      "name": "lightsaber_swing",
+      "files": [
+        "swing1",
+        "swing2"
+      ],
+      "category": "neutral",
+      "subtitle": "Lightsaber Swings"
+    },
+    {
+      "name": "lightsaber_clash",
+      "files": [
+        "saberclash"
+      ],
+      "category": "neutral",
+      "subtitle": "Lightsaber Clashes"
+    },
+    {
       "name": "ewok_ambient",
       "files": [
+        "ewoksinging",
         "ewoktalking",
-        "ewoktalking2",
-        "ewoksinging"
+        "ewoktalking2"
       ],
       "category": "ambient",
       "subtitle": "Ewok Talks"
@@ -1883,11 +2115,11 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:tall_flowers": [
-      "CUSTOM:FloweringCactus"
-    ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:RedwoodLeaves"
+    ],
+    "BLOCKS:minecraft:tall_flowers": [
+      "CUSTOM:FloweringCactus"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
@@ -1927,6 +2159,9 @@
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:RedwoodStairs",
       "~CUSTOM:OldStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:BlueLightsaber"
     ],
     "ITEMS:minecraft:planks": [
       "CUSTOM:OldPlanks",
@@ -2070,7 +2305,10 @@
       "TatooinePlanetToken",
       "HyperToken",
       "MinecraftPlanetToken",
-      "HothPlanetToken"
+      "HothPlanetToken",
+      "BlueLightsaber",
+      "RawEwokMeat",
+      "EwokJerky"
     ]
   },
   "language_map": {
@@ -2080,6 +2318,7 @@
       "block.starcraft.cracked_sandstone": "Cracked Sandstone",
       "item.starcraft.hyper_token": "Hyper Token",
       "item.starcraft.liquid_mud_bucket": "Mud Bucket",
+      "item.starcraft.raw_ewok_meat": "Raw Ewok Meat",
       "item.starcraft.lightsaber_hilt_casing": "Lightsaber Hilt Casing",
       "biome.starcraft.endorian_forest": "Endorian Forest",
       "advancements.muddy_dagobah.descr": "Enter the Muddy Swamp",
@@ -2115,6 +2354,7 @@
       "item.starcraft.lightsaber_hilt_core": "Lightsaber Hilt Core",
       "item.starcraft.dagobah_planet_token": "Dagobah Planet Token",
       "block.starcraft.redwood_fence_gate": "Redwood Fence Gate",
+      "item.starcraft.ewok_jerky": "Ewok Jerky",
       "block.starcraft.liquid_mud": "Liquid Mud",
       "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
       "block.starcraft.old_wood": "Old Wood",
@@ -2128,10 +2368,13 @@
       "advancements.dark_side_or_light_side.descr": "Have a lightsaber hilt in your inventory.",
       "biome.starcraft.dry_desert": "Dry Desert",
       "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
+      "subtitles.lightsaber_clash": "Lightsaber Clashes",
+      "item.starcraft.blue_lightsaber": "Blue Lightsaber",
       "block.starcraft.kyber_crystal_ore": "Kyber Crystal Ore",
       "block.starcraft.redwood_button": "Redwood Button",
       "entity.starcraft.ewok": "Ewok",
       "item.starcraft.cactus_fruit": "Cactus Fruit",
+      "subtitles.lightsaber_swing": "Lightsaber Swings",
       "block.starcraft.old_fence": "Old Fence",
       "advancements.melting.title": "I am Melting!",
       "block.starcraft.old_planks": "Old Planks",
