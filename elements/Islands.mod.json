@@ -12,6 +12,14 @@
     "underwaterBlock": {
       "value": "Blocks.SAND#0"
     },
+    "grassColor": {
+      "value": -13395712,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13395712,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": ""
     },

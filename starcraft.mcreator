@@ -2354,7 +2354,7 @@
       "name": "AhchTo",
       "type": "dimension",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ahch_to",
       "metadata": {
         "files": [

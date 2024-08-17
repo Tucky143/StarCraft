@@ -4,13 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "deep_ocean"
-      },
-      {
-        "value": "ocean"
-      },
-      {
-        "value": "beaches"
+        "value": "CUSTOM:Islands"
       }
     ],
     "worldGenType": "Normal world gen",
