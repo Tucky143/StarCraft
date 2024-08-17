@@ -38,6 +38,9 @@
     "creativeTabs": [
       {
         "value": "MISC"
+      },
+      {
+        "value": "CUSTOM:StarTab"
       }
     ],
     "isBoss": false,
