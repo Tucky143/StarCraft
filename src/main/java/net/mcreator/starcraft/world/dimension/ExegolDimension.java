@@ -12,16 +12,16 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.DimensionSpecialEffects;
 
 @Mod.EventBusSubscriber
-public class DagobahPlanetDimension {
+public class ExegolDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	public static class DagobahPlanetSpecialEffectsHandler {
+	public static class ExegolSpecialEffectsHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {
-			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(DimensionSpecialEffects.OverworldEffects.CLOUD_LEVEL, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
+			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0.3137254902, 0.3647058824, 0.0156862745);
+					return new Vec3(0.0862745098, 0.0862745098, 0.0862745098);
 				}
 
 				@Override
@@ -29,7 +29,7 @@ public class DagobahPlanetDimension {
 					return true;
 				}
 			};
-			event.register(new ResourceLocation("starcraft:dagobah"), customEffect);
+			event.register(new ResourceLocation("starcraft:exegol"), customEffect);
 		}
 	}
 }

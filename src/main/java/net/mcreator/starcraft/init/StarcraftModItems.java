@@ -35,6 +35,7 @@ import net.mcreator.starcraft.item.HyperTokenItem;
 import net.mcreator.starcraft.item.HyperPlateItem;
 import net.mcreator.starcraft.item.HothPlanetTokenItem;
 import net.mcreator.starcraft.item.GreenKyberItem;
+import net.mcreator.starcraft.item.ExegolPlanetTokenItem;
 import net.mcreator.starcraft.item.EwokJerkyItem;
 import net.mcreator.starcraft.item.EndorPlanetTokenItem;
 import net.mcreator.starcraft.item.DagobahPlanetTokenItem;
@@ -106,6 +107,7 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> MUSTAFAR_PLANET_TOKEN = REGISTRY.register("mustafar_planet_token", () -> new MustafarPlanetTokenItem());
 	public static final RegistryObject<Item> RED_LIGHTSABER = REGISTRY.register("red_lightsaber", () -> new RedLightsaberItem());
 	public static final RegistryObject<Item> AHCH_TO_PLANET_TOKEN = REGISTRY.register("ahch_to_planet_token", () -> new AhchToPlanetTokenItem());
+	public static final RegistryObject<Item> EXEGOL_PLANET_TOKEN = REGISTRY.register("exegol_planet_token", () -> new ExegolPlanetTokenItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

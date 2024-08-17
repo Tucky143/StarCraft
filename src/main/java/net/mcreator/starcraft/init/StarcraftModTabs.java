@@ -79,6 +79,7 @@ public class StarcraftModTabs {
 				tabData.accept(StarcraftModItems.MUSTAFAR_PLANET_TOKEN.get());
 				tabData.accept(StarcraftModItems.RED_LIGHTSABER.get());
 				tabData.accept(StarcraftModItems.AHCH_TO_PLANET_TOKEN.get());
+				tabData.accept(StarcraftModItems.EXEGOL_PLANET_TOKEN.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -110,6 +111,7 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.HOTH_PLANET_TOKEN.get());
 			tabData.accept(StarcraftModItems.MUSTAFAR_PLANET_TOKEN.get());
 			tabData.accept(StarcraftModItems.AHCH_TO_PLANET_TOKEN.get());
+			tabData.accept(StarcraftModItems.EXEGOL_PLANET_TOKEN.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(StarcraftModBlocks.MOISTURE_VAPORATOR.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
