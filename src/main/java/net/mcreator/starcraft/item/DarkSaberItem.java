@@ -12,8 +12,8 @@ import net.mcreator.starcraft.procedures.BlueLightsaberLivingEntityIsHitWithTool
 import net.mcreator.starcraft.procedures.BlueLightsaberEntitySwingsItemProcedure;
 import net.mcreator.starcraft.init.StarcraftModItems;
 
-public class RedLightsaberItem extends SwordItem {
-	public RedLightsaberItem() {
+public class DarkSaberItem extends SwordItem {
+	public DarkSaberItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 6032;
@@ -24,7 +24,7 @@ public class RedLightsaberItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 10f;
+				return 9f;
 			}
 
 			public int getLevel() {
@@ -36,9 +36,9 @@ public class RedLightsaberItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(StarcraftModItems.RED_KYBER.get()));
+				return Ingredient.of(new ItemStack(StarcraftModItems.WHITE_KYBER.get()), new ItemStack(StarcraftModItems.BLACK_KYBER.get()));
 			}
-		}, 3, -2.8f, new Item.Properties());
+		}, 3, -3.5f, new Item.Properties().fireResistant());
 	}
 
 	@Override

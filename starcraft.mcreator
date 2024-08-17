@@ -2512,6 +2512,60 @@
         ]
       },
       "path": "~/Exegol"
+    },
+    {
+      "name": "YellowLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/starcraft/item/YellowLightsaberItem.java",
+          "src/main/resources/assets/starcraft/models/item/yellow_lightsaber.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "YellowLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/yellow_lightsaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "DarkSaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_saber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/starcraft/models/item/dark_saber.json",
+          "src/main/java/net/mcreator/starcraft/item/DarkSaberItem.java"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "DarksaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darksaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/recipes/darksaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber"
     }
   ],
   "variable_elements": [],
@@ -2556,11 +2610,11 @@
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:RedwoodLeaves"
-    ],
     "BLOCKS:minecraft:tall_flowers": [
       "CUSTOM:FloweringCactus"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:RedwoodLeaves"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
@@ -2605,6 +2659,8 @@
       "~CUSTOM:OldStairs"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:DarkSaber",
+      "~CUSTOM:YellowLightsaber",
       "~CUSTOM:RedLightsaber",
       "~CUSTOM:BlueLightsaber"
     ],
@@ -2762,7 +2818,9 @@
       "MustafarPlanetToken",
       "RedLightsaber",
       "AhchToPlanetToken",
-      "ExegolPlanetToken"
+      "ExegolPlanetToken",
+      "YellowLightsaber",
+      "DarkSaber"
     ]
   },
   "language_map": {
@@ -2829,6 +2887,8 @@
       "gui.starcraft.moisture_vaporator_gui.label_moisture_vaporator": "Moisture Vaporator",
       "advancements.dark_side_or_light_side.descr": "Have a lightsaber hilt in your inventory.",
       "biome.starcraft.dry_desert": "Dry Desert",
+      "item.starcraft.yellow_lightsaber": "Yellow Lightsaber",
+      "item.starcraft.dark_saber": "Darksaber",
       "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
       "subtitles.lightsaber_clash": "Lightsaber Clashes",
       "item.starcraft.blue_lightsaber": "Blue Lightsaber",

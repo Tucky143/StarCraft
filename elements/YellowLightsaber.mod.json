@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "red_lightsaber",
+    "texture": "yellow_lightsaber",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Red Lightsaber",
+    "name": "Yellow Lightsaber",
     "specialInformation": {
       "fixedValue": []
     },
@@ -21,16 +21,16 @@
       }
     ],
     "efficiency": 9.0,
-    "attackSpeed": 1.2000000000000002,
+    "attackSpeed": 1.0,
     "enchantability": 22,
-    "damageVsEntity": 14.0,
+    "damageVsEntity": 8.0,
     "usageCount": 6032,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "CUSTOM:RedKyber"
+        "value": "CUSTOM:YellowKyber"
       }
     ],
     "immuneToFire": false,

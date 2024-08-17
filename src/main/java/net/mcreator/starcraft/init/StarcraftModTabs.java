@@ -80,6 +80,8 @@ public class StarcraftModTabs {
 				tabData.accept(StarcraftModItems.RED_LIGHTSABER.get());
 				tabData.accept(StarcraftModItems.AHCH_TO_PLANET_TOKEN.get());
 				tabData.accept(StarcraftModItems.EXEGOL_PLANET_TOKEN.get());
+				tabData.accept(StarcraftModItems.YELLOW_LIGHTSABER.get());
+				tabData.accept(StarcraftModItems.DARK_SABER.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -121,6 +123,8 @@ public class StarcraftModTabs {
 			tabData.accept(StarcraftModItems.CLONE_ARMOR_BOOTS.get());
 			tabData.accept(StarcraftModItems.BLUE_LIGHTSABER.get());
 			tabData.accept(StarcraftModItems.RED_LIGHTSABER.get());
+			tabData.accept(StarcraftModItems.YELLOW_LIGHTSABER.get());
+			tabData.accept(StarcraftModItems.DARK_SABER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(StarcraftModItems.EWOK_SPAWN_EGG.get());
 			tabData.accept(StarcraftModItems.EWOK_ARCHER_SPAWN_EGG.get());

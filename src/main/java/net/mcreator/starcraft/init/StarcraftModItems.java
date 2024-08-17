@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.starcraft.item.YellowLightsaberItem;
 import net.mcreator.starcraft.item.YellowKyberItem;
 import net.mcreator.starcraft.item.WhiteKyberItem;
 import net.mcreator.starcraft.item.TatooinePlanetTokenItem;
@@ -38,6 +39,7 @@ import net.mcreator.starcraft.item.GreenKyberItem;
 import net.mcreator.starcraft.item.ExegolPlanetTokenItem;
 import net.mcreator.starcraft.item.EwokJerkyItem;
 import net.mcreator.starcraft.item.EndorPlanetTokenItem;
+import net.mcreator.starcraft.item.DarkSaberItem;
 import net.mcreator.starcraft.item.DagobahPlanetTokenItem;
 import net.mcreator.starcraft.item.CloneArmorItem;
 import net.mcreator.starcraft.item.CactusFruitItem;
@@ -108,6 +110,8 @@ public class StarcraftModItems {
 	public static final RegistryObject<Item> RED_LIGHTSABER = REGISTRY.register("red_lightsaber", () -> new RedLightsaberItem());
 	public static final RegistryObject<Item> AHCH_TO_PLANET_TOKEN = REGISTRY.register("ahch_to_planet_token", () -> new AhchToPlanetTokenItem());
 	public static final RegistryObject<Item> EXEGOL_PLANET_TOKEN = REGISTRY.register("exegol_planet_token", () -> new ExegolPlanetTokenItem());
+	public static final RegistryObject<Item> YELLOW_LIGHTSABER = REGISTRY.register("yellow_lightsaber", () -> new YellowLightsaberItem());
+	public static final RegistryObject<Item> DARK_SABER = REGISTRY.register("dark_saber", () -> new DarkSaberItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
