@@ -57,6 +57,7 @@ public class StarcraftMod {
 		StarcraftModMenus.REGISTRY.register(bus);
 		StarcraftModFluids.REGISTRY.register(bus);
 		StarcraftModFluidTypes.REGISTRY.register(bus);
+
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

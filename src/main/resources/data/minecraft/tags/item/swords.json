@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "starcraft:dark_saber",
+    "starcraft:yellow_lightsaber",
+    "starcraft:red_lightsaber",
+    "starcraft:blue_lightsaber"
+  ]
+}

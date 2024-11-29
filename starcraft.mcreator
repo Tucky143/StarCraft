@@ -2691,7 +2691,6 @@
       "~CUSTOM:DeadForest"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.DEEPSLATE",
       "~Blocks.BASALT",
       "~CUSTOM:AshBlock",
       "~Blocks.FLOWING_LAVA",
@@ -2990,5 +2989,5 @@
     "currentGenerator": "forge-1.20.1",
     "modElementsPackage": "net.mcreator.starcraft"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400342716
 }
