@@ -1,13 +1,13 @@
 
 package net.mcreator.starcraft.entity;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
+import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.monster.Monster;
@@ -19,10 +19,9 @@ import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.SpawnPlacementTypes;
 import net.minecraft.world.entity.SpawnGroupData;
 import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
@@ -32,9 +31,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.starcraft.procedures.EwokArcherOnInitialEntitySpawnProcedure;
 import net.mcreator.starcraft.init.StarcraftModEntities;
@@ -42,21 +39,11 @@ import net.mcreator.starcraft.init.StarcraftModEntities;
 import javax.annotation.Nullable;
 
 public class EwokArcherEntity extends Monster implements RangedAttackMob {
-	public EwokArcherEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(StarcraftModEntities.EWOK_ARCHER.get(), world);
-	}
-
 	public EwokArcherEntity(EntityType<EwokArcherEntity> type, Level world) {
 		super(type, world);
-		setMaxUpStep(0.5f);
 		xpReward = 0;
 		setNoAi(false);
 		refreshDimensions();
-	}
-
-	@Override
-	public Packet<ClientGamePacketListener> getAddEntityPacket() {
-		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
 	@Override
@@ -66,8 +53,8 @@ public class EwokArcherEntity extends Monster implements RangedAttackMob {
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
-			protected double getAttackReachSqr(LivingEntity entity) {
-				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
+			protected boolean canPerformAttack(LivingEntity entity) {
+				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
 			}
 		});
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
@@ -81,35 +68,30 @@ public class EwokArcherEntity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
-	public MobType getMobType() {
-		return MobType.UNDEFINED;
-	}
-
-	@Override
 	public SoundEvent getAmbientSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("starcraft:ewok_ambient"));
+		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("starcraft:ewok_ambient"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("starcraft:ewok_hurt"));
+		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("starcraft:ewok_hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("starcraft:ewok_hurt"));
+		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("starcraft:ewok_hurt"));
 	}
 
 	@Override
-	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata, @Nullable CompoundTag tag) {
-		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
+	public SpawnGroupData finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty, MobSpawnType reason, @Nullable SpawnGroupData livingdata) {
+		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata);
 		EwokArcherOnInitialEntitySpawnProcedure.execute(this);
 		return retval;
 	}
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		Arrow entityarrow = new Arrow(this.level(), this);
+		Arrow entityarrow = new Arrow(this.level(), this, new ItemStack(Items.ARROW), null);
 		double d0 = target.getY() + target.getEyeHeight() - 1.1;
 		double d1 = target.getX() - this.getX();
 		double d3 = target.getZ() - this.getZ();
@@ -118,12 +100,12 @@ public class EwokArcherEntity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
-	public EntityDimensions getDimensions(Pose pose) {
-		return super.getDimensions(pose).scale(0.65f);
+	public EntityDimensions getDefaultDimensions(Pose pose) {
+		return super.getDefaultDimensions(pose).scale(0.65f);
 	}
 
-	public static void init() {
-		SpawnPlacements.register(StarcraftModEntities.EWOK_ARCHER.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
+	public static void init(RegisterSpawnPlacementsEvent event) {
+		event.register(StarcraftModEntities.EWOK_ARCHER.get(), SpawnPlacementTypes.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules, RegisterSpawnPlacementsEvent.Operation.REPLACE);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -133,6 +115,7 @@ public class EwokArcherEntity extends Monster implements RangedAttackMob {
 		builder = builder.add(Attributes.ARMOR, 0.5);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 5);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+		builder = builder.add(Attributes.STEP_HEIGHT, 0.5);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.1);
 		return builder;
 	}

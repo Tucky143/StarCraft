@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:mangrove_propagule"
+    },
+    "b": {
+      "item": "minecraft:mud"
+    },
+    "c": {
+      "item": "starcraft:hyper_token"
+    }
+  },
+  "result": {
+    "id": "starcraft:dagobah_planet_token",
+    "count": 1
+  }
+}

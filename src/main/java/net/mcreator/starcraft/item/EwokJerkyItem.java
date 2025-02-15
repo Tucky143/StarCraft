@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class EwokJerkyItem extends Item {
 	public EwokJerkyItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(10).saturationMod(8.5f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(10).saturationModifier(8.5f).build()));
 	}
 }

@@ -4,10 +4,10 @@
  */
 package net.mcreator.starcraft.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -49,77 +49,77 @@ import net.mcreator.starcraft.item.AhchToPlanetTokenItem;
 import net.mcreator.starcraft.StarcraftMod;
 
 public class StarcraftModItems {
-	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, StarcraftMod.MODID);
-	public static final RegistryObject<Item> BLUE_KYBER = REGISTRY.register("blue_kyber", () -> new KyberItem());
-	public static final RegistryObject<Item> CLONE_ARMOR_HELMET = REGISTRY.register("clone_armor_helmet", () -> new CloneArmorItem.Helmet());
-	public static final RegistryObject<Item> CLONE_ARMOR_CHESTPLATE = REGISTRY.register("clone_armor_chestplate", () -> new CloneArmorItem.Chestplate());
-	public static final RegistryObject<Item> CLONE_ARMOR_LEGGINGS = REGISTRY.register("clone_armor_leggings", () -> new CloneArmorItem.Leggings());
-	public static final RegistryObject<Item> CLONE_ARMOR_BOOTS = REGISTRY.register("clone_armor_boots", () -> new CloneArmorItem.Boots());
-	public static final RegistryObject<Item> RED_KYBER = REGISTRY.register("red_kyber", () -> new RedKyberItem());
-	public static final RegistryObject<Item> GREEN_KYBER = REGISTRY.register("green_kyber", () -> new GreenKyberItem());
-	public static final RegistryObject<Item> PURPLE_KYBER = REGISTRY.register("purple_kyber", () -> new PurpleKyberItem());
-	public static final RegistryObject<Item> ORANGE_KYBER = REGISTRY.register("orange_kyber", () -> new OrangeKyberItem());
-	public static final RegistryObject<Item> YELLOW_KYBER = REGISTRY.register("yellow_kyber", () -> new YellowKyberItem());
-	public static final RegistryObject<Item> WHITE_KYBER = REGISTRY.register("white_kyber", () -> new WhiteKyberItem());
-	public static final RegistryObject<Item> BLACK_KYBER = REGISTRY.register("black_kyber", () -> new BlackKyberItem());
-	public static final RegistryObject<Item> LIGHTSABER_HILT_CORE = REGISTRY.register("lightsaber_hilt_core", () -> new LightsaberHiltCoreItem());
-	public static final RegistryObject<Item> LIGHTSABER_HILT_CASING = REGISTRY.register("lightsaber_hilt_casing", () -> new LightsaberHiltCasingItem());
-	public static final RegistryObject<Item> LIGHTSABER_HILT_HANDLE = REGISTRY.register("lightsaber_hilt_handle", () -> new LightsaberHiltHandleItem());
-	public static final RegistryObject<Item> LIGHTSABER_HILT = REGISTRY.register("lightsaber_hilt", () -> new LightsaberHiltItem());
-	public static final RegistryObject<Item> KYBER_CRYSTAL_ORE = block(StarcraftModBlocks.KYBER_CRYSTAL_ORE);
-	public static final RegistryObject<Item> OLD_MUD = block(StarcraftModBlocks.OLD_MUD);
-	public static final RegistryObject<Item> DAGOBAH_PLANET_TOKEN = REGISTRY.register("dagobah_planet_token", () -> new DagobahPlanetTokenItem());
-	public static final RegistryObject<Item> MC_PLANET_TOKEN = REGISTRY.register("mc_planet_token", () -> new MinecraftPlanetTokenItem());
-	public static final RegistryObject<Item> HYPER_PLATE = REGISTRY.register("hyper_plate", () -> new HyperPlateItem());
-	public static final RegistryObject<Item> HYPER_TOKEN = REGISTRY.register("hyper_token", () -> new HyperTokenItem());
-	public static final RegistryObject<Item> LIQUID_MUD_BUCKET = REGISTRY.register("liquid_mud_bucket", () -> new LiquidMudItem());
-	public static final RegistryObject<Item> FLOWERING_CACTUS = doubleBlock(StarcraftModBlocks.FLOWERING_CACTUS);
-	public static final RegistryObject<Item> CACTUS_FRUIT = REGISTRY.register("cactus_fruit", () -> new CactusFruitItem());
-	public static final RegistryObject<Item> TATOOINE_PLANET_TOKEN = REGISTRY.register("tatooine_planet_token", () -> new TatooinePlanetTokenItem());
-	public static final RegistryObject<Item> OLD_WOOD = block(StarcraftModBlocks.OLD_WOOD);
-	public static final RegistryObject<Item> OLD_LOG = block(StarcraftModBlocks.OLD_LOG);
-	public static final RegistryObject<Item> OLD_PLANKS = block(StarcraftModBlocks.OLD_PLANKS);
-	public static final RegistryObject<Item> OLD_STAIRS = block(StarcraftModBlocks.OLD_STAIRS);
-	public static final RegistryObject<Item> OLD_SLAB = block(StarcraftModBlocks.OLD_SLAB);
-	public static final RegistryObject<Item> OLD_FENCE = block(StarcraftModBlocks.OLD_FENCE);
-	public static final RegistryObject<Item> OLD_FENCE_GATE = block(StarcraftModBlocks.OLD_FENCE_GATE);
-	public static final RegistryObject<Item> OLD_PRESSURE_PLATE = block(StarcraftModBlocks.OLD_PRESSURE_PLATE);
-	public static final RegistryObject<Item> OLD_BUTTON = block(StarcraftModBlocks.OLD_BUTTON);
-	public static final RegistryObject<Item> CRACKED_SANDSTONE = block(StarcraftModBlocks.CRACKED_SANDSTONE);
-	public static final RegistryObject<Item> MOISTURE_VAPORATOR = block(StarcraftModBlocks.MOISTURE_VAPORATOR);
-	public static final RegistryObject<Item> IRON_ROD = REGISTRY.register("iron_rod", () -> new IronRodItem());
-	public static final RegistryObject<Item> REDWOOD_WOOD = block(StarcraftModBlocks.REDWOOD_WOOD);
-	public static final RegistryObject<Item> REDWOOD_LOG = block(StarcraftModBlocks.REDWOOD_LOG);
-	public static final RegistryObject<Item> REDWOOD_PLANKS = block(StarcraftModBlocks.REDWOOD_PLANKS);
-	public static final RegistryObject<Item> REDWOOD_LEAVES = block(StarcraftModBlocks.REDWOOD_LEAVES);
-	public static final RegistryObject<Item> REDWOOD_STAIRS = block(StarcraftModBlocks.REDWOOD_STAIRS);
-	public static final RegistryObject<Item> REDWOOD_SLAB = block(StarcraftModBlocks.REDWOOD_SLAB);
-	public static final RegistryObject<Item> REDWOOD_FENCE = block(StarcraftModBlocks.REDWOOD_FENCE);
-	public static final RegistryObject<Item> REDWOOD_FENCE_GATE = block(StarcraftModBlocks.REDWOOD_FENCE_GATE);
-	public static final RegistryObject<Item> REDWOOD_PRESSURE_PLATE = block(StarcraftModBlocks.REDWOOD_PRESSURE_PLATE);
-	public static final RegistryObject<Item> REDWOOD_BUTTON = block(StarcraftModBlocks.REDWOOD_BUTTON);
-	public static final RegistryObject<Item> ENDOR_PLANET_TOKEN = REGISTRY.register("endor_planet_token", () -> new EndorPlanetTokenItem());
-	public static final RegistryObject<Item> EWOK_SPAWN_EGG = REGISTRY.register("ewok_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK, -10798064, -12836608, new Item.Properties()));
-	public static final RegistryObject<Item> EWOK_ARCHER_SPAWN_EGG = REGISTRY.register("ewok_archer_spawn_egg", () -> new ForgeSpawnEggItem(StarcraftModEntities.EWOK_ARCHER, -10069431, -12836608, new Item.Properties()));
-	public static final RegistryObject<Item> HOTH_PLANET_TOKEN = REGISTRY.register("hoth_planet_token", () -> new HothPlanetTokenItem());
-	public static final RegistryObject<Item> BLUE_LIGHTSABER = REGISTRY.register("blue_lightsaber", () -> new BlueLightsaberItem());
-	public static final RegistryObject<Item> RAW_EWOK_MEAT = REGISTRY.register("raw_ewok_meat", () -> new RawEwokMeatItem());
-	public static final RegistryObject<Item> EWOK_JERKY = REGISTRY.register("ewok_jerky", () -> new EwokJerkyItem());
-	public static final RegistryObject<Item> ASH_BLOCK = block(StarcraftModBlocks.ASH_BLOCK);
-	public static final RegistryObject<Item> MUSTAFAR_PLANET_TOKEN = REGISTRY.register("mustafar_planet_token", () -> new MustafarPlanetTokenItem());
-	public static final RegistryObject<Item> RED_LIGHTSABER = REGISTRY.register("red_lightsaber", () -> new RedLightsaberItem());
-	public static final RegistryObject<Item> AHCH_TO_PLANET_TOKEN = REGISTRY.register("ahch_to_planet_token", () -> new AhchToPlanetTokenItem());
-	public static final RegistryObject<Item> EXEGOL_PLANET_TOKEN = REGISTRY.register("exegol_planet_token", () -> new ExegolPlanetTokenItem());
-	public static final RegistryObject<Item> YELLOW_LIGHTSABER = REGISTRY.register("yellow_lightsaber", () -> new YellowLightsaberItem());
-	public static final RegistryObject<Item> DARK_SABER = REGISTRY.register("dark_saber", () -> new DarkSaberItem());
+	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(StarcraftMod.MODID);
+	public static final DeferredItem<Item> BLUE_KYBER = REGISTRY.register("blue_kyber", KyberItem::new);
+	public static final DeferredItem<Item> CLONE_ARMOR_HELMET = REGISTRY.register("clone_armor_helmet", CloneArmorItem.Helmet::new);
+	public static final DeferredItem<Item> CLONE_ARMOR_CHESTPLATE = REGISTRY.register("clone_armor_chestplate", CloneArmorItem.Chestplate::new);
+	public static final DeferredItem<Item> CLONE_ARMOR_LEGGINGS = REGISTRY.register("clone_armor_leggings", CloneArmorItem.Leggings::new);
+	public static final DeferredItem<Item> CLONE_ARMOR_BOOTS = REGISTRY.register("clone_armor_boots", CloneArmorItem.Boots::new);
+	public static final DeferredItem<Item> RED_KYBER = REGISTRY.register("red_kyber", RedKyberItem::new);
+	public static final DeferredItem<Item> GREEN_KYBER = REGISTRY.register("green_kyber", GreenKyberItem::new);
+	public static final DeferredItem<Item> PURPLE_KYBER = REGISTRY.register("purple_kyber", PurpleKyberItem::new);
+	public static final DeferredItem<Item> ORANGE_KYBER = REGISTRY.register("orange_kyber", OrangeKyberItem::new);
+	public static final DeferredItem<Item> YELLOW_KYBER = REGISTRY.register("yellow_kyber", YellowKyberItem::new);
+	public static final DeferredItem<Item> WHITE_KYBER = REGISTRY.register("white_kyber", WhiteKyberItem::new);
+	public static final DeferredItem<Item> BLACK_KYBER = REGISTRY.register("black_kyber", BlackKyberItem::new);
+	public static final DeferredItem<Item> LIGHTSABER_HILT_CORE = REGISTRY.register("lightsaber_hilt_core", LightsaberHiltCoreItem::new);
+	public static final DeferredItem<Item> LIGHTSABER_HILT_CASING = REGISTRY.register("lightsaber_hilt_casing", LightsaberHiltCasingItem::new);
+	public static final DeferredItem<Item> LIGHTSABER_HILT_HANDLE = REGISTRY.register("lightsaber_hilt_handle", LightsaberHiltHandleItem::new);
+	public static final DeferredItem<Item> LIGHTSABER_HILT = REGISTRY.register("lightsaber_hilt", LightsaberHiltItem::new);
+	public static final DeferredItem<Item> KYBER_CRYSTAL_ORE = block(StarcraftModBlocks.KYBER_CRYSTAL_ORE);
+	public static final DeferredItem<Item> OLD_MUD = block(StarcraftModBlocks.OLD_MUD);
+	public static final DeferredItem<Item> DAGOBAH_PLANET_TOKEN = REGISTRY.register("dagobah_planet_token", DagobahPlanetTokenItem::new);
+	public static final DeferredItem<Item> MC_PLANET_TOKEN = REGISTRY.register("mc_planet_token", MinecraftPlanetTokenItem::new);
+	public static final DeferredItem<Item> HYPER_PLATE = REGISTRY.register("hyper_plate", HyperPlateItem::new);
+	public static final DeferredItem<Item> HYPER_TOKEN = REGISTRY.register("hyper_token", HyperTokenItem::new);
+	public static final DeferredItem<Item> LIQUID_MUD_BUCKET = REGISTRY.register("liquid_mud_bucket", LiquidMudItem::new);
+	public static final DeferredItem<Item> FLOWERING_CACTUS = doubleBlock(StarcraftModBlocks.FLOWERING_CACTUS);
+	public static final DeferredItem<Item> CACTUS_FRUIT = REGISTRY.register("cactus_fruit", CactusFruitItem::new);
+	public static final DeferredItem<Item> TATOOINE_PLANET_TOKEN = REGISTRY.register("tatooine_planet_token", TatooinePlanetTokenItem::new);
+	public static final DeferredItem<Item> OLD_WOOD = block(StarcraftModBlocks.OLD_WOOD);
+	public static final DeferredItem<Item> OLD_LOG = block(StarcraftModBlocks.OLD_LOG);
+	public static final DeferredItem<Item> OLD_PLANKS = block(StarcraftModBlocks.OLD_PLANKS);
+	public static final DeferredItem<Item> OLD_STAIRS = block(StarcraftModBlocks.OLD_STAIRS);
+	public static final DeferredItem<Item> OLD_SLAB = block(StarcraftModBlocks.OLD_SLAB);
+	public static final DeferredItem<Item> OLD_FENCE = block(StarcraftModBlocks.OLD_FENCE);
+	public static final DeferredItem<Item> OLD_FENCE_GATE = block(StarcraftModBlocks.OLD_FENCE_GATE);
+	public static final DeferredItem<Item> OLD_PRESSURE_PLATE = block(StarcraftModBlocks.OLD_PRESSURE_PLATE);
+	public static final DeferredItem<Item> OLD_BUTTON = block(StarcraftModBlocks.OLD_BUTTON);
+	public static final DeferredItem<Item> CRACKED_SANDSTONE = block(StarcraftModBlocks.CRACKED_SANDSTONE);
+	public static final DeferredItem<Item> MOISTURE_VAPORATOR = block(StarcraftModBlocks.MOISTURE_VAPORATOR);
+	public static final DeferredItem<Item> IRON_ROD = REGISTRY.register("iron_rod", IronRodItem::new);
+	public static final DeferredItem<Item> REDWOOD_WOOD = block(StarcraftModBlocks.REDWOOD_WOOD);
+	public static final DeferredItem<Item> REDWOOD_LOG = block(StarcraftModBlocks.REDWOOD_LOG);
+	public static final DeferredItem<Item> REDWOOD_PLANKS = block(StarcraftModBlocks.REDWOOD_PLANKS);
+	public static final DeferredItem<Item> REDWOOD_LEAVES = block(StarcraftModBlocks.REDWOOD_LEAVES);
+	public static final DeferredItem<Item> REDWOOD_STAIRS = block(StarcraftModBlocks.REDWOOD_STAIRS);
+	public static final DeferredItem<Item> REDWOOD_SLAB = block(StarcraftModBlocks.REDWOOD_SLAB);
+	public static final DeferredItem<Item> REDWOOD_FENCE = block(StarcraftModBlocks.REDWOOD_FENCE);
+	public static final DeferredItem<Item> REDWOOD_FENCE_GATE = block(StarcraftModBlocks.REDWOOD_FENCE_GATE);
+	public static final DeferredItem<Item> REDWOOD_PRESSURE_PLATE = block(StarcraftModBlocks.REDWOOD_PRESSURE_PLATE);
+	public static final DeferredItem<Item> REDWOOD_BUTTON = block(StarcraftModBlocks.REDWOOD_BUTTON);
+	public static final DeferredItem<Item> ENDOR_PLANET_TOKEN = REGISTRY.register("endor_planet_token", EndorPlanetTokenItem::new);
+	public static final DeferredItem<Item> EWOK_SPAWN_EGG = REGISTRY.register("ewok_spawn_egg", () -> new DeferredSpawnEggItem(StarcraftModEntities.EWOK, -10798064, -12836608, new Item.Properties()));
+	public static final DeferredItem<Item> EWOK_ARCHER_SPAWN_EGG = REGISTRY.register("ewok_archer_spawn_egg", () -> new DeferredSpawnEggItem(StarcraftModEntities.EWOK_ARCHER, -10069431, -12836608, new Item.Properties()));
+	public static final DeferredItem<Item> HOTH_PLANET_TOKEN = REGISTRY.register("hoth_planet_token", HothPlanetTokenItem::new);
+	public static final DeferredItem<Item> BLUE_LIGHTSABER = REGISTRY.register("blue_lightsaber", BlueLightsaberItem::new);
+	public static final DeferredItem<Item> RAW_EWOK_MEAT = REGISTRY.register("raw_ewok_meat", RawEwokMeatItem::new);
+	public static final DeferredItem<Item> EWOK_JERKY = REGISTRY.register("ewok_jerky", EwokJerkyItem::new);
+	public static final DeferredItem<Item> ASH_BLOCK = block(StarcraftModBlocks.ASH_BLOCK);
+	public static final DeferredItem<Item> MUSTAFAR_PLANET_TOKEN = REGISTRY.register("mustafar_planet_token", MustafarPlanetTokenItem::new);
+	public static final DeferredItem<Item> RED_LIGHTSABER = REGISTRY.register("red_lightsaber", RedLightsaberItem::new);
+	public static final DeferredItem<Item> AHCH_TO_PLANET_TOKEN = REGISTRY.register("ahch_to_planet_token", AhchToPlanetTokenItem::new);
+	public static final DeferredItem<Item> EXEGOL_PLANET_TOKEN = REGISTRY.register("exegol_planet_token", ExegolPlanetTokenItem::new);
+	public static final DeferredItem<Item> YELLOW_LIGHTSABER = REGISTRY.register("yellow_lightsaber", YellowLightsaberItem::new);
+	public static final DeferredItem<Item> DARK_SABER = REGISTRY.register("dark_saber", DarkSaberItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
-	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
 	}
 
-	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

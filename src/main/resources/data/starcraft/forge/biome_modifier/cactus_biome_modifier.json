@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "starcraft:dead_forest",
-  "features": "starcraft:cactus",
-  "step": "surface_structures"
-}

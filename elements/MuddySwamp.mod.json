@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 77,
   "_type": "biome",
   "definition": {
     "name": "Muddy Swamp",
@@ -13,6 +13,10 @@
       "value": "Blocks.MUD"
     },
     "airColor": {
+      "value": -10535167,
+      "falpha": 0.0
+    },
+    "fogColor": {
       "value": -10535167,
       "falpha": 0.0
     },

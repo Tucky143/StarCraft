@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 77,
   "_type": "biome",
   "definition": {
     "name": "Endorian Forest",
@@ -13,6 +13,10 @@
       "value": ""
     },
     "airColor": {
+      "value": -8409648,
+      "falpha": 0.0
+    },
+    "fogColor": {
       "value": -8409648,
       "falpha": 0.0
     },

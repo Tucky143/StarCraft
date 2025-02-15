@@ -33,11 +33,11 @@ public class MoistureVaporatorGUIScreen extends AbstractContainerScreen<Moisture
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("starcraft:textures/screens/moisture_vaporator_gui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("starcraft:textures/screens/moisture_vaporator_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
@@ -69,7 +69,9 @@ public class MoistureVaporatorGUIScreen extends AbstractContainerScreen<Moisture
 	@Override
 	public void init() {
 		super.init();
-		WaterGen = new Checkbox(this.leftPos + 7, this.topPos + 48, 20, 20, Component.translatable("gui.starcraft.moisture_vaporator_gui.WaterGen"), false);
+		WaterGen = Checkbox.builder(Component.translatable("gui.starcraft.moisture_vaporator_gui.WaterGen"), this.font).pos(this.leftPos + 7, this.topPos + 48)
+
+				.build();
 		guistate.put("checkbox:WaterGen", WaterGen);
 		this.addRenderableWidget(WaterGen);
 	}

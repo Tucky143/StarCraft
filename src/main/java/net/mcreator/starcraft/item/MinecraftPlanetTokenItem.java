@@ -16,7 +16,7 @@ public class MinecraftPlanetTokenItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		MinecraftPlanetTokenRightclickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
+		MinecraftPlanetTokenRightclickedOnBlockProcedure.execute(context.getLevel(), context.getPlayer());
 		return InteractionResult.SUCCESS;
 	}
 }

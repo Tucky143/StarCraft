@@ -1,8 +1,8 @@
 
 package net.mcreator.starcraft.block;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -23,7 +23,7 @@ import net.mcreator.starcraft.init.StarcraftModFluids;
 
 public class LiquidMudBlock extends LiquidBlock {
 	public LiquidMudBlock() {
-		super(() -> StarcraftModFluids.LIQUID_MUD.get(), BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(StarcraftModFluids.LIQUID_MUD.get(), BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).strength(100f).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override

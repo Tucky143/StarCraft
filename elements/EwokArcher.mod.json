@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 77,
   "_type": "livingentity",
   "definition": {
     "mobName": "Ewok Archer",
@@ -22,6 +22,7 @@
       "fixedValue": 0.65
     },
     "modelLayers": [],
+    "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.4,
@@ -84,7 +85,6 @@
       "fixedValue": true
     },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 3,
     "inventoryStackSize": 64,
     "disableCollisions": false,

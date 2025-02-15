@@ -4,13 +4,12 @@
  */
 package net.mcreator.starcraft.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.RegisterColorHandlersEvent;
-import net.minecraftforge.api.distmarker.Dist;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -43,37 +42,37 @@ import net.mcreator.starcraft.block.AshBlockBlock;
 import net.mcreator.starcraft.StarcraftMod;
 
 public class StarcraftModBlocks {
-	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, StarcraftMod.MODID);
-	public static final RegistryObject<Block> KYBER_CRYSTAL_ORE = REGISTRY.register("kyber_crystal_ore", () -> new KyberCrystalOreBlock());
-	public static final RegistryObject<Block> OLD_MUD = REGISTRY.register("old_mud", () -> new OldMudBlock());
-	public static final RegistryObject<Block> LIQUID_MUD = REGISTRY.register("liquid_mud", () -> new LiquidMudBlock());
-	public static final RegistryObject<Block> FLOWERING_CACTUS = REGISTRY.register("flowering_cactus", () -> new FloweringCactusBlock());
-	public static final RegistryObject<Block> OLD_WOOD = REGISTRY.register("old_wood", () -> new OldWoodBlock());
-	public static final RegistryObject<Block> OLD_LOG = REGISTRY.register("old_log", () -> new OldLogBlock());
-	public static final RegistryObject<Block> OLD_PLANKS = REGISTRY.register("old_planks", () -> new OldPlanksBlock());
-	public static final RegistryObject<Block> OLD_STAIRS = REGISTRY.register("old_stairs", () -> new OldStairsBlock());
-	public static final RegistryObject<Block> OLD_SLAB = REGISTRY.register("old_slab", () -> new OldSlabBlock());
-	public static final RegistryObject<Block> OLD_FENCE = REGISTRY.register("old_fence", () -> new OldFenceBlock());
-	public static final RegistryObject<Block> OLD_FENCE_GATE = REGISTRY.register("old_fence_gate", () -> new OldFenceGateBlock());
-	public static final RegistryObject<Block> OLD_PRESSURE_PLATE = REGISTRY.register("old_pressure_plate", () -> new OldPressurePlateBlock());
-	public static final RegistryObject<Block> OLD_BUTTON = REGISTRY.register("old_button", () -> new OldButtonBlock());
-	public static final RegistryObject<Block> CRACKED_SANDSTONE = REGISTRY.register("cracked_sandstone", () -> new CrackedSandstoneBlock());
-	public static final RegistryObject<Block> MOISTURE_VAPORATOR = REGISTRY.register("moisture_vaporator", () -> new MoistureVaporatorBlock());
-	public static final RegistryObject<Block> REDWOOD_WOOD = REGISTRY.register("redwood_wood", () -> new RedwoodWoodBlock());
-	public static final RegistryObject<Block> REDWOOD_LOG = REGISTRY.register("redwood_log", () -> new RedwoodLogBlock());
-	public static final RegistryObject<Block> REDWOOD_PLANKS = REGISTRY.register("redwood_planks", () -> new RedwoodPlanksBlock());
-	public static final RegistryObject<Block> REDWOOD_LEAVES = REGISTRY.register("redwood_leaves", () -> new RedwoodLeavesBlock());
-	public static final RegistryObject<Block> REDWOOD_STAIRS = REGISTRY.register("redwood_stairs", () -> new RedwoodStairsBlock());
-	public static final RegistryObject<Block> REDWOOD_SLAB = REGISTRY.register("redwood_slab", () -> new RedwoodSlabBlock());
-	public static final RegistryObject<Block> REDWOOD_FENCE = REGISTRY.register("redwood_fence", () -> new RedwoodFenceBlock());
-	public static final RegistryObject<Block> REDWOOD_FENCE_GATE = REGISTRY.register("redwood_fence_gate", () -> new RedwoodFenceGateBlock());
-	public static final RegistryObject<Block> REDWOOD_PRESSURE_PLATE = REGISTRY.register("redwood_pressure_plate", () -> new RedwoodPressurePlateBlock());
-	public static final RegistryObject<Block> REDWOOD_BUTTON = REGISTRY.register("redwood_button", () -> new RedwoodButtonBlock());
-	public static final RegistryObject<Block> ASH_BLOCK = REGISTRY.register("ash_block", () -> new AshBlockBlock());
+	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(StarcraftMod.MODID);
+	public static final DeferredBlock<Block> KYBER_CRYSTAL_ORE = REGISTRY.register("kyber_crystal_ore", KyberCrystalOreBlock::new);
+	public static final DeferredBlock<Block> OLD_MUD = REGISTRY.register("old_mud", OldMudBlock::new);
+	public static final DeferredBlock<Block> LIQUID_MUD = REGISTRY.register("liquid_mud", LiquidMudBlock::new);
+	public static final DeferredBlock<Block> FLOWERING_CACTUS = REGISTRY.register("flowering_cactus", FloweringCactusBlock::new);
+	public static final DeferredBlock<Block> OLD_WOOD = REGISTRY.register("old_wood", OldWoodBlock::new);
+	public static final DeferredBlock<Block> OLD_LOG = REGISTRY.register("old_log", OldLogBlock::new);
+	public static final DeferredBlock<Block> OLD_PLANKS = REGISTRY.register("old_planks", OldPlanksBlock::new);
+	public static final DeferredBlock<Block> OLD_STAIRS = REGISTRY.register("old_stairs", OldStairsBlock::new);
+	public static final DeferredBlock<Block> OLD_SLAB = REGISTRY.register("old_slab", OldSlabBlock::new);
+	public static final DeferredBlock<Block> OLD_FENCE = REGISTRY.register("old_fence", OldFenceBlock::new);
+	public static final DeferredBlock<Block> OLD_FENCE_GATE = REGISTRY.register("old_fence_gate", OldFenceGateBlock::new);
+	public static final DeferredBlock<Block> OLD_PRESSURE_PLATE = REGISTRY.register("old_pressure_plate", OldPressurePlateBlock::new);
+	public static final DeferredBlock<Block> OLD_BUTTON = REGISTRY.register("old_button", OldButtonBlock::new);
+	public static final DeferredBlock<Block> CRACKED_SANDSTONE = REGISTRY.register("cracked_sandstone", CrackedSandstoneBlock::new);
+	public static final DeferredBlock<Block> MOISTURE_VAPORATOR = REGISTRY.register("moisture_vaporator", MoistureVaporatorBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_WOOD = REGISTRY.register("redwood_wood", RedwoodWoodBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_LOG = REGISTRY.register("redwood_log", RedwoodLogBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_PLANKS = REGISTRY.register("redwood_planks", RedwoodPlanksBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_LEAVES = REGISTRY.register("redwood_leaves", RedwoodLeavesBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_STAIRS = REGISTRY.register("redwood_stairs", RedwoodStairsBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_SLAB = REGISTRY.register("redwood_slab", RedwoodSlabBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_FENCE = REGISTRY.register("redwood_fence", RedwoodFenceBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_FENCE_GATE = REGISTRY.register("redwood_fence_gate", RedwoodFenceGateBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_PRESSURE_PLATE = REGISTRY.register("redwood_pressure_plate", RedwoodPressurePlateBlock::new);
+	public static final DeferredBlock<Block> REDWOOD_BUTTON = REGISTRY.register("redwood_button", RedwoodButtonBlock::new);
+	public static final DeferredBlock<Block> ASH_BLOCK = REGISTRY.register("ash_block", AshBlockBlock::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
-	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class BlocksClientSideHandler {
 		@SubscribeEvent
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {

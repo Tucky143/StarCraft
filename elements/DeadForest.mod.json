@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 77,
   "_type": "biome",
   "definition": {
     "name": "Dead Forest",
@@ -13,6 +13,10 @@
       "value": "Blocks.SAND#0"
     },
     "airColor": {
+      "value": -8687514,
+      "falpha": 0.0
+    },
+    "fogColor": {
       "value": -8687514,
       "falpha": 0.0
     },

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "group": "ewok_jerky",
+  "category": "food",
+  "experience": 1.5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "starcraft:raw_ewok_meat"
+  },
+  "result": {
+    "id": "starcraft:ewok_jerky"
+  }
+}

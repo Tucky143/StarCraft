@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lightsaber",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "starcraft:black_kyber"
+    },
+    {
+      "item": "starcraft:lightsaber_hilt"
+    },
+    {
+      "item": "starcraft:white_kyber"
+    }
+  ],
+  "result": {
+    "id": "starcraft:dark_saber",
+    "count": 1
+  }
+}

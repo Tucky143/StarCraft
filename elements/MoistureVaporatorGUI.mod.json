@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 77,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -25,7 +25,8 @@
           },
           "dropItemsWhenNotBound": true,
           "x": 133,
-          "y": 58
+          "y": 58,
+          "locked": false
         }
       },
       {
@@ -34,7 +35,8 @@
           "name": "WaterGen",
           "text": "Water",
           "x": 133,
-          "y": 85
+          "y": 85,
+          "locked": false
         }
       },
       {
@@ -49,7 +51,8 @@
             "falpha": 0.0
           },
           "x": 169,
-          "y": 40
+          "y": 40,
+          "locked": false
         }
       },
       {
@@ -64,7 +67,8 @@
             "falpha": 0.0
           },
           "x": 214,
-          "y": 103
+          "y": 103,
+          "locked": false
         }
       }
     ],

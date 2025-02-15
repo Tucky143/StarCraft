@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "planet_token",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lava_bucket"
+    },
+    "b": {
+      "item": "starcraft:hyper_token"
+    }
+  },
+  "result": {
+    "id": "starcraft:mustafar_planet_token",
+    "count": 1
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 69,
+  "_fv": 77,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -14,17 +14,37 @@
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
     },
+    "seaLevel": 100,
+    "generateOreVeins": true,
+    "generateAquifers": false,
+    "horizontalNoiseSize": 1,
+    "verticalNoiseSize": 2,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 292.0,
+    "skyType": "NORMAL",
     "airColor": {
       "value": -10698761,
       "falpha": 0.0
     },
-    "canRespawnHere": true,
+    "sunHeightAffectsFog": true,
+    "canRespawnHere": false,
     "hasFog": false,
-    "isDark": false,
+    "ambientLight": 0.5,
     "doesWaterVaporize": false,
-    "sleepResult": "ALLOW",
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.1,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
+    "piglinSafe": false,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 0,
+    "maxMonsterSpawnLightLimit": 7,
+    "monsterSpawnBlockLightLimit": 0,
     "portalFrame": {
       "value": ""
     },

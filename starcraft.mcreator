@@ -22,11 +22,11 @@
       "registry_name": "clone_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/item/CloneArmorItem.java",
+          "src/main/resources/assets/starcraft/models/item/clone_armor_leggings.json",
           "src/main/resources/assets/starcraft/models/item/clone_armor_chestplate.json",
-          "src/main/resources/assets/starcraft/models/item/clone_armor_helmet.json",
           "src/main/resources/assets/starcraft/models/item/clone_armor_boots.json",
-          "src/main/resources/assets/starcraft/models/item/clone_armor_leggings.json"
+          "src/main/resources/assets/starcraft/models/item/clone_armor_helmet.json",
+          "src/main/java/net/mcreator/starcraft/item/CloneArmorItem.java"
         ]
       }
     },
@@ -38,7 +38,7 @@
       "registry_name": "clone_armor_helmet_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/clone_armor_helmet_recipe.json"
+          "src/main/resources/data/starcraft/recipe/clone_armor_helmet_recipe.json"
         ]
       }
     },
@@ -50,7 +50,7 @@
       "registry_name": "clone_armor_chestplate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/clone_armor_chestplate_recipe.json"
+          "src/main/resources/data/starcraft/recipe/clone_armor_chestplate_recipe.json"
         ]
       }
     },
@@ -62,7 +62,7 @@
       "registry_name": "clone_armor_leggings_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/clone_armor_leggings_recipe.json"
+          "src/main/resources/data/starcraft/recipe/clone_armor_leggings_recipe.json"
         ]
       }
     },
@@ -74,7 +74,7 @@
       "registry_name": "clone_armor_boots_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/clone_armor_boots_recipe.json"
+          "src/main/resources/data/starcraft/recipe/clone_armor_boots_recipe.json"
         ]
       }
     },
@@ -86,8 +86,8 @@
       "registry_name": "red_kyber",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/item/red_kyber.json",
-          "src/main/java/net/mcreator/starcraft/item/RedKyberItem.java"
+          "src/main/java/net/mcreator/starcraft/item/RedKyberItem.java",
+          "src/main/resources/assets/starcraft/models/item/red_kyber.json"
         ]
       },
       "path": "~/Kyber"
@@ -100,8 +100,8 @@
       "registry_name": "green_kyber",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/item/green_kyber.json",
-          "src/main/java/net/mcreator/starcraft/item/GreenKyberItem.java"
+          "src/main/java/net/mcreator/starcraft/item/GreenKyberItem.java",
+          "src/main/resources/assets/starcraft/models/item/green_kyber.json"
         ]
       },
       "path": "~/Kyber"
@@ -156,8 +156,8 @@
       "registry_name": "white_kyber",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/item/white_kyber.json",
-          "src/main/java/net/mcreator/starcraft/item/WhiteKyberItem.java"
+          "src/main/java/net/mcreator/starcraft/item/WhiteKyberItem.java",
+          "src/main/resources/assets/starcraft/models/item/white_kyber.json"
         ]
       },
       "path": "~/Kyber"
@@ -170,8 +170,8 @@
       "registry_name": "black_kyber",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/item/BlackKyberItem.java",
-          "src/main/resources/assets/starcraft/models/item/black_kyber.json"
+          "src/main/resources/assets/starcraft/models/item/black_kyber.json",
+          "src/main/java/net/mcreator/starcraft/item/BlackKyberItem.java"
         ]
       },
       "path": "~/Kyber"
@@ -184,7 +184,7 @@
       "registry_name": "kyber_ore_drops",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/kyber_ore.json"
+          "src/main/resources/data/starcraft/loot_table/blocks/kyber_ore.json"
         ]
       },
       "path": "~/Kyber"
@@ -211,7 +211,7 @@
       "registry_name": "lightsaber_hilt_core_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_core_recipe.json"
+          "src/main/resources/data/starcraft/recipe/lightsaber_hilt_core_recipe.json"
         ]
       },
       "path": "~/Kyber"
@@ -238,7 +238,7 @@
       "registry_name": "lightsaber_hilt_casing_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_casing_recipe.json"
+          "src/main/resources/data/starcraft/recipe/lightsaber_hilt_casing_recipe.json"
         ]
       },
       "path": "~/Kyber"
@@ -265,7 +265,7 @@
       "registry_name": "lightsaber_hilt_handle_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_handle_recipe.json"
+          "src/main/resources/data/starcraft/recipe/lightsaber_hilt_handle_recipe.json"
         ]
       },
       "path": "~/Kyber"
@@ -292,7 +292,7 @@
       "registry_name": "lightsaber_hilt_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/lightsaber_hilt_recipe.json"
+          "src/main/resources/data/starcraft/recipe/lightsaber_hilt_recipe.json"
         ]
       },
       "path": "~/Kyber"
@@ -305,7 +305,7 @@
       "registry_name": "dark_side_or_light_side",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/advancements/dark_side_or_light_side.json"
+          "src/main/resources/data/starcraft/advancement/dark_side_or_light_side.json"
         ]
       }
     },
@@ -317,13 +317,13 @@
       "registry_name": "kyber_crystal_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/forge/biome_modifier/kyber_crystal_ore_biome_modifier.json",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/kyber_crystal_ore.json",
-          "src/main/resources/assets/starcraft/models/block/kyber_crystal_ore.json",
-          "src/main/resources/assets/starcraft/models/item/kyber_crystal_ore.json",
           "src/main/java/net/mcreator/starcraft/block/KyberCrystalOreBlock.java",
           "src/main/resources/data/starcraft/worldgen/configured_feature/kyber_crystal_ore.json",
-          "src/main/resources/assets/starcraft/blockstates/kyber_crystal_ore.json"
+          "src/main/resources/assets/starcraft/models/block/kyber_crystal_ore.json",
+          "src/main/resources/assets/starcraft/models/item/kyber_crystal_ore.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/kyber_crystal_ore.json",
+          "src/main/resources/assets/starcraft/blockstates/kyber_crystal_ore.json",
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/kyber_crystal_ore_biome_modifier.json"
         ]
       },
       "path": "~/Kyber"
@@ -382,8 +382,8 @@
       "registry_name": "dagobah",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/world/dimension/DagobahPlanetDimension.java",
           "src/main/resources/data/starcraft/dimension/dagobah.json",
+          "src/main/java/net/mcreator/starcraft/world/dimension/DagobahPlanetDimension.java",
           "src/main/resources/data/starcraft/dimension_type/dagobah.json"
         ]
       },
@@ -397,9 +397,9 @@
       "registry_name": "old_mud",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/item/old_mud.json",
-          "src/main/resources/assets/starcraft/blockstates/old_mud.json",
           "src/main/resources/assets/starcraft/models/block/old_mud.json",
+          "src/main/resources/assets/starcraft/blockstates/old_mud.json",
+          "src/main/resources/assets/starcraft/models/item/old_mud.json",
           "src/main/java/net/mcreator/starcraft/block/OldMudBlock.java"
         ]
       },
@@ -462,8 +462,8 @@
       "registry_name": "mc_planet_token",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/item/MinecraftPlanetTokenItem.java",
-          "src/main/resources/assets/starcraft/models/item/mc_planet_token.json"
+          "src/main/resources/assets/starcraft/models/item/mc_planet_token.json",
+          "src/main/java/net/mcreator/starcraft/item/MinecraftPlanetTokenItem.java"
         ]
       }
     },
@@ -483,18 +483,6 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -509,11 +497,11 @@
       "registry_name": "muddy_swamp",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/worldgen/configured_feature/muddy_swamp_tree.json",
-          "src/main/resources/data/starcraft/worldgen/biome/muddy_swamp.json",
           "src/main/java/net/mcreator/starcraft/world/features/treedecorators/MuddySwampLeaveDecorator.java",
-          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/MuddySwampTrunkDecorator.java",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/muddy_swamp_tree.json"
+          "src/main/resources/data/starcraft/worldgen/placed_feature/muddy_swamp_tree.json",
+          "src/main/resources/data/starcraft/worldgen/biome/muddy_swamp.json",
+          "src/main/resources/data/starcraft/worldgen/configured_feature/muddy_swamp_tree.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/MuddySwampTrunkDecorator.java"
         ]
       },
       "path": "~/Dagobah"
@@ -526,9 +514,9 @@
       "registry_name": "muddy_swamp_mangroves",
       "metadata": {
         "files": [
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/muddy_swamp_mangroves_biome_modifier.json",
           "src/main/resources/data/starcraft/worldgen/configured_feature/muddy_swamp_mangroves.json",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/muddy_swamp_mangroves.json",
-          "src/main/resources/data/starcraft/forge/biome_modifier/muddy_swamp_mangroves_biome_modifier.json"
+          "src/main/resources/data/starcraft/worldgen/placed_feature/muddy_swamp_mangroves.json"
         ]
       },
       "path": "~/Dagobah"
@@ -541,7 +529,7 @@
       "registry_name": "muddy_dagobah",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/advancements/muddy_dagobah.json"
+          "src/main/resources/data/starcraft/advancement/muddy_dagobah.json"
         ]
       },
       "path": "~/Dagobah"
@@ -600,8 +588,8 @@
       "registry_name": "hyper_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/item/hyper_plate.json",
-          "src/main/java/net/mcreator/starcraft/item/HyperPlateItem.java"
+          "src/main/java/net/mcreator/starcraft/item/HyperPlateItem.java",
+          "src/main/resources/assets/starcraft/models/item/hyper_plate.json"
         ]
       },
       "path": "~/Kyber"
@@ -614,7 +602,7 @@
       "registry_name": "hyper_plate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/hyper_plate_recipe.json"
+          "src/main/resources/data/starcraft/recipe/hyper_plate_recipe.json"
         ]
       },
       "path": "~/Kyber"
@@ -640,7 +628,7 @@
       "registry_name": "hyper_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/hyper_token_recipe.json"
+          "src/main/resources/data/starcraft/recipe/hyper_token_recipe.json"
         ]
       }
     },
@@ -652,7 +640,7 @@
       "registry_name": "dagobah_planet_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/dagobah_planet_token_recipe.json"
+          "src/main/resources/data/starcraft/recipe/dagobah_planet_token_recipe.json"
         ]
       },
       "path": "~/Dagobah"
@@ -665,7 +653,7 @@
       "registry_name": "old_mud_drops",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_mud.json"
+          "src/main/resources/data/starcraft/loot_table/blocks/old_mud.json"
         ]
       },
       "path": "~/Dagobah"
@@ -678,13 +666,13 @@
       "registry_name": "liquid_mud",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/starcraft/fluid/types/LiquidMudFluidType.java",
           "src/main/resources/assets/starcraft/blockstates/liquid_mud.json",
+          "src/main/resources/assets/starcraft/models/block/liquid_mud.json",
+          "src/main/java/net/mcreator/starcraft/fluid/LiquidMudFluid.java",
           "src/main/java/net/mcreator/starcraft/block/LiquidMudBlock.java",
           "src/main/java/net/mcreator/starcraft/item/LiquidMudItem.java",
-          "src/main/resources/assets/starcraft/models/item/liquid_mud_bucket.json",
-          "src/main/java/net/mcreator/starcraft/fluid/LiquidMudFluid.java",
-          "src/main/resources/assets/starcraft/models/block/liquid_mud.json",
-          "src/main/java/net/mcreator/starcraft/fluid/types/LiquidMudFluidType.java"
+          "src/main/resources/assets/starcraft/models/item/liquid_mud_bucket.json"
         ]
       },
       "path": "~/Dagobah"
@@ -697,7 +685,7 @@
       "registry_name": "mud_bucket_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/mud_bucket_recipe.json"
+          "src/main/resources/data/starcraft/recipe/mud_bucket_recipe.json"
         ]
       },
       "path": "~/Mustafar"
@@ -742,8 +730,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/starcraft/worldgen/structure/mud_pit.json",
-          "src/main/resources/data/starcraft/worldgen/template_pool/mud_pit.json",
-          "src/main/resources/data/starcraft/worldgen/structure_set/mud_pit.json"
+          "src/main/resources/data/starcraft/worldgen/structure_set/mud_pit.json",
+          "src/main/resources/data/starcraft/worldgen/template_pool/mud_pit.json"
         ]
       },
       "path": "~/Dagobah"
@@ -756,9 +744,9 @@
       "registry_name": "tatooine",
       "metadata": {
         "files": [
+          "src/main/resources/data/starcraft/dimension_type/tatooine.json",
           "src/main/resources/data/starcraft/dimension/tatooine.json",
-          "src/main/java/net/mcreator/starcraft/world/dimension/TatooineDimension.java",
-          "src/main/resources/data/starcraft/dimension_type/tatooine.json"
+          "src/main/java/net/mcreator/starcraft/world/dimension/TatooineDimension.java"
         ]
       },
       "path": "~/Tatooine"
@@ -774,11 +762,11 @@
           "src/main/resources/data/starcraft/worldgen/configured_feature/flowering_cactus.json",
           "src/main/resources/assets/starcraft/models/item/flowering_cactus.json",
           "src/main/resources/assets/starcraft/models/block/flowering_cactus.json",
-          "src/main/resources/data/starcraft/forge/biome_modifier/flowering_cactus_biome_modifier.json",
           "src/main/java/net/mcreator/starcraft/block/FloweringCactusBlock.java",
-          "src/main/resources/assets/starcraft/models/block/flowering_cactus_bottom.json",
           "src/main/resources/assets/starcraft/blockstates/flowering_cactus.json",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/flowering_cactus.json"
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/flowering_cactus_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/flowering_cactus.json",
+          "src/main/resources/assets/starcraft/models/block/flowering_cactus_bottom.json"
         ]
       },
       "path": "~/Tatooine"
@@ -859,7 +847,7 @@
       "registry_name": "flowering_cactus_drops",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/flowering_cactus.json"
+          "src/main/resources/data/starcraft/loot_table/blocks/flowering_cactus.json"
         ]
       },
       "path": "~/Tatooine"
@@ -872,8 +860,8 @@
       "registry_name": "tatooine_planet_token",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/item/tatooine_planet_token.json",
-          "src/main/java/net/mcreator/starcraft/item/TatooinePlanetTokenItem.java"
+          "src/main/java/net/mcreator/starcraft/item/TatooinePlanetTokenItem.java",
+          "src/main/resources/assets/starcraft/models/item/tatooine_planet_token.json"
         ]
       },
       "path": "~/Tatooine"
@@ -921,11 +909,11 @@
       "registry_name": "old_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_wood.json",
-          "src/main/resources/assets/starcraft/models/item/old_wood.json",
           "src/main/java/net/mcreator/starcraft/block/OldWoodBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_wood.json",
-          "src/main/resources/assets/starcraft/blockstates/old_wood.json"
+          "src/main/resources/assets/starcraft/blockstates/old_wood.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/old_wood.json",
+          "src/main/resources/assets/starcraft/models/item/old_wood.json"
         ]
       },
       "path": "~/Tatooine"
@@ -938,11 +926,11 @@
       "registry_name": "old_log",
       "metadata": {
         "files": [
+          "src/main/resources/assets/starcraft/models/block/old_log.json",
           "src/main/java/net/mcreator/starcraft/block/OldLogBlock.java",
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_log.json",
           "src/main/resources/assets/starcraft/models/item/old_log.json",
           "src/main/resources/assets/starcraft/blockstates/old_log.json",
-          "src/main/resources/assets/starcraft/models/block/old_log.json"
+          "src/main/resources/data/starcraft/loot_table/blocks/old_log.json"
         ]
       },
       "path": "~/Tatooine"
@@ -955,11 +943,11 @@
       "registry_name": "old_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/block/OldPlanksBlock.java",
-          "src/main/resources/assets/starcraft/blockstates/old_planks.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/old_planks.json",
           "src/main/resources/assets/starcraft/models/item/old_planks.json",
+          "src/main/java/net/mcreator/starcraft/block/OldPlanksBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_planks.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_planks.json"
+          "src/main/resources/assets/starcraft/blockstates/old_planks.json"
         ]
       },
       "path": "~/Tatooine"
@@ -975,10 +963,10 @@
           "src/main/resources/assets/starcraft/models/block/old_stairs_outer.json",
           "src/main/java/net/mcreator/starcraft/block/OldStairsBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_stairs_inner.json",
-          "src/main/resources/assets/starcraft/models/block/old_stairs.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/old_stairs.json",
           "src/main/resources/assets/starcraft/models/item/old_stairs.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_stairs.json",
-          "src/main/resources/assets/starcraft/blockstates/old_stairs.json"
+          "src/main/resources/assets/starcraft/blockstates/old_stairs.json",
+          "src/main/resources/assets/starcraft/models/block/old_stairs.json"
         ]
       },
       "path": "~/Tatooine"
@@ -991,12 +979,12 @@
       "registry_name": "old_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/blockstates/old_slab.json",
-          "src/main/resources/assets/starcraft/models/block/old_slab_full.json",
-          "src/main/resources/assets/starcraft/models/block/old_slab.json",
           "src/main/java/net/mcreator/starcraft/block/OldSlabBlock.java",
           "src/main/resources/assets/starcraft/models/item/old_slab.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_slab.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/old_slab.json",
+          "src/main/resources/assets/starcraft/models/block/old_slab.json",
+          "src/main/resources/assets/starcraft/blockstates/old_slab.json",
+          "src/main/resources/assets/starcraft/models/block/old_slab_full.json",
           "src/main/resources/assets/starcraft/models/block/old_slab_top.json"
         ]
       },
@@ -1010,13 +998,13 @@
       "registry_name": "old_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/block/old_fence_inventory.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_fence.json",
-          "src/main/resources/assets/starcraft/models/item/old_fence.json",
           "src/main/java/net/mcreator/starcraft/block/OldFenceBlock.java",
-          "src/main/resources/assets/starcraft/models/block/old_fence.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/old_fence.json",
           "src/main/resources/assets/starcraft/blockstates/old_fence.json",
-          "src/main/resources/assets/starcraft/models/block/old_fence_post.json"
+          "src/main/resources/assets/starcraft/models/block/old_fence.json",
+          "src/main/resources/assets/starcraft/models/block/old_fence_post.json",
+          "src/main/resources/assets/starcraft/models/block/old_fence_inventory.json",
+          "src/main/resources/assets/starcraft/models/item/old_fence.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1029,14 +1017,14 @@
       "registry_name": "old_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/blockstates/old_fence_gate.json",
-          "src/main/java/net/mcreator/starcraft/block/OldFenceGateBlock.java",
-          "src/main/resources/assets/starcraft/models/item/old_fence_gate.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_fence_gate.json",
           "src/main/resources/assets/starcraft/models/block/old_fence_gate_open.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/old_fence_gate.json",
+          "src/main/resources/assets/starcraft/models/block/old_fence_gate_wall_open.json",
+          "src/main/resources/assets/starcraft/blockstates/old_fence_gate.json",
+          "src/main/resources/assets/starcraft/models/item/old_fence_gate.json",
+          "src/main/java/net/mcreator/starcraft/block/OldFenceGateBlock.java",
           "src/main/resources/assets/starcraft/models/block/old_fence_gate.json",
-          "src/main/resources/assets/starcraft/models/block/old_fence_gate_wall.json",
-          "src/main/resources/assets/starcraft/models/block/old_fence_gate_wall_open.json"
+          "src/main/resources/assets/starcraft/models/block/old_fence_gate_wall.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1049,12 +1037,12 @@
       "registry_name": "old_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/block/OldPressurePlateBlock.java",
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_pressure_plate.json",
-          "src/main/resources/assets/starcraft/models/block/old_pressure_plate_down.json",
           "src/main/resources/assets/starcraft/models/block/old_pressure_plate.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/old_pressure_plate.json",
+          "src/main/resources/assets/starcraft/models/block/old_pressure_plate_down.json",
           "src/main/resources/assets/starcraft/blockstates/old_pressure_plate.json",
-          "src/main/resources/assets/starcraft/models/item/old_pressure_plate.json"
+          "src/main/resources/assets/starcraft/models/item/old_pressure_plate.json",
+          "src/main/java/net/mcreator/starcraft/block/OldPressurePlateBlock.java"
         ]
       },
       "path": "~/Tatooine"
@@ -1067,13 +1055,13 @@
       "registry_name": "old_button",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/old_button.json",
-          "src/main/resources/assets/starcraft/blockstates/old_button.json",
           "src/main/java/net/mcreator/starcraft/block/OldButtonBlock.java",
-          "src/main/resources/assets/starcraft/models/block/old_button_inventory.json",
-          "src/main/resources/assets/starcraft/models/block/old_button_pressed.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/old_button.json",
           "src/main/resources/assets/starcraft/models/item/old_button.json",
-          "src/main/resources/assets/starcraft/models/block/old_button.json"
+          "src/main/resources/assets/starcraft/blockstates/old_button.json",
+          "src/main/resources/assets/starcraft/models/block/old_button_pressed.json",
+          "src/main/resources/assets/starcraft/models/block/old_button.json",
+          "src/main/resources/assets/starcraft/models/block/old_button_inventory.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1086,7 +1074,7 @@
       "registry_name": "old_wood_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_wood_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_wood_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1099,7 +1087,7 @@
       "registry_name": "old_planks_log_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_planks_log_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_planks_log_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1112,7 +1100,7 @@
       "registry_name": "old_planks_wood_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_planks_wood_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_planks_wood_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1125,7 +1113,7 @@
       "registry_name": "old_stairs_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_stairs_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_stairs_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1138,7 +1126,7 @@
       "registry_name": "old_slab_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_slab_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_slab_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1151,7 +1139,7 @@
       "registry_name": "old_fence_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_fence_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_fence_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1164,7 +1152,7 @@
       "registry_name": "old_fence_gate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_fence_gate_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_fence_gate_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1177,7 +1165,7 @@
       "registry_name": "old_pressure_plate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_pressure_plate_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_pressure_plate_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1190,7 +1178,7 @@
       "registry_name": "old_button_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_button_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_button_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1203,7 +1191,7 @@
       "registry_name": "old_stick_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/old_stick_recipe.json"
+          "src/main/resources/data/starcraft/recipe/old_stick_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1217,11 +1205,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/starcraft/worldgen/configured_feature/dead_forest_tree.json",
-          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestFruitDecorator.java",
-          "src/main/resources/data/starcraft/worldgen/biome/dead_forest.json",
-          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestLeaveDecorator.java",
           "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestTrunkDecorator.java",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/dead_forest_tree.json"
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestLeaveDecorator.java",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/DeadForestFruitDecorator.java",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/dead_forest_tree.json",
+          "src/main/resources/data/starcraft/worldgen/biome/dead_forest.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1234,11 +1222,11 @@
       "registry_name": "cracked_sandstone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/block/CrackedSandstoneBlock.java",
-          "src/main/resources/assets/starcraft/blockstates/cracked_sandstone.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/cracked_sandstone.json",
+          "src/main/resources/assets/starcraft/models/block/cracked_sandstone.json",
           "src/main/resources/assets/starcraft/models/item/cracked_sandstone.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/cracked_sandstone.json",
-          "src/main/resources/assets/starcraft/models/block/cracked_sandstone.json"
+          "src/main/resources/assets/starcraft/blockstates/cracked_sandstone.json",
+          "src/main/java/net/mcreator/starcraft/block/CrackedSandstoneBlock.java"
         ]
       },
       "path": "~/Tatooine"
@@ -1264,7 +1252,7 @@
       "registry_name": "dirty_sand_loot",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/dirty_sand.json"
+          "src/main/resources/data/starcraft/loot_table/blocks/dirty_sand.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1278,8 +1266,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/starcraft/worldgen/configured_feature/cactus.json",
-          "src/main/resources/data/starcraft/forge/biome_modifier/cactus_biome_modifier.json",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/cactus.json"
+          "src/main/resources/data/starcraft/worldgen/placed_feature/cactus.json",
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/cactus_biome_modifier.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1292,8 +1280,8 @@
       "registry_name": "moisture_vaporator_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/world/inventory/MoistureVaporatorGUIMenu.java",
-          "src/main/java/net/mcreator/starcraft/client/gui/MoistureVaporatorGUIScreen.java"
+          "src/main/java/net/mcreator/starcraft/client/gui/MoistureVaporatorGUIScreen.java",
+          "src/main/java/net/mcreator/starcraft/world/inventory/MoistureVaporatorGUIMenu.java"
         ]
       },
       "path": "~/Tatooine"
@@ -1306,12 +1294,12 @@
       "registry_name": "moisture_vaporator",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/block/MoistureVaporatorBlock.java",
           "src/main/java/net/mcreator/starcraft/block/entity/MoistureVaporatorBlockEntity.java",
-          "src/main/resources/assets/starcraft/models/item/moisture_vaporator.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/moisture_vaporator.json",
+          "src/main/java/net/mcreator/starcraft/block/MoistureVaporatorBlock.java",
           "src/main/resources/assets/starcraft/models/block/moisture_vaporator.json",
-          "src/main/resources/assets/starcraft/blockstates/moisture_vaporator.json"
+          "src/main/resources/data/starcraft/loot_table/blocks/moisture_vaporator.json",
+          "src/main/resources/assets/starcraft/blockstates/moisture_vaporator.json",
+          "src/main/resources/assets/starcraft/models/item/moisture_vaporator.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1324,8 +1312,8 @@
       "registry_name": "iron_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/item/IronRodItem.java",
-          "src/main/resources/assets/starcraft/models/item/iron_rod.json"
+          "src/main/resources/assets/starcraft/models/item/iron_rod.json",
+          "src/main/java/net/mcreator/starcraft/item/IronRodItem.java"
         ]
       },
       "path": "~/Kyber"
@@ -1338,7 +1326,7 @@
       "registry_name": "iron_rod_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/iron_rod_recipe.json"
+          "src/main/resources/data/starcraft/recipe/iron_rod_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1351,10 +1339,10 @@
       "registry_name": "redwood_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_wood.json",
           "src/main/resources/assets/starcraft/models/item/redwood_wood.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_wood.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_wood.json",
           "src/main/java/net/mcreator/starcraft/block/RedwoodWoodBlock.java",
+          "src/main/resources/assets/starcraft/models/block/redwood_wood.json",
           "src/main/resources/assets/starcraft/blockstates/redwood_wood.json"
         ]
       },
@@ -1368,11 +1356,11 @@
       "registry_name": "redwood_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_log.json",
           "src/main/resources/assets/starcraft/blockstates/redwood_log.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_log.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_log.json",
           "src/main/resources/assets/starcraft/models/block/redwood_log.json",
-          "src/main/java/net/mcreator/starcraft/block/RedwoodLogBlock.java",
-          "src/main/resources/assets/starcraft/models/item/redwood_log.json"
+          "src/main/java/net/mcreator/starcraft/block/RedwoodLogBlock.java"
         ]
       },
       "path": "~/Endor"
@@ -1385,11 +1373,11 @@
       "registry_name": "redwood_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/blockstates/redwood_planks.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_planks.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_planks.json",
           "src/main/java/net/mcreator/starcraft/block/RedwoodPlanksBlock.java",
-          "src/main/resources/assets/starcraft/models/item/redwood_planks.json"
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_planks.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_planks.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_planks.json",
+          "src/main/resources/assets/starcraft/blockstates/redwood_planks.json"
         ]
       },
       "path": "~/Endor"
@@ -1402,11 +1390,11 @@
       "registry_name": "redwood_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_leaves.json",
-          "src/main/java/net/mcreator/starcraft/block/RedwoodLeavesBlock.java",
-          "src/main/resources/assets/starcraft/models/block/redwood_leaves.json",
           "src/main/resources/assets/starcraft/models/item/redwood_leaves.json",
-          "src/main/resources/assets/starcraft/blockstates/redwood_leaves.json"
+          "src/main/resources/assets/starcraft/blockstates/redwood_leaves.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_leaves.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodLeavesBlock.java",
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_leaves.json"
         ]
       },
       "path": "~/Endor"
@@ -1419,13 +1407,13 @@
       "registry_name": "redwood_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_stairs.json",
-          "src/main/resources/assets/starcraft/blockstates/redwood_stairs.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_stairs_inner.json",
-          "src/main/java/net/mcreator/starcraft/block/RedwoodStairsBlock.java",
-          "src/main/resources/assets/starcraft/models/block/redwood_stairs_outer.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_stairs.json",
           "src/main/resources/assets/starcraft/models/block/redwood_stairs.json",
-          "src/main/resources/assets/starcraft/models/item/redwood_stairs.json"
+          "src/main/resources/assets/starcraft/models/item/redwood_stairs.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_stairs_outer.json",
+          "src/main/resources/assets/starcraft/blockstates/redwood_stairs.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodStairsBlock.java",
+          "src/main/resources/assets/starcraft/models/block/redwood_stairs_inner.json"
         ]
       },
       "path": "~/Endor"
@@ -1438,13 +1426,13 @@
       "registry_name": "redwood_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/starcraft/models/block/redwood_slab_top.json",
           "src/main/java/net/mcreator/starcraft/block/RedwoodSlabBlock.java",
           "src/main/resources/assets/starcraft/models/block/redwood_slab_full.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_slab_top.json",
-          "src/main/resources/assets/starcraft/models/item/redwood_slab.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_slab.json",
           "src/main/resources/assets/starcraft/blockstates/redwood_slab.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_slab.json"
+          "src/main/resources/assets/starcraft/models/block/redwood_slab.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_slab.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_slab.json"
         ]
       },
       "path": "~/Endor"
@@ -1457,13 +1445,13 @@
       "registry_name": "redwood_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/blockstates/redwood_fence.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_fence_post.json",
-          "src/main/java/net/mcreator/starcraft/block/RedwoodFenceBlock.java",
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_fence.json",
           "src/main/resources/assets/starcraft/models/item/redwood_fence.json",
+          "src/main/resources/assets/starcraft/blockstates/redwood_fence.json",
           "src/main/resources/assets/starcraft/models/block/redwood_fence_inventory.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_fence.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_fence.json"
+          "src/main/java/net/mcreator/starcraft/block/RedwoodFenceBlock.java",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_post.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence.json"
         ]
       },
       "path": "~/Endor"
@@ -1476,14 +1464,14 @@
       "registry_name": "redwood_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate_wall_open.json",
-          "src/main/java/net/mcreator/starcraft/block/RedwoodFenceGateBlock.java",
-          "src/main/resources/assets/starcraft/blockstates/redwood_fence_gate.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate_open.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate_wall.json",
-          "src/main/resources/assets/starcraft/models/item/redwood_fence_gate.json",
           "src/main/resources/assets/starcraft/models/block/redwood_fence_gate.json",
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_fence_gate.json"
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_fence_gate.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_fence_gate.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate_wall.json",
+          "src/main/resources/assets/starcraft/blockstates/redwood_fence_gate.json",
+          "src/main/java/net/mcreator/starcraft/block/RedwoodFenceGateBlock.java",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate_open.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_fence_gate_wall_open.json"
         ]
       },
       "path": "~/Endor"
@@ -1497,11 +1485,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/starcraft/blockstates/redwood_pressure_plate.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_pressure_plate_down.json",
           "src/main/resources/assets/starcraft/models/block/redwood_pressure_plate.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_pressure_plate_down.json",
           "src/main/java/net/mcreator/starcraft/block/RedwoodPressurePlateBlock.java",
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_pressure_plate.json",
-          "src/main/resources/assets/starcraft/models/item/redwood_pressure_plate.json"
+          "src/main/resources/assets/starcraft/models/item/redwood_pressure_plate.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_pressure_plate.json"
         ]
       },
       "path": "~/Endor"
@@ -1514,12 +1502,12 @@
       "registry_name": "redwood_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/block/redwood_button.json",
-          "src/main/resources/assets/starcraft/models/item/redwood_button.json",
           "src/main/resources/assets/starcraft/models/block/redwood_button_pressed.json",
-          "src/main/resources/assets/starcraft/models/block/redwood_button_inventory.json",
           "src/main/java/net/mcreator/starcraft/block/RedwoodButtonBlock.java",
-          "src/main/resources/data/starcraft/loot_tables/blocks/redwood_button.json",
+          "src/main/resources/data/starcraft/loot_table/blocks/redwood_button.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_button.json",
+          "src/main/resources/assets/starcraft/models/block/redwood_button_inventory.json",
+          "src/main/resources/assets/starcraft/models/item/redwood_button.json",
           "src/main/resources/assets/starcraft/blockstates/redwood_button.json"
         ]
       },
@@ -1533,7 +1521,7 @@
       "registry_name": "redwood_wood_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_wood_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_wood_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1546,7 +1534,7 @@
       "registry_name": "redwood_planks_log_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_planks_log_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_planks_log_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1559,7 +1547,7 @@
       "registry_name": "redwood_planks_wood_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_planks_wood_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_planks_wood_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1572,7 +1560,7 @@
       "registry_name": "redwood_stairs_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_stairs_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_stairs_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1585,7 +1573,7 @@
       "registry_name": "redwood_slab_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_slab_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_slab_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1598,7 +1586,7 @@
       "registry_name": "redwood_fence_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_fence_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_fence_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1611,7 +1599,7 @@
       "registry_name": "redwood_fence_gate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_fence_gate_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_fence_gate_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1624,7 +1612,7 @@
       "registry_name": "redwood_pressure_plate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_pressure_plate_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_pressure_plate_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1637,7 +1625,7 @@
       "registry_name": "redwood_button_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_button_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_button_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1650,7 +1638,7 @@
       "registry_name": "redwood_stick_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/redwood_stick_recipe.json"
+          "src/main/resources/data/starcraft/recipe/redwood_stick_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1663,9 +1651,9 @@
       "registry_name": "redwood_tree",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/forge/biome_modifier/redwood_tree_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/redwood_tree.json",
           "src/main/resources/data/starcraft/worldgen/configured_feature/redwood_tree.json",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/redwood_tree.json"
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/redwood_tree_biome_modifier.json"
         ]
       },
       "path": "~/Endor"
@@ -1678,12 +1666,12 @@
       "registry_name": "endorian_forest",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/worldgen/biome/endorian_forest.json",
-          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/EndorianForestTrunkDecorator.java",
-          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/EndorianForestFruitDecorator.java",
           "src/main/java/net/mcreator/starcraft/world/features/treedecorators/EndorianForestLeaveDecorator.java",
+          "src/main/resources/data/starcraft/worldgen/biome/endorian_forest.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/endorian_forest_tree.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/EndorianForestFruitDecorator.java",
           "src/main/resources/data/starcraft/worldgen/configured_feature/endorian_forest_tree.json",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/endorian_forest_tree.json"
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/EndorianForestTrunkDecorator.java"
         ]
       },
       "path": "~/Endor"
@@ -1696,8 +1684,8 @@
       "registry_name": "endor",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/dimension_type/endor.json",
           "src/main/java/net/mcreator/starcraft/world/dimension/EndorDimension.java",
+          "src/main/resources/data/starcraft/dimension_type/endor.json",
           "src/main/resources/data/starcraft/dimension/endor.json"
         ]
       },
@@ -1711,7 +1699,7 @@
       "registry_name": "endor_planet_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/endor_planet_token_recipe.json"
+          "src/main/resources/data/starcraft/recipe/endor_planet_token_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -1724,7 +1712,7 @@
       "registry_name": "tatooine_planet_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/tatooine_planet_token_recipe.json"
+          "src/main/resources/data/starcraft/recipe/tatooine_planet_token_recipe.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1737,8 +1725,8 @@
       "registry_name": "endor_planet_token",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/item/EndorPlanetTokenItem.java",
-          "src/main/resources/assets/starcraft/models/item/endor_planet_token.json"
+          "src/main/resources/assets/starcraft/models/item/endor_planet_token.json",
+          "src/main/java/net/mcreator/starcraft/item/EndorPlanetTokenItem.java"
         ]
       },
       "path": "~/Endor"
@@ -1786,9 +1774,9 @@
       "registry_name": "endor_rocks",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/forge/biome_modifier/endor_rocks_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/endor_rocks.json",
           "src/main/resources/data/starcraft/worldgen/configured_feature/endor_rocks.json",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/endor_rocks.json"
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/endor_rocks_biome_modifier.json"
         ]
       },
       "path": "~/Endor"
@@ -1811,7 +1799,7 @@
       "registry_name": "melting",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/advancements/melting.json"
+          "src/main/resources/data/starcraft/advancement/melting.json"
         ]
       },
       "path": "~/Tatooine"
@@ -1824,7 +1812,7 @@
       "registry_name": "hyper_plate_recipe_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/hyper_plate_recipe_2.json"
+          "src/main/resources/data/starcraft/recipe/hyper_plate_recipe_2.json"
         ]
       },
       "path": "~/Kyber"
@@ -1837,7 +1825,7 @@
       "registry_name": "mc_planet_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/mc_planet_token_recipe.json"
+          "src/main/resources/data/starcraft/recipe/mc_planet_token_recipe.json"
         ]
       }
     },
@@ -1849,7 +1837,7 @@
       "registry_name": "mc_planet_token_recipe_2",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/mc_planet_token_recipe_2.json"
+          "src/main/resources/data/starcraft/recipe/mc_planet_token_recipe_2.json"
         ]
       }
     },
@@ -1862,9 +1850,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/starcraft/client/renderer/EwokRenderer.java",
+          "src/main/java/net/mcreator/starcraft/entity/EwokEntity.java",
           "src/main/resources/assets/starcraft/models/item/ewok_spawn_egg.json",
-          "src/main/resources/data/starcraft/forge/biome_modifier/ewok_biome_modifier.json",
-          "src/main/java/net/mcreator/starcraft/entity/EwokEntity.java"
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/ewok_biome_modifier.json"
         ]
       },
       "path": "~/Endor"
@@ -1877,9 +1865,9 @@
       "registry_name": "ewok_archer",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/forge/biome_modifier/ewok_archer_biome_modifier.json",
           "src/main/resources/assets/starcraft/models/item/ewok_archer_spawn_egg.json",
           "src/main/java/net/mcreator/starcraft/entity/EwokArcherEntity.java",
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/ewok_archer_biome_modifier.json",
           "src/main/java/net/mcreator/starcraft/client/renderer/EwokArcherRenderer.java"
         ]
       },
@@ -1912,7 +1900,7 @@
       "registry_name": "ewok_archer_loot",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/entities/ewok_archer.json"
+          "src/main/resources/data/starcraft/loot_table/entities/ewok_archer.json"
         ]
       },
       "path": "~/Endor"
@@ -1940,8 +1928,8 @@
       "registry_name": "hoth_planet_token",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/starcraft/item/HothPlanetTokenItem.java",
-          "src/main/resources/assets/starcraft/models/item/hoth_planet_token.json"
+          "src/main/resources/assets/starcraft/models/item/hoth_planet_token.json",
+          "src/main/java/net/mcreator/starcraft/item/HothPlanetTokenItem.java"
         ]
       },
       "path": "~/Hoth"
@@ -1989,7 +1977,7 @@
       "registry_name": "hoth_planet_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/hoth_planet_token_recipe.json"
+          "src/main/resources/data/starcraft/recipe/hoth_planet_token_recipe.json"
         ]
       },
       "path": "~/Hoth"
@@ -2002,7 +1990,7 @@
       "registry_name": "mc_planet_token_recipe_3",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/mc_planet_token_recipe_3.json"
+          "src/main/resources/data/starcraft/recipe/mc_planet_token_recipe_3.json"
         ]
       }
     },
@@ -2130,8 +2118,8 @@
       "registry_name": "raw_ewok_meat",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/item/raw_ewok_meat.json",
-          "src/main/java/net/mcreator/starcraft/item/RawEwokMeatItem.java"
+          "src/main/java/net/mcreator/starcraft/item/RawEwokMeatItem.java",
+          "src/main/resources/assets/starcraft/models/item/raw_ewok_meat.json"
         ]
       },
       "path": "~/Endor"
@@ -2158,7 +2146,7 @@
       "registry_name": "ewok_loot",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/loot_tables/entities/ewok.json"
+          "src/main/resources/data/starcraft/loot_table/entities/ewok.json"
         ]
       },
       "path": "~/Endor"
@@ -2171,7 +2159,7 @@
       "registry_name": "ewok_jerky_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/ewok_jerky_recipe.json"
+          "src/main/resources/data/starcraft/recipe/ewok_jerky_recipe.json"
         ]
       },
       "path": "~/Endor"
@@ -2184,7 +2172,7 @@
       "registry_name": "ewok_jerky_smoked",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/ewok_jerky_smoked.json"
+          "src/main/resources/data/starcraft/recipe/ewok_jerky_smoked.json"
         ]
       },
       "path": "~/Endor"
@@ -2197,7 +2185,7 @@
       "registry_name": "blue_lightsaber_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/blue_lightsaber_recipe.json"
+          "src/main/resources/data/starcraft/recipe/blue_lightsaber_recipe.json"
         ]
       },
       "path": "~/Kyber"
@@ -2211,10 +2199,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/starcraft/blockstates/ash_block.json",
-          "src/main/java/net/mcreator/starcraft/block/AshBlockBlock.java",
-          "src/main/resources/data/starcraft/loot_tables/blocks/ash_block.json",
           "src/main/resources/assets/starcraft/models/item/ash_block.json",
-          "src/main/resources/assets/starcraft/models/block/ash_block.json"
+          "src/main/resources/assets/starcraft/models/block/ash_block.json",
+          "src/main/java/net/mcreator/starcraft/block/AshBlockBlock.java",
+          "src/main/resources/data/starcraft/loot_table/blocks/ash_block.json"
         ]
       },
       "path": "~/Mustafar"
@@ -2241,8 +2229,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/starcraft/worldgen/configured_feature/mustafar_rocks.json",
-          "src/main/resources/data/starcraft/worldgen/placed_feature/mustafar_rocks.json",
-          "src/main/resources/data/starcraft/forge/biome_modifier/mustafar_rocks_biome_modifier.json"
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/mustafar_rocks_biome_modifier.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/mustafar_rocks.json"
         ]
       },
       "path": "~/Mustafar"
@@ -2255,9 +2243,9 @@
       "registry_name": "lava_lakes",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/worldgen/configured_feature/lava_lakes.json",
+          "src/main/resources/data/starcraft/neoforge/biome_modifier/lava_lakes_biome_modifier.json",
           "src/main/resources/data/starcraft/worldgen/placed_feature/lava_lakes.json",
-          "src/main/resources/data/starcraft/forge/biome_modifier/lava_lakes_biome_modifier.json"
+          "src/main/resources/data/starcraft/worldgen/configured_feature/lava_lakes.json"
         ]
       },
       "path": "~/Mustafar"
@@ -2284,8 +2272,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/starcraft/dimension_type/mustafar.json",
-          "src/main/resources/data/starcraft/dimension/mustafar.json",
-          "src/main/java/net/mcreator/starcraft/world/dimension/MustafarDimension.java"
+          "src/main/java/net/mcreator/starcraft/world/dimension/MustafarDimension.java",
+          "src/main/resources/data/starcraft/dimension/mustafar.json"
         ]
       },
       "path": "~/Mustafar"
@@ -2331,7 +2319,7 @@
       "registry_name": "mustafar_planet_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/mustafar_planet_token_recipe.json"
+          "src/main/resources/data/starcraft/recipe/mustafar_planet_token_recipe.json"
         ]
       },
       "path": "~/Mustafar"
@@ -2354,13 +2342,13 @@
       "name": "AhchTo",
       "type": "dimension",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "ahch_to",
       "metadata": {
         "files": [
           "src/main/resources/data/starcraft/dimension_type/ahch_to.json",
-          "src/main/java/net/mcreator/starcraft/world/dimension/AhchToDimension.java",
-          "src/main/resources/data/starcraft/dimension/ahch_to.json"
+          "src/main/resources/data/starcraft/dimension/ahch_to.json",
+          "src/main/java/net/mcreator/starcraft/world/dimension/AhchToDimension.java"
         ]
       },
       "path": "~/Ahch-To"
@@ -2373,9 +2361,9 @@
       "registry_name": "islands",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/worldgen/biome/islands.json",
           "src/main/resources/data/starcraft/worldgen/placed_feature/islands_tree.json",
-          "src/main/resources/data/starcraft/worldgen/configured_feature/islands_tree.json"
+          "src/main/resources/data/starcraft/worldgen/configured_feature/islands_tree.json",
+          "src/main/resources/data/starcraft/worldgen/biome/islands.json"
         ]
       },
       "path": "~/Ahch-To"
@@ -2421,7 +2409,7 @@
       "registry_name": "ahch_to_planet_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/ahch_to_planet_token_recipe.json"
+          "src/main/resources/data/starcraft/recipe/ahch_to_planet_token_recipe.json"
         ]
       },
       "path": "~/Ahch-To"
@@ -2434,7 +2422,7 @@
       "registry_name": "red_lightsaber_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/red_lightsaber_recipe.json"
+          "src/main/resources/data/starcraft/recipe/red_lightsaber_recipe.json"
         ]
       },
       "path": "~/Kyber"
@@ -2456,13 +2444,13 @@
       "name": "Exegol",
       "type": "dimension",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "exegol",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/dimension/exegol.json",
           "src/main/resources/data/starcraft/dimension_type/exegol.json",
-          "src/main/java/net/mcreator/starcraft/world/dimension/ExegolDimension.java"
+          "src/main/java/net/mcreator/starcraft/world/dimension/ExegolDimension.java",
+          "src/main/resources/data/starcraft/dimension/exegol.json"
         ]
       },
       "path": "~/Exegol"
@@ -2508,7 +2496,7 @@
       "registry_name": "exegol_planet_token_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/exegol_planet_token_recipe.json"
+          "src/main/resources/data/starcraft/recipe/exegol_planet_token_recipe.json"
         ]
       },
       "path": "~/Exegol"
@@ -2535,7 +2523,7 @@
       "registry_name": "yellow_lightsaber_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/yellow_lightsaber_recipe.json"
+          "src/main/resources/data/starcraft/recipe/yellow_lightsaber_recipe.json"
         ]
       },
       "path": "~/Kyber"
@@ -2548,8 +2536,8 @@
       "registry_name": "dark_saber",
       "metadata": {
         "files": [
-          "src/main/resources/assets/starcraft/models/item/dark_saber.json",
-          "src/main/java/net/mcreator/starcraft/item/DarkSaberItem.java"
+          "src/main/java/net/mcreator/starcraft/item/DarkSaberItem.java",
+          "src/main/resources/assets/starcraft/models/item/dark_saber.json"
         ]
       },
       "path": "~/Kyber"
@@ -2562,13 +2550,32 @@
       "registry_name": "darksaber_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/starcraft/recipes/darksaber_recipe.json"
+          "src/main/resources/data/starcraft/recipe/darksaber_recipe.json"
         ]
       },
       "path": "~/Kyber"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "returnX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "returnY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "returnZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "lightsaber_swing",
@@ -2607,6 +2614,9 @@
     }
   ],
   "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:CloneArmor.body"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
@@ -2664,6 +2674,9 @@
       "~CUSTOM:RedLightsaber",
       "~CUSTOM:BlueLightsaber"
     ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:CloneArmor.helmet"
+    ],
     "ITEMS:minecraft:planks": [
       "CUSTOM:OldPlanks",
       "CUSTOM:RedwoodPlanks"
@@ -2690,7 +2703,12 @@
     "BIOMES:minecraft:has_structure/desert_pyramid": [
       "~CUSTOM:DeadForest"
     ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:EwokJerky",
+      "~CUSTOM:RawEwokMeat"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.DEEPSLATE",
       "~Blocks.BASALT",
       "~CUSTOM:AshBlock",
       "~Blocks.FLOWING_LAVA",
@@ -2757,9 +2775,15 @@
     "BIOMES:minecraft:has_structure/ruined_portal_swamp": [
       "~CUSTOM:MuddySwamp"
     ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:CloneArmor.boots"
+    ],
     "BLOCKS:forge:sand": [
       "Blocks.SAND#0",
       "CUSTOM:AshBlock"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:CloneArmor.legs"
     ]
   },
   "tab_element_order": {
@@ -2782,14 +2806,16 @@
       "YellowKyber",
       "WhiteKyber",
       "BlackKyber",
-      "CloneArmor",
       "CactusFruit",
+      "RawEwokMeat",
+      "EwokJerky",
       "HyperPlate",
       "LightsaberHiltCore",
       "LightsaberHiltCasing",
       "LightsaberHiltHandle",
       "LightsaberHilt",
       "IronRod",
+      "MoistureVaporator",
       "KyberCrystalOre",
       "CrackedSandstone",
       "OldMud",
@@ -2814,7 +2840,6 @@
       "RedwoodPressurePlate",
       "RedwoodButton",
       "RedwoodLeaves",
-      "MoistureVaporator",
       "ExegolPlanetToken",
       "EndorPlanetToken",
       "DagobahPlanetToken",
@@ -2828,8 +2853,7 @@
       "YellowLightsaber",
       "BlueLightsaber",
       "DarkSaber",
-      "RawEwokMeat",
-      "EwokJerky",
+      "CloneArmor",
       "Ewok",
       "EwokArcher"
     ],
@@ -2986,8 +3010,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "neoforge-1.21.1",
     "modElementsPackage": "net.mcreator.starcraft"
   },
-  "mcreatorVersion": 202400342716
+  "mcreatorVersion": 202500107513
 }

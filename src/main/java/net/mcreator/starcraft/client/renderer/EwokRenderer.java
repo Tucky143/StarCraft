@@ -12,7 +12,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 
 public class EwokRenderer extends MobRenderer<EwokEntity, ModelEwok<EwokEntity>> {
 	public EwokRenderer(EntityRendererProvider.Context context) {
-		super(context, new ModelEwok(context.bakeLayer(ModelEwok.LAYER_LOCATION)), 0.4f);
+		super(context, new ModelEwok<EwokEntity>(context.bakeLayer(ModelEwok.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
@@ -22,6 +22,6 @@ public class EwokRenderer extends MobRenderer<EwokEntity, ModelEwok<EwokEntity>>
 
 	@Override
 	public ResourceLocation getTextureLocation(EwokEntity entity) {
-		return new ResourceLocation("starcraft:textures/entities/ewok.png");
+		return ResourceLocation.parse("starcraft:textures/entities/ewok.png");
 	}
 }

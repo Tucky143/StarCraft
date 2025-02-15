@@ -10,6 +10,6 @@ import net.mcreator.starcraft.init.StarcraftModFluids;
 
 public class LiquidMudItem extends BucketItem {
 	public LiquidMudItem() {
-		super(StarcraftModFluids.LIQUID_MUD, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.UNCOMMON));
+		super(StarcraftModFluids.LIQUID_MUD.get(), new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.UNCOMMON));
 	}
 }

@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "starcraft:burnt_plains",
-  "features": "starcraft:mustafar_rocks",
-  "step": "vegetal_decoration"
-}

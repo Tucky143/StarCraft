@@ -27,10 +27,8 @@
       "radius": 0,
       "crown_height": {
         "type": "uniform",
-        "value": {
-          "min_inclusive": 6,
-          "max_inclusive": 8
-        }
+        "min_inclusive": 6,
+        "max_inclusive": 8
       }
     },
     "trunk_placer": {
