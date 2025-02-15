@@ -18,7 +18,7 @@ public class TatooineDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(192f, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(1, 0.9254901961, 0.5764705882);
+					return new Vec3(0.6078431373, 0.8431372549, 1);
 				}
 
 				@Override

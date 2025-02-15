@@ -13,11 +13,19 @@
       "value": "Blocks.SAND#0"
     },
     "grassColor": {
-      "value": -13395712,
+      "value": -12029378,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -13395712,
+      "value": -12952271,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -14137988,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -14864816,
       "falpha": 0.0
     },
     "ambientSound": {

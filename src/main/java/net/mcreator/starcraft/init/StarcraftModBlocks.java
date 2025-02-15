@@ -78,10 +78,5 @@ public class StarcraftModBlocks {
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			FloweringCactusBlock.blockColorLoad(event);
 		}
-
-		@SubscribeEvent
-		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
-			FloweringCactusBlock.itemColorLoad(event);
-		}
 	}
 }

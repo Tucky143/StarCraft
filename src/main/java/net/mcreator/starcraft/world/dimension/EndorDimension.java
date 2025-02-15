@@ -15,10 +15,10 @@ public class EndorDimension {
 	public static class EndorSpecialEffectsHandler {
 		@SubscribeEvent
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {
-			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
+			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0.6470588235, 0.6470588235, 0.6470588235);
+					return new Vec3(0.5803921569, 0.631372549, 0.6509803922);
 				}
 
 				@Override

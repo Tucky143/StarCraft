@@ -20,7 +20,7 @@ import net.minecraft.world.level.block.DoublePlantBlock;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.FoliageColor;
+import net.minecraft.world.level.GrassColor;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.Mob;
@@ -88,14 +88,7 @@ public class FloweringCactusBlock extends DoublePlantBlock {
 	@OnlyIn(Dist.CLIENT)
 	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 		event.getBlockColors().register((bs, world, pos, index) -> {
-			return world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor();
-		}, StarcraftModBlocks.FLOWERING_CACTUS.get());
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
-		event.getItemColors().register((stack, index) -> {
-			return FoliageColor.getDefaultColor();
+			return world != null && pos != null ? BiomeColors.getAverageGrassColor(world, pos) : GrassColor.get(0.5D, 1.0D);
 		}, StarcraftModBlocks.FLOWERING_CACTUS.get());
 	}
 }

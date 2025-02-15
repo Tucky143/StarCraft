@@ -14,7 +14,7 @@
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
     },
-    "seaLevel": 100,
+    "seaLevel": 90,
     "generateOreVeins": true,
     "generateAquifers": false,
     "horizontalNoiseSize": 1,
@@ -31,7 +31,7 @@
     "sunHeightAffectsFog": true,
     "canRespawnHere": false,
     "hasFog": false,
-    "ambientLight": 0.5,
+    "ambientLight": 0.0,
     "doesWaterVaporize": false,
     "hasFixedTime": false,
     "fixedTimeValue": 0,

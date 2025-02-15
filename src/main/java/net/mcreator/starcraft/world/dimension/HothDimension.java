@@ -15,10 +15,10 @@ public class HothDimension {
 	public static class HothSpecialEffectsHandler {
 		@SubscribeEvent
 		public static void registerDimensionSpecialEffects(RegisterDimensionSpecialEffectsEvent event) {
-			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
+			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return color;
+					return new Vec3(0.4941176471, 0.6901960784, 0.6901960784);
 				}
 
 				@Override

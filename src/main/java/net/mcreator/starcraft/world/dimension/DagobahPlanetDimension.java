@@ -18,7 +18,7 @@ public class DagobahPlanetDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(192f, true, DimensionSpecialEffects.SkyType.NORMAL, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0.3137254902, 0.3647058824, 0.0156862745);
+					return new Vec3(0.168627451, 0.2941176471, 0.2549019608);
 				}
 
 				@Override

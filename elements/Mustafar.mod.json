@@ -8,9 +8,6 @@
       },
       {
         "value": "CUSTOM:LavaOcean"
-      },
-      {
-        "value": "CUSTOM:MagmaBeach"
       }
     ],
     "worldGenType": "Normal world gen",
@@ -37,12 +34,12 @@
     "sunHeightAffectsFog": false,
     "canRespawnHere": true,
     "hasFog": false,
-    "ambientLight": 0.5,
+    "ambientLight": 0.15,
     "doesWaterVaporize": true,
     "hasFixedTime": false,
     "fixedTimeValue": 0,
-    "coordinateScale": 1.0,
-    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "coordinateScale": 0.33,
+    "infiniburnTag": "minecraft:infiniburn_nether",
     "bedWorks": true,
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,

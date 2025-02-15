@@ -37,7 +37,7 @@
     "particleToSpawn": {
       "value": "RAIN"
     },
-    "particlesProbability": 0.6,
+    "particlesProbability": 2.0,
     "rainingPossibility": 1.0,
     "temperature": 1.0,
     "spawnBiome": false,

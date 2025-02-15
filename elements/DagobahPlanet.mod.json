@@ -28,7 +28,7 @@
     "cloudHeight": 192.0,
     "skyType": "NORMAL",
     "airColor": {
-      "value": -11510524,
+      "value": -13939903,
       "falpha": 0.0
     },
     "sunHeightAffectsFog": false,
@@ -38,7 +38,7 @@
     "doesWaterVaporize": false,
     "hasFixedTime": false,
     "fixedTimeValue": 0,
-    "coordinateScale": 0.2,
+    "coordinateScale": 1.2,
     "infiniburnTag": "minecraft:infiniburn_overworld",
     "bedWorks": true,
     "hasSkyLight": true,
