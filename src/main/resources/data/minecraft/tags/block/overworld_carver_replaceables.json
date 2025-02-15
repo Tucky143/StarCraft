@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:packed_ice",
     "minecraft:deepslate",
     "minecraft:basalt",
     "starcraft:ash_block",

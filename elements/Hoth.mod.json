@@ -17,6 +17,9 @@
       },
       {
         "value": "CUSTOM:FrozenWastelands"
+      },
+      {
+        "value": "CUSTOM:ShiveringPeaks"
       }
     ],
     "worldGenType": "Normal world gen",

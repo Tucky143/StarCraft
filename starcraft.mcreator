@@ -2554,6 +2554,24 @@
         ]
       },
       "path": "~/Kyber"
+    },
+    {
+      "name": "ShiveringPeaks",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shivering_peaks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/starcraft/worldgen/biome/shivering_peaks.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/ShiveringPeaksFruitDecorator.java",
+          "src/main/resources/data/starcraft/worldgen/configured_feature/shivering_peaks_tree.json",
+          "src/main/resources/data/starcraft/worldgen/placed_feature/shivering_peaks_tree.json",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/ShiveringPeaksLeaveDecorator.java",
+          "src/main/java/net/mcreator/starcraft/world/features/treedecorators/ShiveringPeaksTrunkDecorator.java"
+        ]
+      },
+      "path": "~/Hoth"
     }
   ],
   "variable_elements": [
@@ -2614,23 +2632,24 @@
     }
   ],
   "tag_elements": {
-    "ITEMS:minecraft:chest_armor": [
-      "~CUSTOM:CloneArmor.body"
-    ],
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:LiquidMud"
     ],
-    "BLOCKS:minecraft:tall_flowers": [
-      "CUSTOM:FloweringCactus"
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:CloneArmor.body"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
       "~CUSTOM:RedwoodLeaves"
+    ],
+    "BLOCKS:minecraft:tall_flowers": [
+      "CUSTOM:FloweringCactus"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
       "CUSTOM:RedwoodLog"
     ],
     "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:ShiveringPeaks",
       "~CUSTOM:FrozenWastelands"
     ],
     "BIOMES:mod:endor/biomes": [
@@ -2708,6 +2727,7 @@
       "~CUSTOM:RawEwokMeat"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.PACKED_ICE",
       "~Blocks.DEEPSLATE",
       "~Blocks.BASALT",
       "~CUSTOM:AshBlock",
@@ -2882,6 +2902,7 @@
       "block.starcraft.redwood_slab": "Redwood Slab",
       "item.starcraft.ewok_archer_spawn_egg": "Ewok Archer Spawn Egg",
       "item.starcraft.ewok_spawn_egg": "Ewok Spawn Egg",
+      "biome.starcraft.shivering_peaks": "Shivering Peaks",
       "block.starcraft.redwood_leaves": "Redwood Leaves",
       "item.starcraft.ahch_to_planet_token": "Ahch-To Planet Token",
       "gui.starcraft.moisture_vaporator_gui.label_wait_10_seconds": "Wait 10 Seconds",
