@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "starcraft:shivering_peaks",
-    "starcraft:frozen_wastelands"
+    "galaxycraft:shivering_peaks",
+    "galaxycraft:frozen_wastelands"
   ]
 }

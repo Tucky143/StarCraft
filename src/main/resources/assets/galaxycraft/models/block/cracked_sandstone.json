@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "galaxycraft:block/sandstone_bottom",
+    "up": "galaxycraft:block/sandstone_top",
+    "north": "galaxycraft:block/sandstone",
+    "east": "galaxycraft:block/sandstone",
+    "south": "galaxycraft:block/sandstone",
+    "west": "galaxycraft:block/sandstone",
+    "particle": "galaxycraft:block/sandstone_bottom"
+  },
+  "render_type": "cutout_mipped"
+}

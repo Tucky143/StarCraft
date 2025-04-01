@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "galaxycraft:clone_armor_helmet",
+    "galaxycraft:clone_armor_chestplate",
+    "galaxycraft:clone_armor_leggings",
+    "galaxycraft:clone_armor_boots"
+  ]
+}

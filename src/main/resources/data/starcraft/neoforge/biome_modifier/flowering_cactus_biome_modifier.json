@@ -1,9 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": [
-    "desert",
-    "starcraft:dead_forest"
-  ],
-  "features": "starcraft:flowering_cactus",
-  "step": "vegetal_decoration"
-}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "galaxycraft:blue_kyber",
+    "galaxycraft:red_kyber",
+    "galaxycraft:green_kyber",
+    "galaxycraft:purple_kyber",
+    "galaxycraft:orange_kyber",
+    "galaxycraft:yellow_kyber",
+    "galaxycraft:white_kyber",
+    "galaxycraft:black_kyber"
+  ]
+}

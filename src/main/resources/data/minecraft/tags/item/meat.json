@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "starcraft:ewok_jerky",
-    "starcraft:raw_ewok_meat"
+    "galaxycraft:ewok_jerky",
+    "galaxycraft:raw_ewok_meat"
   ]
 }

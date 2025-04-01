@@ -1,0 +1,42 @@
+{
+  "_fv": 77,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of the Wampa Slayer",
+    "splashName": "Splash Potion of the Wampa Slayer",
+    "lingeringName": "Lingering Potion of the Wampa Slayer",
+    "arrowName": "Arrow of the Wampa Slayer",
+    "effects": [
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 6000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "RESISTANCE"
+        },
+        "duration": 6000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 6000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

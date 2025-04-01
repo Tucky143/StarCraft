@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "galaxycraft:endorian_forest",
+  "features": "galaxycraft:redwood_tree",
+  "step": "surface_structures"
+}

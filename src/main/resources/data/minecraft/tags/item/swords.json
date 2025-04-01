@@ -1,9 +1,13 @@
 {
   "replace": false,
   "values": [
-    "starcraft:dark_saber",
-    "starcraft:yellow_lightsaber",
-    "starcraft:red_lightsaber",
-    "starcraft:blue_lightsaber"
+    "galaxycraft:white_lightsaber",
+    "galaxycraft:purple_lightsaber",
+    "galaxycraft:orange_lightsaber",
+    "galaxycraft:green_lightsaber",
+    "galaxycraft:dark_saber",
+    "galaxycraft:yellow_lightsaber",
+    "galaxycraft:red_lightsaber",
+    "galaxycraft:blue_lightsaber"
   ]
 }

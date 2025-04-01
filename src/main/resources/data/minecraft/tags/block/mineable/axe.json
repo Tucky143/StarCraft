@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "starcraft:redwood_planks",
-    "starcraft:redwood_log",
-    "starcraft:redwood_wood",
-    "starcraft:old_planks",
-    "starcraft:old_log",
-    "starcraft:old_wood"
+    "galaxycraft:redwood_planks",
+    "galaxycraft:redwood_log",
+    "galaxycraft:redwood_wood",
+    "galaxycraft:old_planks",
+    "galaxycraft:old_log",
+    "galaxycraft:old_wood"
   ]
 }

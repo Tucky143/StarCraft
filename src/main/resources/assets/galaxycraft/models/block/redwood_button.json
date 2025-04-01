@@ -1,0 +1,8 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "particle": "galaxycraft:block/redwood_planks",
+    "texture": "galaxycraft:block/redwood_planks"
+  },
+  "render_type": "solid"
+}

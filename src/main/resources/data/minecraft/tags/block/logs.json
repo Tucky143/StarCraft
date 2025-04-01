@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
-    "starcraft:old_log",
-    "starcraft:redwood_log"
+    "galaxycraft:old_log",
+    "galaxycraft:redwood_log",
+    "galaxycraft:redwood_wood",
+    "galaxycraft:old_wood"
   ]
 }

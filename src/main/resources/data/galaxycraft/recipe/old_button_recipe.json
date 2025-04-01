@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "galaxycraft:old_planks"
+    }
+  ],
+  "result": {
+    "id": "galaxycraft:old_button",
+    "count": 1
+  }
+}

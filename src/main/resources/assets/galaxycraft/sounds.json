@@ -1,0 +1,50 @@
+{
+  "lightsaber_swing": {
+    "subtitle": "subtitles.lightsaber_swing",
+    "sounds": [
+      {
+        "name": "galaxycraft:swing1",
+        "stream": false
+      },
+      {
+        "name": "galaxycraft:swing2",
+        "stream": false
+      }
+    ]
+  },
+  "lightsaber_clash": {
+    "subtitle": "subtitles.lightsaber_clash",
+    "sounds": [
+      {
+        "name": "galaxycraft:saberclash",
+        "stream": false
+      }
+    ]
+  },
+  "ewok_ambient": {
+    "subtitle": "subtitles.ewok_ambient",
+    "sounds": [
+      {
+        "name": "galaxycraft:ewoksinging",
+        "stream": false
+      },
+      {
+        "name": "galaxycraft:ewoktalking",
+        "stream": false
+      },
+      {
+        "name": "galaxycraft:ewoktalking2",
+        "stream": false
+      }
+    ]
+  },
+  "ewok_hurt": {
+    "subtitle": "subtitles.ewok_hurt",
+    "sounds": [
+      {
+        "name": "galaxycraft:ewokhurt",
+        "stream": false
+      }
+    ]
+  }
+}

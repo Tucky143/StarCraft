@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "galaxycraft:dead_forest",
+    "desert",
+    "galaxycraft:dry_desert"
+  ]
+}

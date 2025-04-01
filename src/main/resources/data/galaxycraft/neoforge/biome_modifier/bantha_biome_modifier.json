@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "galaxycraft:dry_desert",
+    "galaxycraft:dead_forest"
+  ],
+  "spawners": {
+    "type": "galaxycraft:bantha",
+    "weight": 2,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

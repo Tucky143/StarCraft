@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "galaxycraft:block/old_log_top",
+    "up": "galaxycraft:block/old_log_top",
+    "north": "galaxycraft:block/old_log_side",
+    "east": "galaxycraft:block/old_log_side",
+    "south": "galaxycraft:block/old_log_side",
+    "west": "galaxycraft:block/old_log_side",
+    "particle": "galaxycraft:block/old_log_top"
+  },
+  "render_type": "solid"
+}

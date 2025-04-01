@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "starcraft:redwood_stairs",
-    "starcraft:old_stairs"
+    "galaxycraft:redwood_stairs",
+    "galaxycraft:old_stairs"
   ]
 }

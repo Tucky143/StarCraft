@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "galaxycraft:block/flowering_cactus"
+    },
+    "half=lower": {
+      "model": "galaxycraft:block/flowering_cactus_bottom"
+    }
+  }
+}

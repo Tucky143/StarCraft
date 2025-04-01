@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "starcraft:old_planks",
-    "starcraft:redwood_planks"
+    "galaxycraft:old_planks",
+    "galaxycraft:redwood_planks"
   ]
 }

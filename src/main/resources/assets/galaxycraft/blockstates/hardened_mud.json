@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "galaxycraft:block/hardened_mud",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "galaxycraft:block/hardened_mud"
+    },
+    "axis=z": {
+      "model": "galaxycraft:block/hardened_mud",
+      "x": 90
+    }
+  }
+}

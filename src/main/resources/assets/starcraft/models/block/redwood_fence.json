@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_side",
-  "textures": {
-    "texture": "starcraft:block/redwood_planks",
-    "particle": "starcraft:block/redwood_planks"
-  },
-  "render_type": "solid"
-}

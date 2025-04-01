@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "planet_token",
+  "category": "equipment",
+  "pattern": [
+    "abb",
+    "aca",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ice"
+    },
+    "b": {
+      "item": "minecraft:blue_ice"
+    },
+    "c": {
+      "item": "galaxycraft:hyper_token"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:hoth_planet_token",
+    "count": 1
+  }
+}

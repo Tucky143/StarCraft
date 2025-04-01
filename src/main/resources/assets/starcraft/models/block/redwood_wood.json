@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "starcraft:block/redwood_log_side",
-    "particle": "starcraft:block/redwood_log_side"
-  },
-  "render_type": "solid"
-}

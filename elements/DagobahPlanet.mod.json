@@ -12,7 +12,7 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:OldMud"
+      "value": "CUSTOM:HardenedMud"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"

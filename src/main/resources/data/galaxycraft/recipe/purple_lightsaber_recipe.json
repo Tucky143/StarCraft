@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lightsaber",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "galaxycraft:purple_kyber"
+    },
+    {
+      "item": "galaxycraft:lightsaber_hilt"
+    }
+  ],
+  "result": {
+    "id": "galaxycraft:purple_lightsaber",
+    "count": 1
+  }
+}

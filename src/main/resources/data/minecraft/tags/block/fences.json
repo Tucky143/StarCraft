@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "starcraft:redwood_fence",
-    "starcraft:old_fence",
-    "starcraft:old_fence_gate"
+    "galaxycraft:redwood_fence",
+    "galaxycraft:old_fence",
+    "galaxycraft:old_fence_gate"
   ]
 }

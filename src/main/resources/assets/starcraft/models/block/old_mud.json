@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "starcraft:block/old_mud",
-    "particle": "starcraft:block/old_mud"
-  },
-  "render_type": "solid"
-}

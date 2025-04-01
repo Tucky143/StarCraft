@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "galaxycraft:old_mud",
+    "galaxycraft:cracked_sandstone",
+    "galaxycraft:ash_block",
+    "galaxycraft:hardened_mud"
+  ]
+}

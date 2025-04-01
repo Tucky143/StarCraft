@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "galaxycraft:lightsaber_hilt"
+    },
+    "title": {
+      "translate": "advancements.dark_side_or_light_side.title"
+    },
+    "description": {
+      "translate": "advancements.dark_side_or_light_side.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dark_side_or_light_side_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "galaxycraft:lightsaber_hilt"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:story/root"
+}

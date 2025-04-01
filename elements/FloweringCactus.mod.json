@@ -111,7 +111,7 @@
       }
     ],
     "generationType": "Flower",
-    "patchSize": 3,
+    "patchSize": 4,
     "generateAtAnyHeight": false,
     "onEntityCollides": {
       "name": "FloweringCactusMobplayerCollidesWithPlant"

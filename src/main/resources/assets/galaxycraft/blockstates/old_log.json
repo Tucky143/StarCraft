@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "galaxycraft:block/old_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "galaxycraft:block/old_log"
+    },
+    "axis=z": {
+      "model": "galaxycraft:block/old_log",
+      "x": 90
+    }
+  }
+}

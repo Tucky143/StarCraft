@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "galaxycraft:item/exegol_planet_token"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "galaxycraft:dead_forest",
+  "features": "galaxycraft:cactus",
+  "step": "surface_structures"
+}

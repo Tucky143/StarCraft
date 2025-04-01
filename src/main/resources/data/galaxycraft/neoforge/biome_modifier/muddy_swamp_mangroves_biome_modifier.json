@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "galaxycraft:muddy_swamp",
+  "features": "galaxycraft:muddy_swamp_mangroves",
+  "step": "surface_structures"
+}

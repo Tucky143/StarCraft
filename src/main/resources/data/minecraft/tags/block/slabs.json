@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "starcraft:redwood_slab",
-    "starcraft:old_slab"
+    "galaxycraft:redwood_slab",
+    "galaxycraft:old_slab"
   ]
 }

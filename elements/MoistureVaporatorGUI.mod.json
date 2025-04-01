@@ -11,35 +11,6 @@
     "doesPauseGame": false,
     "components": [
       {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
-          "id": 0,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 133,
-          "y": 58,
-          "locked": false
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "name": "WaterGen",
-          "text": "Water",
-          "x": 133,
-          "y": 85,
-          "locked": false
-        }
-      },
-      {
         "type": "label",
         "data": {
           "name": "label_moisture_vaporator",
@@ -56,25 +27,28 @@
         }
       },
       {
-        "type": "label",
+        "type": "inputslot",
         "data": {
-          "name": "label_wait_10_seconds",
-          "text": {
-            "fixedValue": "Wait 10 Seconds"
+          "inputLimit": {
+            "value": "Items.BUCKET"
           },
-          "color": {
-            "value": -10092544,
-            "falpha": 0.0
+          "disablePlacement": {
+            "fixedValue": false
           },
-          "x": 214,
-          "y": 103,
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": false,
+          "onSlotChanged": {
+            "name": "MoistureVaporatorSlotChanged"
+          },
+          "x": 205,
+          "y": 76,
           "locked": false
         }
       }
     ],
-    "onTick": {
-      "name": "MoistureVaporatorGUIWhileThisGUIIsOpenTick"
-    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

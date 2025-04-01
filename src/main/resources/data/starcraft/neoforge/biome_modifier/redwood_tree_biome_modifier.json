@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "starcraft:endorian_forest",
-  "features": "starcraft:redwood_tree",
-  "step": "surface_structures"
-}

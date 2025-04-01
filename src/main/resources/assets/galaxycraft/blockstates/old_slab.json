@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "galaxycraft:block/old_slab"
+    },
+    "type=top": {
+      "model": "galaxycraft:block/old_slab_top"
+    },
+    "type=double": {
+      "model": "galaxycraft:block/old_slab_full"
+    }
+  }
+}

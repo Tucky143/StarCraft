@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "galaxycraft:block/old_mud",
+    "particle": "galaxycraft:block/old_mud"
+  },
+  "render_type": "solid"
+}

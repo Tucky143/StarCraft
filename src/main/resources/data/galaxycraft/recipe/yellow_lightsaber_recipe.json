@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "lightsaber",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "galaxycraft:yellow_kyber"
+    },
+    {
+      "item": "galaxycraft:lightsaber_hilt"
+    }
+  ],
+  "result": {
+    "id": "galaxycraft:yellow_lightsaber",
+    "count": 1
+  }
+}

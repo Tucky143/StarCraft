@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "galaxycraft:old_wood",
+    "galaxycraft:old_log",
+    "galaxycraft:redwood_wood",
+    "galaxycraft:redwood_log"
+  ]
+}

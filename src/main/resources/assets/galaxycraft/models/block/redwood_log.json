@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "galaxycraft:block/redwood_log_top",
+    "up": "galaxycraft:block/redwood_log_top",
+    "north": "galaxycraft:block/redwood_log_side",
+    "east": "galaxycraft:block/redwood_log_side",
+    "south": "galaxycraft:block/redwood_log_side",
+    "west": "galaxycraft:block/redwood_log_side",
+    "particle": "galaxycraft:block/redwood_log_top"
+  },
+  "render_type": "solid"
+}

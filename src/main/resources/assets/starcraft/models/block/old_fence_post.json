@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "starcraft:block/old_planks",
-    "particle": "starcraft:block/old_planks"
-  },
-  "render_type": "solid"
-}

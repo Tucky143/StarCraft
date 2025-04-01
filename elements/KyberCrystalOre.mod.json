@@ -128,10 +128,10 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
+        "value": "TAG:mod:kyber_replaceable"
       }
     ],
-    "generationShape": "UNIFORM",
+    "generationShape": "TRIANGLE",
     "frequencyPerChunks": 5,
     "frequencyOnChunk": 3,
     "minGenerateHeight": 0,

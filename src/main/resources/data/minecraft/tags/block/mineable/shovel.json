@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "starcraft:ash_block",
-    "starcraft:old_mud"
+    "galaxycraft:ash_block",
+    "galaxycraft:old_mud"
   ]
 }

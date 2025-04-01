@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "starcraft:moisture_vaporator",
-    "starcraft:cracked_sandstone"
+    "galaxycraft:hardened_mud",
+    "galaxycraft:moisture_vaporator",
+    "galaxycraft:cracked_sandstone"
   ]
 }

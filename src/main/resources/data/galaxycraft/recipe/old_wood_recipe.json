@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "galaxycraft:old_log"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:old_wood",
+    "count": 3
+  }
+}

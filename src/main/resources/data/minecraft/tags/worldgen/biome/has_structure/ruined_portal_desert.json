@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "starcraft:dry_desert",
-    "starcraft:dead_forest"
+    "galaxycraft:dry_desert",
+    "galaxycraft:dead_forest"
   ]
 }

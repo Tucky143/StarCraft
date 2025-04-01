@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "galaxycraft:redwood_wood"
+    }
+  ],
+  "result": {
+    "id": "galaxycraft:redwood_planks",
+    "count": 4
+  }
+}

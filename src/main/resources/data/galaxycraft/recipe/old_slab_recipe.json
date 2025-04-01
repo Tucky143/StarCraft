@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "galaxycraft:old_planks"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:old_slab",
+    "count": 6
+  }
+}

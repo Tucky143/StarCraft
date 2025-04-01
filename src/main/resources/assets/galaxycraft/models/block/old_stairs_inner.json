@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "galaxycraft:block/old_planks",
+    "bottom": "galaxycraft:block/old_planks",
+    "top": "galaxycraft:block/old_planks",
+    "side": "galaxycraft:block/old_planks"
+  },
+  "render_type": "solid"
+}

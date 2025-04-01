@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "galaxycraft:block/vaporator_side",
+    "particle": "galaxycraft:block/vaporator_side"
+  },
+  "render_type": "cutout_mipped"
+}

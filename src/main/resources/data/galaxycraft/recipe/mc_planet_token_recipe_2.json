@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mc_planet_token",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cactus"
+    },
+    "b": {
+      "item": "minecraft:sand"
+    },
+    "c": {
+      "item": "galaxycraft:hyper_token"
+    },
+    "d": {
+      "tag": "forge:stone"
+    }
+  },
+  "result": {
+    "id": "galaxycraft:mc_planet_token",
+    "count": 1
+  }
+}

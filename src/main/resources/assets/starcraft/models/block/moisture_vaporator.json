@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "starcraft:block/vaporator_side",
-    "particle": "starcraft:block/vaporator_side"
-  },
-  "render_type": "cutout_mipped"
-}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "starcraft:block/old_planks",
-    "particle": "starcraft:block/old_planks"
-  },
-  "render_type": "solid"
-}

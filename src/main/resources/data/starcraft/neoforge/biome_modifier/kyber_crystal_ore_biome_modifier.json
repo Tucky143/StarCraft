@@ -1,8 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": {
-    "type": "neoforge:any"
-  },
-  "features": "starcraft:kyber_crystal_ore",
-  "step": "underground_ores"
-}

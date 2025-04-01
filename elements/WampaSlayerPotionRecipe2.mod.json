@@ -1,0 +1,25 @@
+{
+  "_fv": 77,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:THICK"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:WampaFur"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:WampaSlayer"
+    },
+    "name": "wampa_slayer_potion_recipe_2",
+    "namespace": "mod"
+  }
+}

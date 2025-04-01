@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "galaxycraft:tatooine_planet_token"
+    },
+    "title": {
+      "translate": "advancements.melting.title"
+    },
+    "description": {
+      "translate": "advancements.melting.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "melting_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "galaxycraft:tatooine"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "galaxycraft:lightsaber_hilt_core_recipe",
+      "galaxycraft:lightsaber_hilt_casing_recipe",
+      "galaxycraft:lightsaber_hilt_handle_recipe",
+      "galaxycraft:lightsaber_hilt_recipe"
+    ]
+  },
+  "parent": "galaxycraft:dark_side_or_light_side"
+}

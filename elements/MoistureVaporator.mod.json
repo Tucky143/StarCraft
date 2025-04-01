@@ -33,7 +33,13 @@
         "subtract": false
       }
     ],
-    "customProperties": [],
+    "customProperties": [
+      {
+        "name": "POWERED",
+        "type": "logic",
+        "value": false
+      }
+    ],
     "name": "Moisture Vaporator",
     "specialInformation": {
       "fixedValue": []

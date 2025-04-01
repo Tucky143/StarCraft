@@ -1,0 +1,3529 @@
+{
+  "mod_elements": [
+    {
+      "name": "Kyber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_kyber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/KyberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/blue_kyber.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "CloneArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/clone_armor_helmet.json",
+          "src/main/resources/assets/galaxycraft/models/item/clone_armor_chestplate.json",
+          "src/main/resources/assets/galaxycraft/models/item/clone_armor_boots.json",
+          "src/main/resources/assets/galaxycraft/models/item/clone_armor_leggings.json",
+          "src/main/java/net/mcreator/galaxycraft/item/CloneArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/clone_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/clone_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/clone_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CloneArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/clone_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedKyber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_kyber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/RedKyberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/red_kyber.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "GreenKyber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_kyber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/GreenKyberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/green_kyber.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "PurpleKyber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_kyber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/PurpleKyberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/purple_kyber.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "OrangeKyber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_kyber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/orange_kyber.json",
+          "src/main/java/net/mcreator/galaxycraft/item/OrangeKyberItem.java"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "YellowKyber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_kyber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/yellow_kyber.json",
+          "src/main/java/net/mcreator/galaxycraft/item/YellowKyberItem.java"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "WhiteKyber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_kyber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/WhiteKyberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/white_kyber.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "BlackKyber",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_kyber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/black_kyber.json",
+          "src/main/java/net/mcreator/galaxycraft/item/BlackKyberItem.java"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "KyberOreDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_ore_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/blocks/kyber_ore.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "LightsaberHiltCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/lightsaber_hilt_core.json",
+          "src/main/java/net/mcreator/galaxycraft/item/LightsaberHiltCoreItem.java"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "LightsaberHiltCoreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/lightsaber_hilt_core_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "LightsaberHiltCasing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_casing",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/LightsaberHiltCasingItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/lightsaber_hilt_casing.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "LightsaberHiltCasingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_casing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/lightsaber_hilt_casing_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "LightsaberHiltHandle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_handle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/LightsaberHiltHandleItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/lightsaber_hilt_handle.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "LightsaberHiltHandleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_handle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/lightsaber_hilt_handle_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "LightsaberHilt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/LightsaberHiltItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/lightsaber_hilt.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "LightsaberHiltRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightsaber_hilt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/lightsaber_hilt_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "DarkSideOrLightSide",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_side_or_light_side",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/advancement/dark_side_or_light_side.json"
+        ]
+      }
+    },
+    {
+      "name": "KyberCrystalOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kyber_crystal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/kyber_crystal_ore.json",
+          "src/main/resources/assets/galaxycraft/blockstates/kyber_crystal_ore.json",
+          "src/main/java/net/mcreator/galaxycraft/block/KyberCrystalOreBlock.java",
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/kyber_crystal_ore_biome_modifier.json",
+          "src/main/resources/assets/galaxycraft/models/block/kyber_crystal_ore.json",
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/kyber_crystal_ore.json",
+          "src/main/resources/assets/galaxycraft/models/item/kyber_crystal_ore.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "ForcePullOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_pull_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/ForcePullOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ForcePull",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_pull",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/network/ForcePullMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "DagobahPlanet",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagobah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/dimension/dagobah.json",
+          "src/main/java/net/mcreator/galaxycraft/world/dimension/DagobahPlanetDimension.java",
+          "src/main/resources/data/galaxycraft/dimension_type/dagobah.json"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "OldMud",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/old_mud.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_mud.json",
+          "src/main/resources/assets/galaxycraft/blockstates/old_mud.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldMudBlock.java"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "DagobahPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagobah_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/DagobahPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "DagobahPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagobah_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/DagobahPlanetTokenItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/dagobah_planet_token.json"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "MinecraftPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/MinecraftPlanetTokenItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/mc_planet_token.json"
+        ]
+      }
+    },
+    {
+      "name": "MinecraftPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minecraft_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/MinecraftPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MuddySwamp",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muddy_swamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/MuddySwampTrunkDecorator.java",
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/muddy_swamp_tree.json",
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/MuddySwampLeaveDecorator.java",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/muddy_swamp_tree.json",
+          "src/main/resources/data/galaxycraft/worldgen/biome/muddy_swamp.json"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "MuddySwampMangroves",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muddy_swamp_mangroves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/muddy_swamp_mangroves.json",
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/muddy_swamp_mangroves_biome_modifier.json",
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/muddy_swamp_mangroves.json"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "MuddyDagobah",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muddy_dagobah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/advancement/muddy_dagobah.json"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "ForcePushOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_push_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/ForcePushOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ForcePush",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "force_push",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/network/ForcePushMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "HyperPlate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/HyperPlateItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/hyper_plate.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "HyperPlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/hyper_plate_recipe.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "HyperToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/HyperTokenItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/hyper_token.json"
+        ]
+      }
+    },
+    {
+      "name": "HyperTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/hyper_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DagobahPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dagobah_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/dagobah_planet_token_recipe.json"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "OldMudDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_mud_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_mud.json"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "LiquidMud",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/blockstates/liquid_mud.json",
+          "src/main/resources/assets/galaxycraft/models/item/liquid_mud_bucket.json",
+          "src/main/java/net/mcreator/galaxycraft/fluid/types/LiquidMudFluidType.java",
+          "src/main/resources/assets/galaxycraft/models/block/liquid_mud.json",
+          "src/main/java/net/mcreator/galaxycraft/block/LiquidMudBlock.java",
+          "src/main/java/net/mcreator/galaxycraft/item/LiquidMudItem.java",
+          "src/main/java/net/mcreator/galaxycraft/fluid/LiquidMudFluid.java"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "MudBucketRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_bucket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/mud_bucket_recipe.json"
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "LiquidMudUpdateTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_mud_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/LiquidMudUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "MudPit",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_pit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/structure/mud_pit.json",
+          "src/main/resources/data/galaxycraft/worldgen/structure_set/mud_pit.json",
+          "src/main/resources/data/galaxycraft/worldgen/template_pool/mud_pit.json"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "Tatooine",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/dimension_type/tatooine.json",
+          "src/main/java/net/mcreator/galaxycraft/world/dimension/TatooineDimension.java",
+          "src/main/resources/data/galaxycraft/dimension/tatooine.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "FloweringCactus",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/flowering_cactus.json",
+          "src/main/resources/assets/galaxycraft/models/block/flowering_cactus.json",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/flowering_cactus.json",
+          "src/main/resources/assets/galaxycraft/models/item/flowering_cactus.json",
+          "src/main/resources/assets/galaxycraft/blockstates/flowering_cactus.json",
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/flowering_cactus_biome_modifier.json",
+          "src/main/resources/assets/galaxycraft/models/block/flowering_cactus_bottom.json",
+          "src/main/java/net/mcreator/galaxycraft/block/FloweringCactusBlock.java"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "FloweringCactusMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_cactus_mobplayer_collides_with_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/FloweringCactusMobplayerCollidesWithPlantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "FloweringCactusOnBlockHitByProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_cactus_on_block_hit_by_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/FloweringCactusOnBlockHitByProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "CactusFruit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cactus_fruit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/CactusFruitItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/cactus_fruit.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "FloweringCactusDrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_cactus_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/blocks/flowering_cactus.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "TatooinePlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/TatooinePlanetTokenItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/tatooine_planet_token.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "TatooinePlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/TatooinePlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/block/old_wood.json",
+          "src/main/resources/assets/galaxycraft/models/item/old_wood.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_wood.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldWoodBlock.java",
+          "src/main/resources/assets/galaxycraft/blockstates/old_wood.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/old_log.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldLogBlock.java",
+          "src/main/resources/assets/galaxycraft/models/block/old_log.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_log.json",
+          "src/main/resources/assets/galaxycraft/blockstates/old_log.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/blockstates/old_planks.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldPlanksBlock.java",
+          "src/main/resources/assets/galaxycraft/models/block/old_planks.json",
+          "src/main/resources/assets/galaxycraft/models/item/old_planks.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_planks.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/block/old_stairs_outer.json",
+          "src/main/resources/assets/galaxycraft/models/item/old_stairs.json",
+          "src/main/resources/assets/galaxycraft/blockstates/old_stairs.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_stairs.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_stairs_inner.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldStairsBlock.java",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_stairs.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_slab.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_slab_full.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_slab.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_slab_top.json",
+          "src/main/resources/assets/galaxycraft/blockstates/old_slab.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldSlabBlock.java",
+          "src/main/resources/assets/galaxycraft/models/item/old_slab.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/block/old_fence.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldFenceBlock.java",
+          "src/main/resources/assets/galaxycraft/models/block/old_fence_inventory.json",
+          "src/main/resources/assets/galaxycraft/blockstates/old_fence.json",
+          "src/main/resources/assets/galaxycraft/models/item/old_fence.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_fence.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_fence_post.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/blockstates/old_fence_gate.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_fence_gate.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldFenceGateBlock.java",
+          "src/main/resources/assets/galaxycraft/models/block/old_fence_gate.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_fence_gate_wall_open.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_fence_gate_open.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_fence_gate_wall.json",
+          "src/main/resources/assets/galaxycraft/models/item/old_fence_gate.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/old_pressure_plate.json",
+          "src/main/resources/assets/galaxycraft/blockstates/old_pressure_plate.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_pressure_plate.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_pressure_plate.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_pressure_plate_down.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/blockstates/old_button.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_button.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_button_pressed.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/old_button.json",
+          "src/main/resources/assets/galaxycraft/models/block/old_button_inventory.json",
+          "src/main/java/net/mcreator/galaxycraft/block/OldButtonBlock.java",
+          "src/main/resources/assets/galaxycraft/models/item/old_button.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_wood_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_slab_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_fence_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_button_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "OldStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/old_stick_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "DeadForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/dead_forest_tree.json",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/dead_forest_tree.json",
+          "src/main/resources/data/galaxycraft/worldgen/biome/dead_forest.json",
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/DeadForestTrunkDecorator.java",
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/DeadForestLeaveDecorator.java",
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/DeadForestFruitDecorator.java"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "CrackedSandstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/cracked_sandstone.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/cracked_sandstone.json",
+          "src/main/resources/assets/galaxycraft/models/block/cracked_sandstone.json",
+          "src/main/java/net/mcreator/galaxycraft/block/CrackedSandstoneBlock.java",
+          "src/main/resources/assets/galaxycraft/blockstates/cracked_sandstone.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "DryDesert",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/biome/dry_desert.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "DirtySandLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty_sand_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/blocks/dirty_sand.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "Cactus",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/cactus.json",
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/cactus.json",
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/cactus_biome_modifier.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "MoistureVaporatorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/world/inventory/MoistureVaporatorGUIMenu.java",
+          "src/main/java/net/mcreator/galaxycraft/client/gui/MoistureVaporatorGUIScreen.java",
+          "src/main/java/net/mcreator/galaxycraft/network/MoistureVaporatorGUISlotMessage.java"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "MoistureVaporator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/block/MoistureVaporatorBlock.java",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/moisture_vaporator.json",
+          "src/main/resources/assets/galaxycraft/blockstates/moisture_vaporator.json",
+          "src/main/java/net/mcreator/galaxycraft/block/entity/MoistureVaporatorBlockEntity.java",
+          "src/main/resources/assets/galaxycraft/models/item/moisture_vaporator.json",
+          "src/main/resources/assets/galaxycraft/models/block/moisture_vaporator.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "IronRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/IronRodItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/iron_rod.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "IronRodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/iron_rod_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "RedwoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodWoodBlock.java",
+          "src/main/resources/assets/galaxycraft/models/item/redwood_wood.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_wood.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_wood.json",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_wood.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_log.json",
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodLogBlock.java",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_log.json",
+          "src/main/resources/assets/galaxycraft/models/item/redwood_log.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_log.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodPlanksBlock.java",
+          "src/main/resources/assets/galaxycraft/models/item/redwood_planks.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_planks.json",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_planks.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_planks.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodLeavesBlock.java",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_leaves.json",
+          "src/main/resources/assets/galaxycraft/models/item/redwood_leaves.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_leaves.json",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_leaves.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_stairs.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_stairs_outer.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_stairs_inner.json",
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodStairsBlock.java",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_stairs.json",
+          "src/main/resources/assets/galaxycraft/models/item/redwood_stairs.json",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_stairs.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/block/redwood_slab_top.json",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_slab.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_slab_full.json",
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodSlabBlock.java",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_slab.json",
+          "src/main/resources/assets/galaxycraft/models/item/redwood_slab.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_slab.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/block/redwood_fence_post.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_fence.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_fence.json",
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodFenceBlock.java",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_fence.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_fence_inventory.json",
+          "src/main/resources/assets/galaxycraft/models/item/redwood_fence.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/block/redwood_fence_gate.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_fence_gate.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_fence_gate_wall.json",
+          "src/main/resources/assets/galaxycraft/models/item/redwood_fence_gate.json",
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodFenceGateBlock.java",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_fence_gate.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_fence_gate_wall_open.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_pressure_plate.json",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_pressure_plate.json",
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodPressurePlateBlock.java",
+          "src/main/resources/assets/galaxycraft/models/item/redwood_pressure_plate.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_pressure_plate.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/redwood_button.json",
+          "src/main/resources/assets/galaxycraft/blockstates/redwood_button.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_button_inventory.json",
+          "src/main/java/net/mcreator/galaxycraft/block/RedwoodButtonBlock.java",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/redwood_button.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_button.json",
+          "src/main/resources/assets/galaxycraft/models/block/redwood_button_pressed.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_button_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/redwood_stick_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "RedwoodTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redwood_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/redwood_tree.json",
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/redwood_tree_biome_modifier.json",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/redwood_tree.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EndorianForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endorian_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/EndorianForestFruitDecorator.java",
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/EndorianForestLeaveDecorator.java",
+          "src/main/resources/data/galaxycraft/worldgen/biome/endorian_forest.json",
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/endorian_forest_tree.json",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/endorian_forest_tree.json",
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/EndorianForestTrunkDecorator.java"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "Endor",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/dimension/endor.json",
+          "src/main/java/net/mcreator/galaxycraft/world/dimension/EndorDimension.java",
+          "src/main/resources/data/galaxycraft/dimension_type/endor.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EndorPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/endor_planet_token_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "TatooinePlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tatooine_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/tatooine_planet_token_recipe.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "EndorPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/endor_planet_token.json",
+          "src/main/java/net/mcreator/galaxycraft/item/EndorPlanetTokenItem.java"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EndorPlanetTokenRightClickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_planet_token_right_clicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/EndorPlanetTokenRightClickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EndorRocks",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endor_rocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/endor_rocks_biome_modifier.json",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/endor_rocks.json",
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/endor_rocks.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "StarTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Melting",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/advancement/melting.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "HyperPlateRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hyper_plate_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/hyper_plate_recipe_2.json"
+        ]
+      },
+      "path": "~/Kyber"
+    },
+    {
+      "name": "MCPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/mc_planet_token_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MCPlanetTokenRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_planet_token_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/mc_planet_token_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Ewok",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/ewok_spawn_egg.json",
+          "src/main/java/net/mcreator/galaxycraft/entity/EwokEntity.java",
+          "src/main/java/net/mcreator/galaxycraft/client/renderer/EwokRenderer.java",
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/ewok_biome_modifier.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EwokArcher",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_archer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/ewok_archer_biome_modifier.json",
+          "src/main/java/net/mcreator/galaxycraft/entity/EwokArcherEntity.java",
+          "src/main/java/net/mcreator/galaxycraft/client/renderer/EwokArcherRenderer.java",
+          "src/main/resources/assets/galaxycraft/models/item/ewok_archer_spawn_egg.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EwokArcherOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_archer_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/EwokArcherOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EwokArcherLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_archer_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/entities/ewok_archer.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "Hoth",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/dimension_type/hoth.json",
+          "src/main/resources/data/galaxycraft/dimension/hoth.json",
+          "src/main/java/net/mcreator/galaxycraft/world/dimension/HothDimension.java"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "HothPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/hoth_planet_token.json",
+          "src/main/java/net/mcreator/galaxycraft/item/HothPlanetTokenItem.java"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "HothPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/HothPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "HothPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoth_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/hoth_planet_token_recipe.json"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "MCPlanetTokenRecipe3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mc_planet_token_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/mc_planet_token_recipe_3.json"
+        ]
+      }
+    },
+    {
+      "name": "FrozenWastelands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_wastelands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/biome/frozen_wastelands.json"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "BlueLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/BlueLightsaberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/blue_lightsaber.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "BlueLightsaberEntitySwingsItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_entity_swings_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/BlueLightsaberEntitySwingsItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "BlueLightsaberLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/BlueLightsaberLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "RawEwokMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_ewok_meat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/RawEwokMeatItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/raw_ewok_meat.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EwokJerky",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_jerky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/EwokJerkyItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/ewok_jerky.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EwokLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/entities/ewok.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EwokJerkyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_jerky_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/ewok_jerky_recipe.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "EwokJerkySmoked",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ewok_jerky_smoked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/ewok_jerky_smoked.json"
+        ]
+      },
+      "path": "~/Endor"
+    },
+    {
+      "name": "BlueLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/blue_lightsaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "AshBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ash_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/loot_table/blocks/ash_block.json",
+          "src/main/resources/assets/galaxycraft/models/item/ash_block.json",
+          "src/main/resources/assets/galaxycraft/models/block/ash_block.json",
+          "src/main/resources/assets/galaxycraft/blockstates/ash_block.json",
+          "src/main/java/net/mcreator/galaxycraft/block/AshBlockBlock.java"
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "BurntPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/biome/burnt_plains.json"
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "MustafarRocks",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar_rocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/mustafar_rocks.json",
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/mustafar_rocks_biome_modifier.json",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/mustafar_rocks.json"
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "LavaLakes",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_lakes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/lava_lakes_biome_modifier.json",
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/lava_lakes.json",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/lava_lakes.json"
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "LavaOcean",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_ocean",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/biome/lava_ocean.json"
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "Mustafar",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/world/dimension/MustafarDimension.java",
+          "src/main/resources/data/galaxycraft/dimension/mustafar.json",
+          "src/main/resources/data/galaxycraft/dimension_type/mustafar.json"
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "MustafarPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/MustafarPlanetTokenItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/mustafar_planet_token.json"
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "MustafarPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/MustafarPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "MustafarPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustafar_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/mustafar_planet_token_recipe.json"
+        ]
+      },
+      "path": "~/Mustafar"
+    },
+    {
+      "name": "RedLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/RedLightsaberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/red_lightsaber.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "AhchTo",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ahch_to",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/dimension_type/ahch_to.json",
+          "src/main/java/net/mcreator/galaxycraft/world/dimension/AhchToDimension.java",
+          "src/main/resources/data/galaxycraft/dimension/ahch_to.json"
+        ]
+      },
+      "path": "~/Ahch-To"
+    },
+    {
+      "name": "Islands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "islands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/biome/islands.json",
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/islands_tree.json",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/islands_tree.json"
+        ]
+      },
+      "path": "~/Ahch-To"
+    },
+    {
+      "name": "AhchToPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ahch_to_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/AhchToPlanetTokenItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/ahch_to_planet_token.json"
+        ]
+      },
+      "path": "~/Ahch-To"
+    },
+    {
+      "name": "AhchToPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ahch_to_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/AhchToPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ahch-To"
+    },
+    {
+      "name": "AhchToPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ahch_to_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/ahch_to_planet_token_recipe.json"
+        ]
+      },
+      "path": "~/Ahch-To"
+    },
+    {
+      "name": "RedLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/red_lightsaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "ExegolPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exegol_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/biome/exegol_plains.json"
+        ]
+      },
+      "path": "~/Exegol"
+    },
+    {
+      "name": "Exegol",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exegol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/dimension/exegol.json",
+          "src/main/java/net/mcreator/galaxycraft/world/dimension/ExegolDimension.java",
+          "src/main/resources/data/galaxycraft/dimension_type/exegol.json"
+        ]
+      },
+      "path": "~/Exegol"
+    },
+    {
+      "name": "ExegolPlanetToken",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exegol_planet_token",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/exegol_planet_token.json",
+          "src/main/java/net/mcreator/galaxycraft/item/ExegolPlanetTokenItem.java"
+        ]
+      },
+      "path": "~/Exegol"
+    },
+    {
+      "name": "ExegolPlanetTokenRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exegol_planet_token_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/ExegolPlanetTokenRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Exegol"
+    },
+    {
+      "name": "ExegolPlanetTokenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exegol_planet_token_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/exegol_planet_token_recipe.json"
+        ]
+      },
+      "path": "~/Exegol"
+    },
+    {
+      "name": "YellowLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/YellowLightsaberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/yellow_lightsaber.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "YellowLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/yellow_lightsaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "DarkSaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_saber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/dark_saber.json",
+          "src/main/java/net/mcreator/galaxycraft/item/DarkSaberItem.java"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "DarksaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darksaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/darksaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "ShiveringPeaks",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shivering_peaks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/ShiveringPeaksTrunkDecorator.java",
+          "src/main/resources/data/galaxycraft/worldgen/biome/shivering_peaks.json",
+          "src/main/resources/data/galaxycraft/worldgen/placed_feature/shivering_peaks_tree.json",
+          "src/main/resources/data/galaxycraft/worldgen/configured_feature/shivering_peaks_tree.json",
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/ShiveringPeaksLeaveDecorator.java",
+          "src/main/java/net/mcreator/galaxycraft/world/features/treedecorators/ShiveringPeaksFruitDecorator.java"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "MoistureVaporatorSlotChanged",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator_slot_changed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/MoistureVaporatorSlotChangedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "GreenLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/GreenLightsaberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/green_lightsaber.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "OrangeLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/orange_lightsaber.json",
+          "src/main/java/net/mcreator/galaxycraft/item/OrangeLightsaberItem.java"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "OrangeLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/orange_lightsaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "GreenLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/green_lightsaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "HardenedMud",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/block/hardened_mud.json",
+          "src/main/resources/assets/galaxycraft/models/item/hardened_mud.json",
+          "src/main/java/net/mcreator/galaxycraft/block/HardenedMudBlock.java",
+          "src/main/resources/assets/galaxycraft/blockstates/hardened_mud.json",
+          "src/main/resources/data/galaxycraft/loot_table/blocks/hardened_mud.json"
+        ]
+      },
+      "path": "~/Dagobah"
+    },
+    {
+      "name": "ExegolPlayerEntersDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exegol_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/ExegolPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Exegol"
+    },
+    {
+      "name": "ExegolPlayerLeavesDimension",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exegol_player_leaves_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/procedures/ExegolPlayerLeavesDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Exegol"
+    },
+    {
+      "name": "MoistureVaporatorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moisture_vaporator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/moisture_vaporator.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    },
+    {
+      "name": "Wampa",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wampa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/wampa_spawn_egg.json",
+          "src/main/java/net/mcreator/galaxycraft/entity/WampaEntity.java",
+          "src/main/java/net/mcreator/galaxycraft/client/renderer/WampaRenderer.java"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "WampaFur",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wampa_fur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/galaxycraft/models/item/wampa_fur.json",
+          "src/main/java/net/mcreator/galaxycraft/item/WampaFurItem.java"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "WampaSlayer",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wampa_slayer",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "WampaSlayerPotionRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wampa_slayer_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/recipe/brewing/WampaSlayerPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "WampaSlayerPotionRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wampa_slayer_potion_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/recipe/brewing/WampaSlayerPotionRecipe2BrewingRecipe.java"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "WampaCave",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wampa_cave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/worldgen/structure/wampa_cave.json",
+          "src/main/resources/data/galaxycraft/worldgen/template_pool/wampa_cave.json",
+          "src/main/resources/data/galaxycraft/worldgen/structure_set/wampa_cave.json"
+        ]
+      },
+      "path": "~/Hoth"
+    },
+    {
+      "name": "PurpleLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/PurpleLightsaberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/purple_lightsaber.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "WhiteLightsaber",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/item/WhiteLightsaberItem.java",
+          "src/main/resources/assets/galaxycraft/models/item/white_lightsaber.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "PurpleLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/purple_lightsaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "WhiteLightsaberRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/galaxycraft/recipe/white_lightsaber_recipe.json"
+        ]
+      },
+      "path": "~/Kyber/Lightsaber"
+    },
+    {
+      "name": "Bantha",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bantha",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/galaxycraft/client/renderer/BanthaRenderer.java",
+          "src/main/resources/assets/galaxycraft/models/item/bantha_spawn_egg.json",
+          "src/main/java/net/mcreator/galaxycraft/entity/BanthaEntity.java",
+          "src/main/resources/data/galaxycraft/neoforge/biome_modifier/bantha_biome_modifier.json"
+        ]
+      },
+      "path": "~/Tatooine"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "returnX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "returnY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "returnZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "lightsaber_swing",
+      "files": [
+        "swing1",
+        "swing2"
+      ],
+      "category": "neutral",
+      "subtitle": "Lightsaber Swings"
+    },
+    {
+      "name": "lightsaber_clash",
+      "files": [
+        "saberclash"
+      ],
+      "category": "neutral",
+      "subtitle": "Lightsaber Clashes"
+    },
+    {
+      "name": "ewok_ambient",
+      "files": [
+        "ewoksinging",
+        "ewoktalking",
+        "ewoktalking2"
+      ],
+      "category": "ambient",
+      "subtitle": "Ewok Talks"
+    },
+    {
+      "name": "ewok_hurt",
+      "files": [
+        "ewokhurt"
+      ],
+      "category": "hostile",
+      "subtitle": "Ewok Hurts"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:LiquidMud"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:CloneArmor.body"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:RedwoodLeaves"
+    ],
+    "BLOCKS:minecraft:tall_flowers": [
+      "CUSTOM:FloweringCactus"
+    ],
+    "BLOCKS:forge:logs": [
+      "CUSTOM:OldLog",
+      "CUSTOM:RedwoodLog",
+      "CUSTOM:OldWood",
+      "CUSTOM:RedwoodWood"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:ShiveringPeaks",
+      "~CUSTOM:FrozenWastelands"
+    ],
+    "BIOMES:mod:endor/biomes": [
+      "CUSTOM:EndorianForest",
+      "savanna",
+      "stony_peaks",
+      "frozen_peaks"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:OldLog",
+      "CUSTOM:RedwoodLog",
+      "CUSTOM:RedwoodWood",
+      "CUSTOM:OldWood"
+    ],
+    "ITEMS:minecraft:trimmable_armor": [
+      "CUSTOM:CloneArmor.helmet",
+      "CUSTOM:CloneArmor.body",
+      "CUSTOM:CloneArmor.legs",
+      "CUSTOM:CloneArmor.boots"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:RedwoodLeaves"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:RedwoodSlab",
+      "~CUSTOM:OldSlab"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:BurntPlains"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_desert": [
+      "~CUSTOM:DryDesert",
+      "~CUSTOM:DeadForest"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:HardenedMud",
+      "~CUSTOM:MoistureVaporator",
+      "~CUSTOM:CrackedSandstone"
+    ],
+    "ENTITIES:minecraft:powder_snow_walkable_mobs": [
+      "CUSTOM:Wampa"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:RedwoodStairs",
+      "~CUSTOM:OldStairs"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:WhiteLightsaber",
+      "~CUSTOM:PurpleLightsaber",
+      "~CUSTOM:OrangeLightsaber",
+      "~CUSTOM:GreenLightsaber",
+      "~CUSTOM:DarkSaber",
+      "~CUSTOM:YellowLightsaber",
+      "~CUSTOM:RedLightsaber",
+      "~CUSTOM:BlueLightsaber"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:CloneArmor.helmet"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:OldPlanks",
+      "CUSTOM:RedwoodPlanks"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:MuddySwamp"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:KyberCrystalOre"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "CUSTOM:OldFence",
+      "CUSTOM:OldFenceGate",
+      "CUSTOM:RedwoodFence",
+      "CUSTOM:RedwoodFenceGate"
+    ],
+    "BLOCKS:mod:kyber_replaceable": [
+      "TAG:minecraft:base_stone_overworld",
+      "CUSTOM:OldMud",
+      "CUSTOM:CrackedSandstone",
+      "CUSTOM:AshBlock",
+      "CUSTOM:HardenedMud"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:DryDesert",
+      "~CUSTOM:DeadForest"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:DeadForest"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "CUSTOM:OldWood",
+      "CUSTOM:OldLog",
+      "CUSTOM:RedwoodWood",
+      "CUSTOM:RedwoodLog"
+    ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:EwokJerky",
+      "~CUSTOM:RawEwokMeat"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.DEEPSLATE",
+      "~Blocks.BASALT",
+      "~CUSTOM:AshBlock",
+      "~Blocks.FLOWING_LAVA",
+      "~Blocks.ICE",
+      "~Blocks.PACKED_ICE",
+      "~Blocks.SNOW",
+      "~Blocks.STONE#0",
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS",
+      "~Blocks.SANDSTONE#0",
+      "~Blocks.SAND#0",
+      "~CUSTOM:CrackedSandstone",
+      "~Blocks.MUD",
+      "~CUSTOM:OldMud",
+      "CUSTOM:HardenedMud"
+    ],
+    "BIOMES:minecraft:is_overworld": [],
+    "ITEMS:minecraft:enchantable/armor": [
+      "CUSTOM:CloneArmor.helmet",
+      "CUSTOM:CloneArmor.body",
+      "CUSTOM:CloneArmor.legs",
+      "CUSTOM:CloneArmor.boots"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:OldMud",
+      "Blocks.DIRT#0",
+      "CUSTOM:CrackedSandstone"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HardenedMud",
+      "~CUSTOM:MoistureVaporator",
+      "~CUSTOM:CrackedSandstone",
+      "~CUSTOM:KyberCrystalOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:RedwoodPlanks",
+      "~CUSTOM:RedwoodLog",
+      "~CUSTOM:RedwoodWood",
+      "~CUSTOM:OldPlanks",
+      "~CUSTOM:OldLog",
+      "~CUSTOM:OldWood"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:RedwoodFence",
+      "CUSTOM:OldFence",
+      "CUSTOM:OldFenceGate"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:AshBlock",
+      "~CUSTOM:OldMud"
+    ],
+    "ITEMS:mod:kyber_item": [
+      "CUSTOM:Kyber",
+      "CUSTOM:RedKyber",
+      "CUSTOM:GreenKyber",
+      "CUSTOM:PurpleKyber",
+      "CUSTOM:OrangeKyber",
+      "CUSTOM:YellowKyber",
+      "CUSTOM:WhiteKyber",
+      "CUSTOM:BlackKyber"
+    ],
+    "BIOMES:minecraft:is_forest": [
+      "CUSTOM:DeadForest",
+      "CUSTOM:EndorianForest"
+    ],
+    "BIOMES:mod:is_tatooine_biome": [
+      "CUSTOM:DeadForest",
+      "desert",
+      "CUSTOM:DryDesert"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_swamp": [
+      "~CUSTOM:MuddySwamp"
+    ],
+    "BLOCKS:minecraft:animals_spawnable_on": [
+      "CUSTOM:OldMud",
+      "CUSTOM:CrackedSandstone",
+      "CUSTOM:HardenedMud"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:CloneArmor.boots"
+    ],
+    "BLOCKS:forge:sand": [
+      "Blocks.SAND#0",
+      "CUSTOM:AshBlock"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:CloneArmor.legs"
+    ]
+  },
+  "tab_element_order": {
+    "REDSTONE": [
+      "MinecraftPlanetToken",
+      "EndorPlanetToken",
+      "DagobahPlanetToken",
+      "TatooinePlanetToken",
+      "MustafarPlanetToken",
+      "HothPlanetToken",
+      "AhchToPlanetToken",
+      "ExegolPlanetToken"
+    ],
+    "CUSTOM:StarTab": [
+      "Kyber",
+      "RedKyber",
+      "GreenKyber",
+      "PurpleKyber",
+      "OrangeKyber",
+      "YellowKyber",
+      "WhiteKyber",
+      "BlackKyber",
+      "CactusFruit",
+      "RawEwokMeat",
+      "EwokJerky",
+      "WampaFur",
+      "HyperPlate",
+      "LightsaberHiltCore",
+      "LightsaberHiltCasing",
+      "LightsaberHiltHandle",
+      "LightsaberHilt",
+      "IronRod",
+      "MoistureVaporator",
+      "KyberCrystalOre",
+      "CrackedSandstone",
+      "HardenedMud",
+      "OldMud",
+      "LiquidMud",
+      "AshBlock",
+      "OldWood",
+      "OldLog",
+      "OldPlanks",
+      "OldStairs",
+      "OldSlab",
+      "OldFence",
+      "OldFenceGate",
+      "OldPressurePlate",
+      "OldButton",
+      "RedwoodWood",
+      "RedwoodLog",
+      "RedwoodPlanks",
+      "RedwoodStairs",
+      "RedwoodSlab",
+      "RedwoodFence",
+      "RedwoodFenceGate",
+      "RedwoodPressurePlate",
+      "RedwoodButton",
+      "RedwoodLeaves",
+      "ExegolPlanetToken",
+      "EndorPlanetToken",
+      "DagobahPlanetToken",
+      "TatooinePlanetToken",
+      "MustafarPlanetToken",
+      "HothPlanetToken",
+      "AhchToPlanetToken",
+      "HyperToken",
+      "MinecraftPlanetToken",
+      "RedLightsaber",
+      "OrangeLightsaber",
+      "YellowLightsaber",
+      "GreenLightsaber",
+      "BlueLightsaber",
+      "DarkSaber",
+      "CloneArmor",
+      "Ewok",
+      "EwokArcher",
+      "Wampa",
+      "PurpleLightsaber",
+      "WhiteLightsaber",
+      "Bantha"
+    ],
+    "DECORATIONS": [
+      "KyberCrystalOre",
+      "OldMud",
+      "AshBlock",
+      "CrackedSandstone",
+      "RedwoodLeaves",
+      "FloweringCactus",
+      "HardenedMud"
+    ],
+    "MATERIALS": [
+      "WampaFur",
+      "RedKyber",
+      "OrangeKyber",
+      "YellowKyber",
+      "GreenKyber",
+      "Kyber",
+      "PurpleKyber",
+      "WhiteKyber",
+      "BlackKyber",
+      "LightsaberHiltCore",
+      "LightsaberHiltCasing",
+      "LightsaberHiltHandle",
+      "LightsaberHilt",
+      "HyperPlate",
+      "HyperToken",
+      "IronRod"
+    ],
+    "COMBAT": [
+      "CloneArmor",
+      "RedLightsaber",
+      "OrangeLightsaber",
+      "YellowLightsaber",
+      "GreenLightsaber",
+      "BlueLightsaber",
+      "DarkSaber",
+      "PurpleLightsaber",
+      "WhiteLightsaber"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.galaxycraft.dark_saber": "Darksaber",
+      "block.galaxycraft.redwood_button": "Redwood Button",
+      "item.galaxycraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
+      "item.starcraft.raw_ewok_meat": "Raw Ewok Meat",
+      "item.galaxycraft.white_kyber": "White Kyber Crystal",
+      "biome.starcraft.endorian_forest": "Endorian Forest",
+      "advancements.muddy_dagobah.descr": "Enter the Muddy Swamp",
+      "block.starcraft.redwood_slab": "Redwood Slab",
+      "item.starcraft.ewok_spawn_egg": "Ewok Spawn Egg",
+      "biome.starcraft.shivering_peaks": "Shivering Peaks",
+      "block.starcraft.redwood_leaves": "Redwood Leaves",
+      "item.starcraft.ahch_to_planet_token": "Ahch-To Planet Token",
+      "gui.starcraft.moisture_vaporator_gui.label_wait_10_seconds": "Wait 10 Seconds",
+      "gui.galaxycraft.moisture_vaporator_gui.WaterGen": "Water",
+      "item.galaxycraft.hoth_planet_token": "Hoth Planet Token",
+      "block.galaxycraft.hardened_mud": "Hardened Mud",
+      "item.starcraft.red_lightsaber": "Red Lightsaber",
+      "biome.starcraft.frozen_wastelands": "Frozen Wastelands",
+      "item.galaxycraft.ahch_to_planet_token": "Ahch-To Planet Token",
+      "block.galaxycraft.old_pressure_plate": "Old Pressure Plate",
+      "block.starcraft.redwood_stairs": "Redwood Stairs",
+      "item.galaxycraft.green_lightsaber": "Green Lightsaber",
+      "entity.galaxycraft.wampa": "Wampa",
+      "item.minecraft.tipped_arrow.effect.wampa_slayer": "Arrow of the Wampa Slayer",
+      "item.starcraft.endor_planet_token": "Endor Planet Token",
+      "block.galaxycraft.redwood_fence": "Redwood Fence",
+      "block.starcraft.old_log": "Old Log",
+      "block.galaxycraft.redwood_fence_gate": "Redwood Fence Gate",
+      "item.starcraft.green_kyber": "Green Kyber Crystal",
+      "item.starcraft.blue_kyber": "Blue Kyber Crystal",
+      "block.galaxycraft.old_mud": "Old Mud",
+      "item.galaxycraft.purple_kyber": "Purple Kyber Crystal",
+      "block.starcraft.redwood_fence": "Redwood Fence",
+      "gui.starcraft.moisture_vaporator_gui.WaterGen": "Water",
+      "item.galaxycraft.wampa_spawn_egg": "Wampa Spawn Egg",
+      "key.galaxycraft.force_push": "Force Push",
+      "block.galaxycraft.liquid_mud": "Liquid Mud",
+      "item.starcraft.hyper_plate": "Hyper Plate",
+      "biome.galaxycraft.dead_forest": "Dead Forest",
+      "item.galaxycraft.iron_rod": "Iron Rod",
+      "item.starcraft.lightsaber_hilt": "Lightsaber Hilt",
+      "block.galaxycraft.old_slab": "Old Slab",
+      "block.starcraft.ash_block": "Ash Block",
+      "block.galaxycraft.redwood_wood": "Redwood Wood",
+      "item.galaxycraft.lightsaber_hilt_casing": "Lightsaber Hilt Casing",
+      "item.starcraft.white_kyber": "White Kyber Crystal",
+      "block.starcraft.flowering_cactus": "Flowering Cactus",
+      "block.galaxycraft.ash_block": "Ash Block",
+      "biome.galaxycraft.burnt_plains": "Burnt Plains",
+      "key.starcraft.force_push": "Force Push",
+      "block.galaxycraft.redwood_log": "Redwood Log",
+      "block.galaxycraft.redwood_leaves": "Redwood Leaves",
+      "block.galaxycraft.redwood_pressure_plate": "Redwood Pressure Plate",
+      "item.starcraft.orange_kyber": "Orange Kyber Crystal",
+      "gui.starcraft.moisture_vaporator_gui.label_moisture_vaporator": "Moisture Vaporator",
+      "item.galaxycraft.ewok_spawn_egg": "Ewok Spawn Egg",
+      "block.galaxycraft.old_stairs": "Old Stairs",
+      "advancements.dark_side_or_light_side.descr": "Have a lightsaber hilt in your inventory.",
+      "item.starcraft.dark_saber": "Darksaber",
+      "item.starcraft.yellow_kyber": "Yellow Kyber Crystal",
+      "subtitles.lightsaber_clash": "Lightsaber Clashes",
+      "block.galaxycraft.flowering_cactus": "Flowering Cactus",
+      "gui.galaxycraft.moisture_vaporator_gui.label_moisture_vaporator": "Moisture Vaporator",
+      "block.galaxycraft.redwood_planks": "Redwood Planks",
+      "entity.starcraft.ewok": "Ewok",
+      "item.starcraft.cactus_fruit": "Cactus Fruit",
+      "entity.galaxycraft.bantha": "Bantha",
+      "biome.starcraft.lava_ocean": "Lava Ocean",
+      "block.galaxycraft.kyber_crystal_ore": "Kyber Crystal Ore",
+      "subtitles.ewok_ambient": "Ewok Talks",
+      "item.galaxycraft.exegol_planet_token": "Exegol Planet Token",
+      "item.starcraft.black_kyber": "Black Kyber Crystal",
+      "block.starcraft.old_slab": "Old Slab",
+      "subtitles.ewok_hurt": "Ewok Hurts",
+      "item.galaxycraft.bantha_spawn_egg": "Bantha Spawn Egg",
+      "entity.starcraft.ewok_archer": "Ewok Archer",
+      "item.galaxycraft.yellow_lightsaber": "Yellow Lightsaber",
+      "item.starcraft.clone_armor_chestplate": "Clone Chestplate",
+      "biome.galaxycraft.exegol_plains": "Exegol Plains",
+      "biome.galaxycraft.muddy_swamp": "Muddy Swamp",
+      "block.starcraft.old_button": "Old Button",
+      "item.galaxycraft.tatooine_planet_token": "Tatooine Planet Token",
+      "block.galaxycraft.moisture_vaporator": "Moisture Vaporator",
+      "item.starcraft.clone_armor_helmet": "Clone Helmet",
+      "block.starcraft.old_stairs": "Old Stairs",
+      "item.starcraft.hoth_planet_token": "Hoth Planet Token",
+      "biome.starcraft.burnt_plains": "Burnt Plains",
+      "advancements.muddy_dagobah.title": "Muddy Dagobah",
+      "item_group.starcraft.star_tab": "Star Craft",
+      "item.starcraft.mustafar_planet_token": "Mustafar Planet Token",
+      "item.galaxycraft.lightsaber_hilt_core": "Lightsaber Hilt Core",
+      "block.starcraft.cracked_sandstone": "Cracked Sandstone",
+      "item.starcraft.liquid_mud_bucket": "Mud Bucket",
+      "item.starcraft.hyper_token": "Hyper Token",
+      "item.galaxycraft.white_lightsaber": "White Lightsaber",
+      "item.starcraft.lightsaber_hilt_casing": "Lightsaber Hilt Casing",
+      "item.galaxycraft.red_kyber": "Red Kyber Crystal",
+      "item.galaxycraft.blue_lightsaber": "Blue Lightsaber",
+      "item.minecraft.lingering_potion.effect.wampa_slayer": "Lingering Potion of the Wampa Slayer",
+      "item.starcraft.ewok_archer_spawn_egg": "Ewok Archer Spawn Egg",
+      "block.galaxycraft.old_button": "Old Button",
+      "item.galaxycraft.clone_armor_boots": "Clone Boots",
+      "block.galaxycraft.cracked_sandstone": "Cracked Sandstone",
+      "biome.galaxycraft.endorian_forest": "Endorian Forest",
+      "item.starcraft.purple_kyber": "Purple Kyber Crystal",
+      "item.galaxycraft.blue_kyber": "Blue Kyber Crystal",
+      "biome.starcraft.islands": "Islands",
+      "block.starcraft.old_pressure_plate": "Old Pressure Plate",
+      "biome.galaxycraft.dry_desert": "Dry Desert",
+      "block.starcraft.redwood_planks": "Redwood Planks",
+      "item.starcraft.red_kyber": "Red Kyber Crystal",
+      "biome.starcraft.exegol_plains": "Exegol Plains",
+      "biome.galaxycraft.shivering_peaks": "Shivering Peaks",
+      "item.starcraft.iron_rod": "Iron Rod",
+      "fluid.galaxycraft.liquid_mud": "Liquid Mud",
+      "block.starcraft.redwood_wood": "Redwood Wood",
+      "item.galaxycraft.clone_armor_leggings": "Clone Leggings",
+      "key.starcraft.force_pull": "Force Pull",
+      "block.starcraft.old_mud": "Old Mud",
+      "item.starcraft.mc_planet_token": "Minecraft Planet Token",
+      "item.galaxycraft.black_kyber": "Black Kyber Crystal",
+      "gui.galaxycraft.moisture_vaporator_gui.label_wait_10_seconds": "Wait 10 Seconds",
+      "block.galaxycraft.old_log": "Old Log",
+      "advancements.melting.descr": "Travel to Tatooine",
+      "item.galaxycraft.cactus_fruit": "Cactus Fruit",
+      "item.galaxycraft.dagobah_planet_token": "Dagobah Planet Token",
+      "item.starcraft.tatooine_planet_token": "Tatooine Planet Token",
+      "biome.galaxycraft.lava_ocean": "Lava Ocean",
+      "entity.galaxycraft.ewok": "Ewok",
+      "item.starcraft.clone_armor_boots": "Clone Boots",
+      "biome.galaxycraft.islands": "Islands",
+      "item.galaxycraft.endor_planet_token": "Endor Planet Token",
+      "fluid.starcraft.liquid_mud": "Liquid Mud",
+      "item.galaxycraft.clone_armor_chestplate": "Clone Chestplate",
+      "item.galaxycraft.red_lightsaber": "Red Lightsaber",
+      "entity.galaxycraft.ewok_archer": "Ewok Archer",
+      "biome.starcraft.muddy_swamp": "Muddy Swamp",
+      "item.galaxycraft.raw_ewok_meat": "Raw Ewok Meat",
+      "item.starcraft.lightsaber_hilt_core": "Lightsaber Hilt Core",
+      "item.starcraft.dagobah_planet_token": "Dagobah Planet Token",
+      "block.starcraft.redwood_fence_gate": "Redwood Fence Gate",
+      "item.starcraft.ewok_jerky": "Ewok Jerky",
+      "block.starcraft.liquid_mud": "Liquid Mud",
+      "item.galaxycraft.lightsaber_hilt": "Lightsaber Hilt",
+      "item.starcraft.lightsaber_hilt_handle": "Lightsaber Hilt Handle",
+      "item.galaxycraft.orange_kyber": "Orange Kyber Crystal",
+      "block.starcraft.old_wood": "Old Wood",
+      "item.galaxycraft.hyper_token": "Hyper Token",
+      "advancements.dark_side_or_light_side.title": "Dark Side Or Light Side",
+      "item.minecraft.potion.effect.wampa_slayer": "Potion of the Wampa Slayer",
+      "block.galaxycraft.old_planks": "Old Planks",
+      "item.galaxycraft.clone_armor_helmet": "Clone Helmet",
+      "biome.starcraft.dead_forest": "Dead Forest",
+      "item.galaxycraft.orange_lightsaber": "Orange Lightsaber",
+      "item.starcraft.exegol_planet_token": "Exegol Planet Token",
+      "block.galaxycraft.old_fence_gate": "Old Fence Gate",
+      "item.galaxycraft.mustafar_planet_token": "Mustafar Planet Token",
+      "block.galaxycraft.redwood_slab": "Redwood Slab",
+      "biome.galaxycraft.frozen_wastelands": "Frozen Wastelands",
+      "biome.starcraft.dry_desert": "Dry Desert",
+      "item.starcraft.yellow_lightsaber": "Yellow Lightsaber",
+      "block.galaxycraft.redwood_stairs": "Redwood Stairs",
+      "item.galaxycraft.wampa_fur": "Wampa Fur",
+      "block.galaxycraft.old_wood": "Old Wood",
+      "item.galaxycraft.ewok_archer_spawn_egg": "Ewok Archer Spawn Egg",
+      "item.starcraft.blue_lightsaber": "Blue Lightsaber",
+      "item_group.galaxycraft.star_tab": "GalaxyCraft",
+      "block.starcraft.kyber_crystal_ore": "Kyber Crystal Ore",
+      "block.starcraft.redwood_button": "Redwood Button",
+      "subtitles.lightsaber_swing": "Lightsaber Swings",
+      "block.starcraft.old_fence": "Old Fence",
+      "advancements.melting.title": "I am Melting!",
+      "block.galaxycraft.old_fence": "Old Fence",
+      "block.starcraft.old_planks": "Old Planks",
+      "item.galaxycraft.liquid_mud_bucket": "Mud Bucket",
+      "item.starcraft.clone_armor_leggings": "Clone Leggings",
+      "block.starcraft.old_fence_gate": "Old Fence Gate",
+      "item.galaxycraft.green_kyber": "Green Kyber Crystal",
+      "block.starcraft.redwood_log": "Redwood Log",
+      "key.galaxycraft.force_pull": "Force Pull",
+      "item.galaxycraft.mc_planet_token": "Minecraft Planet Token",
+      "block.starcraft.redwood_pressure_plate": "Redwood Pressure Plate",
+      "item.galaxycraft.ewok_jerky": "Ewok Jerky",
+      "block.starcraft.moisture_vaporator": "Moisture Vaporator",
+      "item.galaxycraft.yellow_kyber": "Yellow Kyber Crystal",
+      "item.galaxycraft.hyper_plate": "Hyper Plate",
+      "item.minecraft.splash_potion.effect.wampa_slayer": "Splash Potion of the Wampa Slayer",
+      "item.galaxycraft.purple_lightsaber": "Purple Lightsaber"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Exegol",
+        "children": []
+      },
+      {
+        "name": "Hoth",
+        "children": []
+      },
+      {
+        "name": "Mustafar",
+        "children": []
+      },
+      {
+        "name": "Tatooine",
+        "children": []
+      },
+      {
+        "name": "Endor",
+        "children": []
+      },
+      {
+        "name": "Ahch-To",
+        "children": []
+      },
+      {
+        "name": "Dagobah",
+        "children": []
+      },
+      {
+        "name": "Kyber",
+        "children": [
+          {
+            "name": "Lightsaber",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "galaxycraft",
+    "modName": "GalaxyCraft",
+    "version": "1.0.0",
+    "author": "Tucky143",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.galaxycraft"
+  },
+  "mcreatorVersion": 202500113416
+}

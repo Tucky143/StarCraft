@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "galaxycraft:block/redwood_slab"
+    },
+    "type=top": {
+      "model": "galaxycraft:block/redwood_slab_top"
+    },
+    "type=double": {
+      "model": "galaxycraft:block/redwood_slab_full"
+    }
+  }
+}
