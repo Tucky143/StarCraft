@@ -2938,17 +2938,17 @@
     }
   ],
   "tag_elements": {
-    "BLOCKS:minecraft:replaceable": [
-      "~CUSTOM:LiquidMud"
-    ],
     "ITEMS:minecraft:chest_armor": [
       "~CUSTOM:CloneArmor.body"
     ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:RedwoodLeaves"
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:LiquidMud"
     ],
     "BLOCKS:minecraft:tall_flowers": [
       "CUSTOM:FloweringCactus"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:RedwoodLeaves"
     ],
     "BLOCKS:forge:logs": [
       "CUSTOM:OldLog",
@@ -3081,7 +3081,6 @@
       "~CUSTOM:OldMud",
       "CUSTOM:HardenedMud"
     ],
-    "BIOMES:minecraft:is_overworld": [],
     "ITEMS:minecraft:enchantable/armor": [
       "CUSTOM:CloneArmor.helmet",
       "CUSTOM:CloneArmor.body",
